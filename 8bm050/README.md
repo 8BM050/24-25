@@ -1,0 +1,2 @@
+# 8BM050 - Systems Biology Models
+This is the working folder for students for the course 8BM050 at Eindhoven University of Technology. In this folder, you will find the coding material for the course. 

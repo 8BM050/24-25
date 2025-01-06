@@ -1,0 +1,17 @@
+/.quarto/
+
+.alpackages
+.snapshots
+
+docs/Manifest.toml
+
+notebooks/graph_data
+/_site/
+
+*/.DS_Store/*
+
+8bm050/notebooks/graph_data/*
+.DS_Store
+docs/.DS_Store
+
+8bm050/slides

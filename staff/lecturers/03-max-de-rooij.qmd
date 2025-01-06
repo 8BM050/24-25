@@ -1,0 +1,27 @@
+---
+title: "Max de Rooij"
+sortby: "3"
+subtitle: "Lecturer"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: person-circle
+      text: TU/e Profile
+      href: https://research.tue.nl/en/persons/max-de-rooij
+    - icon: envelope-at
+      text: contact
+      href: mailto:m.d.rooij@tue.nl
+image: https://research.tue.nl/files-asset/287292425/de_Rooij_Max_BME_PROM_PO_AS_7631.jpg/
+---
+
+:::{#person-profile}
+Max de Rooij is a PhD-TA candidate in the Department of Biomedical Engineering (research group Computational Biology), involved in hybrid modelling for systems biology.
+:::
+
+## Research Profile
+Max' research primarily focuses on the applications of scientific machine learning techniques such as universal differential equations for studying and modelling human metabolism, as well as applying unsupervised machine learning for the analysis of large metabolic datasets. His work is used to investigate the heterogeneity in the development of lifestyle-associated metabolic diseases, in order to enable tailored treatment and prevention. 
+
+## Academic Background
+Max de Rooij received his BSc. in biomedical engineering (2020) and his MSc. in Medical Engineering (2022) from Eindhoven University of Technology. 
+

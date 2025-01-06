@@ -1,0 +1,30 @@
+---
+title: "Natal van Riel"
+shorttitle: "Natal van Riel"
+sortby: "1"
+subtitle: "Responsible Lecturer"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: person-circle
+      text: TU/e Profile
+      href: https://research.tue.nl/en/persons/natal-aw-van-riel
+    - icon: envelope-at
+      text: contact
+      href: mailto:n.a.w.v.riel@tue.nl
+image: https://assets.w3.tue.nl/w/fileadmin/_processed_/3/8/csm_33307bd94c5deb4ffaeb7e286be885a8_28a9da105b.jpg
+---
+
+:::{#person-profile}
+Natal van Riel is Professor of Biomedical Systems Biology at the department of Biomedical Engineering at Eindhoven University of Technology, where he leads the Computational Biology group and the Systems Biology and Metabolic Diseases research program. He is also part-time Professor of Computational Modelling at Amsterdam University Medical Centers (location AMC, University of Amsterdam's Faculty of Medicine). 
+:::
+
+## Research Profile
+Natal's research focuses on modelling of metabolic networks and physiology, machine learning for parameter estimation, methods for analysis of dynamic models, and applications in Metabolic Syndrome and associated diseases such as Type 2 Diabetes. The role of bile acids in the complex interaction between gut microbiome and metabolic health is currently an important research focus in his group (e.g. in the RESOLVE project in collaboration with Amsterdam UMC). Within the NWO program ‘Complexity in Health and Nutrition’, Natal van Riel also focuses on modelling the digestion and metabolism of nutrients in the project ‘Metabolic adaptation, transitions and resilience in overweight individuals’. In cooperation with the Catharina hospital in Eindhoven he has developed the Metabolic Health Index (MHI) to quantify the benefit of bariatric surgery to resolve metabolic diseases (type 2 diabetes, dyslipidemia), which is a second important outcome of the surgical treatment in addition to weight reduction. He develops metabolic 'digital twins' of human individuals to enable predictive, preventive, personalized, and participatory medicine. In the DiaGame project digital twins are developed to empower patients with diabetes in self-management of their disease.
+
+## Academic Background
+Natal van Riel studied Electrical Engineering at Eindhoven University of Technology (TU/e, The Netherlands) where he was trained in system identification and control engineering. After receiving his MSc degree in 1995, he started PhD research in the Biotechnology group of Unilever Research Vlaardingen (The Netherlands) under supervision of Prof. Theo Verrips, on integrating computational modelling and experiments to study cell metabolism. In 2000, he obtained his PhD from Utrecht University (The Netherlands). From 2000 to 2003, he worked in the department of Electrical Engineering of TU/e, investigating the application of system and control theory to understand biological processes. In 2003, he was appointed as Assistant Professor in the department of Biomedical Engineering at TU/e where he initiated Systems Biology research. This was expanded when he joined the group of Prof. Peter Hilbers in 2006, to lead the Computational Systems Biology research program, investigating complex, multi-factorial diseases. In 2014, Natal van Riel was appointed Associate Professor of Systems Biology and Metabolic Diseases. In that same year he was a visiting scholar of the department of Bioengineering at the University of California San Diego (UCSD) in the group of Prof. Bernhard Palsson. In 2015, he was appointed part-time Professor of Computational Modelling at the Academic Medical Center AMC (University of Amsterdam). In 2019, he was appointed full Professor of Biomedical Systems Biology at TU/e. In 2023 he became head of the Computational Biology group at TU/e.
+
+Natal van Riel is chair of the Examination Committee of BmE and as such member of the general Examination Committee of the TU/e and member of the Quality Committee of the department. He is member of the Curriculum Committee of the department and coordinates the learning line on Biomedical Systems Modeling. He is also member of the Research Committee of the department and member of the Interdepartmental Committee (IFC) for Engineering.
+Dr. Jeffrey Girard studies how emotions are expressed through verbal and nonverbal behavior, as well as how interpersonal communication is influenced by individual differences (e.g., personality and mental health) and social factors (e.g., culture and context). This work is deeply interdisciplinary and draws insights and tools from various areas of social science, computer science, statistics, and medicine.

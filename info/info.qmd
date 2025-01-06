@@ -1,0 +1,109 @@
+---
+title: "Course Information"
+---
+
+[↪︎ Return home]({{< var website >}}/{{< var repo >}}){.btn .btn-other .mr-2}
+
+## 📖 Course Material
+The course materials for the biological part of the course will be based on the book [Human Metabolism: A Regulatory Perspective](https://www.wiley.com/en-us/Human+Metabolism%3A+A+Regulatory+Perspective%2C+4th+Edition-p-9781119331438) by Keith Frayn and Rhys Evans. For the modelling component of the course, we will use the lecture notes and the provided Python code examples in [Practical 1]({{< var website >}}/{{< var repo >}}/8bm050/notebooks/01-ode-simulation-with-Python) and [Practical 2]({{< var website >}}/{{< var repo >}}/8bm050/notebooks/02-whole-body-models).  
+
+![The book "Human Metabolism: A Regulatory Perspective" by Keith Frayn and Rhys Evans. [Image source](https://www.wiley.com/en-us/Human+Metabolism%3A+A+Regulatory+Perspective%2C+4th+Edition-p-9781119331438)](assets/humanmetabolism.jpg){.lightbox}
+
+Additionally, for the final lecture, we will teach material from two chapters of the book [Human Physiology, An Integrated Approach](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/biology/Human-physiology-silverthorn-8e.html) by Dee Unglaub Silverthorn. You do **not** need to purchase this second book, as the material will be provided in the lecture slides.
+
+![The book "Human Physiology, An Integrated Approach" by Dee Unglaub Silverthorn. [Image source](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/biology/Human-physiology-silverthorn-8e.html)](assets/silverthorn.jpg.webp){.lightbox} 
+
+## 🖥️ Online Resources
+The course will be supported by the online learning platform Canvas. The course staff will use Canvas to post information that cannot be made public, make announcements, and for online quizzes. Canvas can be used by students to take the online quizzes, to submit the assignment, and to view grades. All public course material is available on the course website.
+
+## 🔨 Course Structure
+The course will feature a mix of lectures and practical sessions. The lectures will alternate between biological theory and mathematical modelling. The practical sessions will be used to apply the theory in practice, by working with Python code examples and performing simulations and analyses.
+
+### Lectures
+Lectures are two-hour sessions where the lecturer will present the course material. The lectures are interactive and students are strongly encouraged to ask questions and to participate in discussions. For interactivity, the Mentimeter tool is used. 
+
+### Practical Sessions
+During the practical sessions, students are expected to work independently on practical exercises and the graded assignment. The practical sessions are supervised by the course staff and TAs, who are available to answer questions and provide guidance. The first practical session will be used to help students set up their Python environment and to install the required packages. The next practical sessions are used to introduce the `odeint` package used in the course and to work on the assignment.
+
+## 🏆 Assessment
+The course will be assessed through a combination of the written final exam and the assignment. The final exam will test the students' knowledge of the biological theory and the mathematical modelling. The assignment will test the students' ability to apply the theory in practice, by working with Python code examples and performing simulations and analyses. The final grade will be calculated as follows:
+
+| Element | Weight | Minimum grade for passing the course |
+| --- | --- | --- |
+| Final Exam | 80% | 5.0 |
+| Assignment | 20% | -   |
+
+The final grade will therefore be calculated as follows:
+
+$$
+\text{Final Grade} = \begin{cases}
+0.8 \times \text{Exam grade with bonus} + 0.2 \times \text{Assignment}& \text{if } \text{Final Exam} \geq 5.0 \\
+0 & \text{otherwise }\end{cases}
+$$
+
+The grade from this calculation will be rounded to the nearest integer.
+
+Additionally, students will have the opportunity to earn bonus marks through weekly online quizzes. The quizzes will test the students' understanding of the material discussed in the lectures and practical sessions. 
+
+### Quiz Schedule
+Each week, an online quiz will be available on Canvas. The quiz will open on Wednesday at 15:00 and close on Wednesday the week after at 13:00. The topic of the quiz will be the material discussed in the lectures that take place after the quiz closes. 
+
+### Taking the Quiz
+If the quiz has been made available, the student can take the quiz at any time between the open and close date. If this quiz is taken, students will receive feedback on their answers directly. 
+
+### Resit Quiz
+
+::: {.callout-warning}
+The resit quiz will only be available if the original quiz was taken within the open and closing time of the original quiz.
+:::
+
+The resit quiz will open on the same day as the original quiz closes and will close the week after at 13:30. The resit quiz will cover the same material as the original quiz. If the original quiz is not taken, the resit quiz will **not** become available. The final grade for each quiz will be the maximum of the original quiz and the resit quiz.
+
+### Bonus Marks
+Each quiz is worth 1 point, which will be awarded if the final grade of the quiz is 8.0 or higher. The maximum number of bonus marks that can be earned is 5. The bonus marks will be added to the final exam grade as follows:
+$$\text{Exam grade with bonus} = \begin{cases}
+\text{Final Exam} + \frac{\text{Bonus Marks}}{10} & \text{if } \text{Final Exam} \geq 5.0 \\
+\text{Final Exam} & \text{otherwise }\end{cases} $$
+
+::: {.callout-warning}
+The bonus marks will only be awarded if the exam grade is at least 5.0. The maximum bonus on the final exam grade is 0.5.
+:::
+
+### Example Calculations
+
+**1. A student has the following grades:**
+  - Final Exam: 6.5
+  - Assignment: 7.0
+  - Quiz 1: 8.0 (1 bonus mark)
+  - Quiz 2: 7.5 (0 bonus marks)
+  - Quiz 3: 6.0 (0 bonus marks)
+  - Quiz 4: 8.0 (1 bonus mark)
+  - Quiz 5: 7.0 (0 bonus marks)
+  - Total bonus marks: 2
+
+  The bonus marks will be added as follows:
+  $$\text{Exam grade with bonus} = 6.5 + \frac{2}{10} = 6.7$$
+
+  The final grade will be calculated as follows:
+  $$\text{Final Grade} = 0.8 \times 6.7 + 0.2 \times 7.0 = 6.76$$
+
+  The final grade will be 7.
+
+**2. A student has the following grades:**
+  - Final Exam: 4.5
+  - Assignment: 7.0
+  - Quiz 1: 8.0 (1 bonus mark)
+  - Quiz 2: 9.0 (1 bonus marks)
+  - Quiz 3: 8.9 (1 bonus marks)
+  - Quiz 4: 8.0 (1 bonus mark)
+  - Quiz 5: 10 (1 bonus marks)
+  - Total bonus marks: 5
+
+  As the final exam grade is below 5, the bonus marks will not be added.
+  $$\text{Exam grade with bonus} = 4.5 + \frac{0}{10} = 4.5$$
+
+  The final exam grade is below a 5, so the final grade will be:
+  $$\text{Final Grade} = 0$$
+
+## 💭 Course Evaluation
+Feedback is highly appreciated. Please fill in the course evaluation at the end of the quartile, so we can further improve this course. You will receive an e-mail from Evalytics about this.

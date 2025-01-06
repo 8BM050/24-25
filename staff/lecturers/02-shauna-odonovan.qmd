@@ -1,0 +1,26 @@
+---
+title: "Shauna O'Donovan"
+sortby: "2"
+subtitle: "Lecturer"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: person-circle
+      text: TU/e Profile
+      href: https://research.tue.nl/en/persons/shauna-odonovan
+    - icon: envelope-at
+      text: contact
+      href: mailto:s.d.odonovan@tue.nl
+image: https://research.tue.nl/files-asset/298491591/O_Donovan_Shauna_BME_PO_VH_1529_UD.jpg/
+---
+
+:::{#person-profile}
+Shauna O’Donovan is an assistant professor in the Department of Biomedical Engineering (research group Computational Biology), working on systems biology for the immune-gut axis.
+:::
+
+## Research Profile
+ Shauna uses computational approaches to investigate how factors such as the gut microbiome and chronic inflammation contribute to the development of Type 2  Diabetes and cardiovascular disease. She is particularly interested in developing and deploying hybrid-approaches, combining the favorable features of machine learning techniques and mechanistic mathematical models to generate models that can not only integrate different data types but can also be trained with less data. In this way, she aims to construct a holistic in silico model of metabolic health, shedding light on how differences in gut health and chronic low-grade inflammation influence the development of cardiometabolic diseases and aiding in the design of personalised treatment programs for cardiometabolic diseases.
+
+## Academic Background
+Shauna O’Donovan received a B.SC in Mathematical Science (2013) and a M.Sc in Bioinformatics and Computational Biology (2015) from University College Cork, Ireland. She then went on to pursue a PhD in systems biology at Maastricht University under the supervision of Prof. Theo de Kok developing computational approaches to understand dynamic behaviors of biological systems from time series of omics measurements. She obtained her PhD in 2020. She then joined the Division of Human Nutrition and Health at Wageningen University as a postdoc. In 2022 she was appointed assistant professor at the Computational Biology group at the Department of Biomedical Engineering (TU/e, the Netherlands) working on systems biology for the immune-gut axis.

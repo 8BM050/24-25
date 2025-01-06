@@ -1,0 +1,17 @@
+---
+title: "Jort Lokers"
+sortby: "2"
+subtitle: "Teaching Assistant"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: envelope-at
+      text: contact
+      href: mailto:j.j.m.t.lokers@student.tue.nl
+image: https://media.licdn.com/dms/image/v2/D4E03AQHB_D9tWLkRXA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730809495566?e=1736985600&v=beta&t=wb8pOl5BwXL4Xu8wTljwFJdVNHqNGLyEOXzN-3WUn9w
+---
+
+:::{#person-profile}
+Jort Lokers is a MSc student Biomedical Engineering focussing on Computational Biology in the form of quantitative systems pharmacology (QSP) and pharmacometrics. He is currently writing his thesis on hybrid pharmacokinetic (PK) modelling for vancomycin model-informed precision dosing (MIPD).
+:::

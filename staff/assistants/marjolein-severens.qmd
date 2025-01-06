@@ -1,0 +1,18 @@
+---
+title: "Marjolein Severens"
+sortby: "1"
+subtitle: "Teaching Assistant"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: envelope-at
+      text: contact
+      href: mailto:m.j.e.severens@student.tue.nl
+  image: assets/m-s.jpg
+---
+
+:::{#person-profile}
+Marjolein Severens is a MSc student Biomedical Engineering focusing on Computational Biology.
+:::
+

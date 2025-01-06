@@ -1,0 +1,108 @@
+project:
+  type: website
+  preview:
+   watch-inputs: false
+
+execute:
+  freeze: auto
+
+website:
+
+  announcement:
+    icon: exclamation-triangle
+    dismissable: false
+    content: "**Warning** - The course website is still under construction. All information is not definitive yet, and can change without warning."
+    type: warning
+    position: above-navbar
+
+  page-navigation: true
+  title: "8BM050"
+  description: "Homepage for 8BM050 - Systems Biology Models at Eindhoven University of Technology"
+
+  open-graph: true
+
+  repo-url: https://github.com/8BM050/dev
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: "The webpage was built with ❤️ and [Quarto](https://quarto.org/)."
+    right:
+    - text: "License"
+      href: LICENSE.md
+    - text: "Attribution"
+      href: ATTRIBUTIONS.md
+    center: "Academic Year"
+
+  navbar:
+    background: "#C81919"
+    logo: "assets/course-logo-small.png"
+    title: "Systems Biology Models"
+    collapse-below: lg
+
+    right:
+      - icon: github
+        href: https://github.com/8BM050/dev
+        aria-label: GitHub
+
+  sidebar:
+    - id: staff
+      title: "Staff"
+      contents:
+        - section: "Lecturers"
+          contents: "staff/lecturers/*.qmd"
+        - section: "Teaching Assistants"
+          contents: "staff/assistants/*.qmd"
+    - id: index
+      title: "Lectures"
+      style: "docked"
+      collapse-level: 1
+      alignment: "left"
+      background: light
+      contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Lectures"
+        contents:
+        - text: "Week 1"
+        - text: "---"
+        - href: lectures/1a-course-introduction.qmd
+        - href: lectures/1b-graph-theory.qmd
+        - text: "Week 2"
+        - text: "---"
+        - href: lectures/2a-differential-equations.qmd
+        - href: lectures/2b-cell-biology.qmd
+        - text: "Week 3"
+        - text: "---"
+        - href: lectures/3a-biological-models.qmd
+        - href: lectures/3b-digestive-system.qmd
+        - text: "Week 4"
+        - text: "---"
+        - href: lectures/4a-building-models.qmd
+        - href: lectures/4b-organ-specialization.qmd
+        - text: "Week 5"
+        - text: "---"
+        - href: lectures/5a-metabolism-in-daily-life.qmd
+        - href: lectures/5b-exercise-and-extreme-situations.qmd
+        - text: "Week 6"
+        - text: "---"
+        - href: lectures/6a-immunometabolism.qmd
+        - href: lectures/6b-diabetes.qmd
+        - text: "Week 7"
+        - text: "---"
+        - href: lectures/7a-endocrinology.qmd
+        - href: lectures/7b-clinical-endocrinology.qmd
+      - section: "Practicals"
+        contents:
+        - href: 8bm050/environment-setup/environment.qmd
+        - text: "ODEs with Python I"
+          href: 8bm050/notebooks/01-ode-simulation-with-Python.ipynb
+        - text: "ODEs with Python II"
+          href: 8bm050/notebooks/02-whole-body-models.ipynb
+
+format:
+  html:
+    theme: 
+      light: [yeti, style/theme.scss]
+      dark: [yeti, style/theme.scss, style/theme-dark.scss]
+    mainfont: "Avenir Next"
+    toc: true

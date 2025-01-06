@@ -1,0 +1,21 @@
+---
+title: "Arjen-Kars Boer"
+sortby: "4"
+subtitle: "Guest Lecturer"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: person-circle
+      text: TU/e Profile
+      href: https://research.tue.nl/en/persons/arjen-kars-boer
+    - icon: envelope-at
+      text: contact
+      href: mailto:a.k.boer@tue.nl
+image: https://assets.cstatic.nl/app/uploads/2021/04/Boer_A.K_web-280x280.jpg
+---
+
+:::{#person-profile}
+dr. Arjen-Kars Boer is a specialist in laboratory medicine at the Catharina Hospital in Eindhoven and affiliated with the Eindhoven University of Technology as a university researcher in the Department of Biomedical Engineering.
+
+:::

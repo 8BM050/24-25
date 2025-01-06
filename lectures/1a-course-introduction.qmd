@@ -1,0 +1,71 @@
+---
+title: "Course Introduction"
+date: 02-05-2025
+categories: Lecture
+about:
+  template: marquee
+Time: "13:30 - 15:15"
+author: "Max de Rooij"
+Slides: '[Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewBox="0 0 16 16">
+  <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"/>
+  <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"/>
+</svg>](https://canvas.tue.nl/files/6038174/download?download_frd=1)'
+description: "In this lecture, we will introduce the course and discuss the fundamentals of human metabolism."
+PracticalTime: "15:30 - 17:15"
+author-title: "Lecturer"
+published-title: "Date"
+image: assets/512.jpg
+---
+
+## Learning Outcomes
+During this lecture, we'll address principal learning outcome number 1, which is:
+
+::: {.callout-important title="Principal Learning Outcome 1"}
+Describe the molecular details of the conversion of the body's main energy sources (carbohydrates, lipids, proteins) into energy.
+:::
+
+After this lecture, you should be able to:
+
+1.  Describe the goal of metabolism in the human body and name its main energy sources.
+2.  Give the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).
+3.  Explain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.
+4.  Identify reducing agents and oxidizing agents in a chemical reaction.
+5.  Give the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.
+6.  Explain the difference between catabolic and anabolic reactions in human metabolism.
+7.  Give examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.
+8.  Explain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.
+9.  Give the main pathways of the metabolic (energy) flux in the human body 
+10. Locate and explain the subprocesses of the metabolic energy pathways: 
+  - **general:** TCA cycle, electron transport chain
+  - **glucose:** Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways
+  - **lipids:** beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis
+  - **amino acids:** amino acid catabolism, urea cycle, amino acid synthesis
+
+## Book Chapters
+
+- Human Metabolism: A Regulatory Perspective, Chapter 1
+
+## Lecture and Practical
+**Date**: February 5 2025
+
+::: slide-deck
+{{< meta Time >}} - **Course Introduction**
+
+::: slides
+[Slides](https://canvas.tue.nl/files/6038174/download?download_frd=1)
+:::
+:::
+
+::: application-exercise
+{{< meta PracticalTime >}} - **Installing diffeqpy**
+
+::: source
+[Practical](../environment/environment.qmd)
+:::
+:::
+
+## Quiz Schedule
+
+|Date | Time  | Event |
+|:----|:-----|:-----|
+5 February | 15:00 |  ✅ [**Quiz 1 Open**](https://canvas.tue.nl) |
