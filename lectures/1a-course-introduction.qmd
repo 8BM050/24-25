@@ -60,7 +60,7 @@ After this lecture, you should be able to:
 {{< meta PracticalTime >}} - **Installing diffeqpy**
 
 ::: source
-[Practical](../environment/environment.qmd)
+[Practical](../8bm050/environment-setup/environment.qmd)
 :::
 :::
 

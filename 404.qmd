@@ -2,6 +2,4 @@
 title: Page Not Found
 ---
 
-The page you requested unfortunately does not exist yet. Here's a random cat instead:
-
-<img src="https://cataas.com/cat/gif">
+The page you requested unfortunately does not exist yet. [Return to the homepage](index.qmd).

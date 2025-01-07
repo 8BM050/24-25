@@ -11,7 +11,7 @@ website:
   announcement:
     icon: exclamation-triangle
     dismissable: false
-    content: "**Warning** - The course website is still under construction. All information is not definitive yet, and can change without warning."
+    content: "**Warning** - The course website is still under construction. All information is not definitive yet, and may change without warning."
     type: warning
     position: above-navbar
 
@@ -31,7 +31,7 @@ website:
       href: LICENSE.md
     - text: "Attribution"
       href: ATTRIBUTIONS.md
-    center: "Academic Year"
+    center: "Academic year 2024-2025"
 
   navbar:
     background: "#C81919"

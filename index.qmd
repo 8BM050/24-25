@@ -47,27 +47,27 @@ function welcome(weeknumber::Int, page_1::String, page_1_link::String, page_2::S
 end
 
 notification_dates = Dict(
-  DateTime(2025, 2, 5) => welcome(
-    1, "Course Introduction", "content/1a-course-introduction.qmd",
-    "Graph Theory", "content/1b-graph-theory.qmd"),
+  DateTime(2025, 1, 1) => welcome(
+    1, "Course Introduction", "lectures/1a-course-introduction.qmd",
+    "Graph Theory", "lectures/1b-graph-theory.qmd"),
   DateTime(2025, 2, 12) => welcome(
-    2, "Dynamic Models", "content/2a-differential-equations.qmd",
-    "Cell Biology of Metabolism", "content/2b-cell-biology.qmd"),
+    2, "Dynamic Models", "lectures/2a-differential-equations.qmd",
+    "Cell Biology of Metabolism", "lectures/2b-cell-biology.qmd"),
   DateTime(2025, 2, 19) => welcome(
-    3, "Biological Models", "content/3a-biological-models.qmd",
-    "Digestive System", "content/1b-digestive-system.qmd"),
+    3, "Biological Models", "lectures/3a-biological-models.qmd",
+    "Digestive System", "lectures/3b-digestive-system.qmd"),
   DateTime(2025, 2, 26) => welcome(
-    4, "Building Models", "content/4a-building-models.qmd",
-    "Organ Specialization", "content/4b-organ-specialization.qmd"),
+    4, "Building Models", "lectures/4a-building-models.qmd",
+    "Organ Specialization", "lectures/4b-organ-specialization.qmd"),
   DateTime(2025, 3, 12) => welcome(
-    5, "Communication Systems", "content/5a-communication-systems.qmd",
-    "Metabolism in Daily Life", "content/5b-metabolism-in-daily-life.qmd"),
+    5, "Metabolism in Daily Life", "lectures/5a-metabolism-in-daily-life.qmd",
+    "Metabolism in Exercise and Extreme Situations", "lectures/5b-exercise-and-extreme-situations.qmd"),
   DateTime(2025, 3, 19) => welcome(
-    6, "Energy Balance", "content/6a-energy-balance.qmd",
-    "Diabetes", "content/6b-energy-balance.qmd"),
+    6, "Immunometabolism", "lectures/6a-immunometabolism.qmd",
+    "Diabetes", "lectures/6b-diabetes.qmd"),
   DateTime(2025, 3, 26) => welcome(
-    7, "Endocrinology", "content/7a-endocrinology.qmd",
-    "Case Studies in Clinical Endocrinology", "content/7b-clinical-endocrinology.qmd"),
+    7, "Endocrinology", "lectures/7a-endocrinology.qmd",
+    "Case Studies in Clinical Endocrinology", "lectures/7b-clinical-endocrinology.qmd"),
 )
 
 notification_index = findlast(x -> x <= today(), sort(collect(keys(notification_dates))))
