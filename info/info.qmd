@@ -7,11 +7,11 @@ title: "Course Information"
 ## 📖 Course Material
 The course materials for the biological part of the course will be based on the book [Human Metabolism: A Regulatory Perspective](https://www.wiley.com/en-us/Human+Metabolism%3A+A+Regulatory+Perspective%2C+4th+Edition-p-9781119331438) by Keith Frayn and Rhys Evans. For the modelling component of the course, we will use the lecture notes and the provided Python code examples in [Practical 1]({{< var website >}}/{{< var repo >}}/8bm050/notebooks/01-ode-simulation-with-Python) and [Practical 2]({{< var website >}}/{{< var repo >}}/8bm050/notebooks/02-whole-body-models).  
 
-![The book "Human Metabolism: A Regulatory Perspective" by Keith Frayn and Rhys Evans. [Image source](https://www.wiley.com/en-us/Human+Metabolism%3A+A+Regulatory+Perspective%2C+4th+Edition-p-9781119331438)](assets/humanmetabolism.jpg){.lightbox}
+![The book "Human Metabolism: A Regulatory Perspective" by Keith Frayn and Rhys Evans. [Image source](https://www.wiley.com/en-us/Human+Metabolism%3A+A+Regulatory+Perspective%2C+4th+Edition-p-9781119331438)](info/assets/humanmetabolism.jpg){.lightbox}
 
 Additionally, for the final lecture, we will teach material from two chapters of the book [Human Physiology, An Integrated Approach](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/biology/Human-physiology-silverthorn-8e.html) by Dee Unglaub Silverthorn. You do **not** need to purchase this second book, as the material will be provided in the lecture slides.
 
-![The book "Human Physiology, An Integrated Approach" by Dee Unglaub Silverthorn. [Image source](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/biology/Human-physiology-silverthorn-8e.html)](assets/silverthorn.jpg.webp){.lightbox} 
+![The book "Human Physiology, An Integrated Approach" by Dee Unglaub Silverthorn. [Image source](https://www.pearson.com/nl/en_NL/higher-education/subject-catalogue/biology/Human-physiology-silverthorn-8e.html)](info/assets/silverthorn.jpg.webp){.lightbox} 
 
 ## 🖥️ Online Resources
 The course will be supported by the online learning platform Canvas. The course staff will use Canvas to post information that cannot be made public, make announcements, and for online quizzes. Canvas can be used by students to take the online quizzes, to submit the assignment, and to view grades. All public course material is available on the course website.
