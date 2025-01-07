@@ -46,7 +46,7 @@ The grade from this calculation will be rounded to the nearest integer.
 Additionally, students will have the opportunity to earn bonus marks through weekly online quizzes. The quizzes will test the students' understanding of the material discussed in the lectures and practical sessions. 
 
 ### Quiz Schedule
-Each week, an online quiz will be available on Canvas. The quiz will open on Wednesday at 15:00 and close on Wednesday the week after at 13:00. The topic of the quiz will be the material discussed in the lectures that take place after the quiz closes. 
+Each week, an online quiz will be available on Canvas. The quiz will open on Wednesday at 15:00 and close on Wednesday the week after at 13:00. The quizzes will cover the material discussed in the lectures and practical sessions of the week of the quiz, and may also contain some material from the upcoming week, as a means of preparation for the next lecture.
 
 ### Taking the Quiz
 If the quiz has been made available, the student can take the quiz at any time between the open and close date. If this quiz is taken, students will receive feedback on their answers directly. 
