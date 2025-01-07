@@ -1,5 +1,7 @@
 ---
 title: "Setting up your Python Environment"
+execute:
+    freeze: true
 ---
 
 For this course, you will have to set up your own environment, as additional Python packages have to be installed that may conflict with packages that are installed in your global environment. Setting this up is very simple, and we'll go through this step by step. To get started, you can already download the Jupyter notebook to test if your environment is set up correctly.

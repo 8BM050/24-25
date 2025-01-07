@@ -3,8 +3,8 @@ project:
   preview:
    watch-inputs: false
 
-execute:
-  freeze: auto
+# execute:
+#   freeze: auto
 
 website:
 
@@ -21,7 +21,7 @@ website:
 
   open-graph: true
 
-  repo-url: https://github.com/8BM050/dev
+  repo-url: https://github.com/8BM050/24-25
   repo-actions: [edit, issue]
 
   page-footer:
@@ -41,7 +41,7 @@ website:
 
     right:
       - icon: github
-        href: https://github.com/8BM050/dev
+        href: https://github.com/8BM050/24-25
         aria-label: GitHub
 
   sidebar:
