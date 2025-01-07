@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Natal van Riel">
+<meta name="dcterms.date" content="2025-03-14">
 
-<title>Setting up your Python Environment – 8BM050</title>
+<title>Exercise and Extreme Physiological Situations – 8BM050</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../8bm050/notebooks/01-ode-simulation-with-Python.html" rel="next">
-<link href="../../lectures/7b-clinical-endocrinology.html" rel="prev">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8b864f0777c60eecff11d75b6b2e1175.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-a9a53f1e4a468778d152159f44cc69cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9752e8c17824c4d05df0ec8f6f513c43.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../lectures/5a-metabolism-in-daily-life.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8b864f0777c60eecff11d75b6b2e1175.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a9a53f1e4a468778d152159f44cc69cd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9752e8c17824c4d05df0ec8f6f513c43.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,13 +72,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Setting up your Python Environment – 8BM050">
+<meta property="og:title" content="Exercise and Extreme Physiological Situations – 8BM050">
 <meta property="og:description" content="Homepage for 8BM050 - Systems Biology Models at Eindhoven University of Technology">
-<meta property="og:image" content="https://8BM050.github.io/24-25/8bm050/environment-setup/assets/download_anaconda.png">
+<meta property="og:image" content="assets/512.jpg">
 <meta property="og:site_name" content="8BM050">
-<meta property="og:image:alt" content="Download Anaconda">
-<meta property="og:image:height" content="970">
-<meta property="og:image:width" content="1291">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -94,10 +88,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/course-logo-small.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/course-logo-small.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Systems Biology Models</span>
     </a>
   </div>
@@ -124,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../8bm050/environment-setup/environment.html">Practicals</a></li><li class="breadcrumb-item"><a href="../../8bm050/environment-setup/environment.html">Setting up your Python Environment</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lectures</li><li class="breadcrumb-item"><a href="../lectures/5b-exercise-and-extreme-situations.html">Exercise and Extreme Physiological Situations</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -138,32 +132,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Lectures</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
  <span class="menu-text">Week 1</span>
   </li>
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/1a-course-introduction.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/1a-course-introduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/1b-graph-theory.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/1b-graph-theory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Graph Theory</span></a>
   </div>
 </li>
@@ -173,13 +167,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/2a-differential-equations.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/2a-differential-equations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Dynamic Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/2b-cell-biology.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/2b-cell-biology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cell Biology of Metabolism</span></a>
   </div>
 </li>
@@ -189,13 +183,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/3a-biological-models.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/3a-biological-models.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Biological Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/3b-digestive-system.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/3b-digestive-system.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">The Digestive System</span></a>
   </div>
 </li>
@@ -205,13 +199,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/4a-building-models.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/4a-building-models.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Building Models, Pharmacokinetics</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/4b-organ-specialization.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/4b-organ-specialization.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Organ Specialization</span></a>
   </div>
 </li>
@@ -221,13 +215,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/5a-metabolism-in-daily-life.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/5a-metabolism-in-daily-life.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metabolism in Daily Life</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/5b-exercise-and-extreme-situations.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/5b-exercise-and-extreme-situations.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Exercise and Extreme Physiological Situations</span></a>
   </div>
 </li>
@@ -237,13 +231,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/6a-immunometabolism.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/6a-immunometabolism.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Immunometabolism</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/6b-diabetes.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/6b-diabetes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Energy Balance, Weight Control, Diabetes</span></a>
   </div>
 </li>
@@ -253,13 +247,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/7a-endocrinology.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/7a-endocrinology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Endocrinology: Cortisol, HPA, Adrenals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lectures/7b-clinical-endocrinology.html" class="sidebar-item-text sidebar-link">
+  <a href="../lectures/7b-clinical-endocrinology.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Endocrinology (2), Case Studies in Clinical Endocrinology</span></a>
   </div>
 </li>
@@ -267,28 +261,28 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">Practicals</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../8bm050/environment-setup/environment.html" class="sidebar-item-text sidebar-link active">
+  <a href="../8bm050/environment-setup/environment.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Setting up your Python Environment</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../8bm050/notebooks/01-ode-simulation-with-Python.html" class="sidebar-item-text sidebar-link">
+  <a href="../8bm050/notebooks/01-ode-simulation-with-Python.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ODEs with Python I</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../8bm050/notebooks/02-whole-body-models.html" class="sidebar-item-text sidebar-link">
+  <a href="../8bm050/notebooks/02-whole-body-models.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">ODEs with Python II</span></a>
   </div>
 </li>
@@ -302,102 +296,122 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
-   
   <ul>
-  <li><a href="#installing-anaconda" id="toc-installing-anaconda" class="nav-link active" data-scroll-target="#installing-anaconda">1: Installing Anaconda</a></li>
-  <li><a href="#setting-up-the-anaconda-environment" id="toc-setting-up-the-anaconda-environment" class="nav-link" data-scroll-target="#setting-up-the-anaconda-environment">2: Setting up the Anaconda environment</a>
-  <ul class="collapse">
-  <li><a href="#creating-the-conda-environment" id="toc-creating-the-conda-environment" class="nav-link" data-scroll-target="#creating-the-conda-environment">Creating the conda environment</a></li>
-  <li><a href="#running-jupyter-from-your-conda-environment" id="toc-running-jupyter-from-your-conda-environment" class="nav-link" data-scroll-target="#running-jupyter-from-your-conda-environment">Running Jupyter from your conda environment</a></li>
-  <li><a href="#setting-the-environment-in-vs-code" id="toc-setting-the-environment-in-vs-code" class="nav-link" data-scroll-target="#setting-the-environment-in-vs-code">Setting the environment in VS Code</a></li>
-  </ul></li>
-  <li><a href="#further-steps" id="toc-further-steps" class="nav-link" data-scroll-target="#further-steps">Further Steps</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
+  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book Chapters</a></li>
+  <li><a href="#lecture-and-practical" id="toc-lecture-and-practical" class="nav-link" data-scroll-target="#lecture-and-practical">Lecture and Practical</a></li>
+  <li><a href="#quiz-schedule" id="toc-quiz-schedule" class="nav-link" data-scroll-target="#quiz-schedule">Quiz Schedule</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/8bm050/environment-setup/environment.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/lectures/5b-exercise-and-extreme-situations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../8bm050/environment-setup/environment.html">Practicals</a></li><li class="breadcrumb-item"><a href="../../8bm050/environment-setup/environment.html">Setting up your Python Environment</a></li></ol></nav>
-<div class="quarto-title">
-<h1 class="title">Setting up your Python Environment</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-about-marquee">
+  <div class="about-image-container">
+    <img src="assets/512.jpg" class="about-image " style="width: 100%;">
   </div>
-  
+  <div class="about-contents">
+    <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lectures</li><li class="breadcrumb-item"><a href="../lectures/5b-exercise-and-extreme-situations.html">Exercise and Extreme Physiological Situations</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Exercise and Extreme Physiological Situations</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Lecture</div>
+  </div>
+  </div>
+<div class="quarto-title-meta">
+    <div>
+    <div class="quarto-title-meta-heading">Lecturer</div>
+    <div class="quarto-title-meta-contents">
+             <p>Natal van Riel </p>
+          </div>
+  </div>
+    <div>
+    <div class="quarto-title-meta-heading">Date</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 14, 2025</p>
+    </div>
+  </div>
+  </div>
+</header> <main class="content" id="quarto-document-content">
 
-
-</header>
-
-
-<p>For this course, you will have to set up your own environment, as additional Python packages have to be installed that may conflict with packages that are installed in your global environment. Setting this up is very simple, and we’ll go through this step by step. To get started, you can already download the Jupyter notebook to test if your environment is set up correctly.</p>
-<p><a href="https://github.com/8BM050/24-25/blob/main/8bm050/notebooks/00-test-environment-setup.ipynb" class="btn btn-success mr-4">Download test notebook</a></p>
-<div class="callout-info">
-<p>For your convenience, you can create a folder on your computer named <code>8bm050</code> and use this to store all the Jupyter notebooks and other files that you will use during this course.</p>
+<section id="learning-outcomes" class="level2">
+<h2 data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<div class="callout callout-style-default callout-important callout-titled" title="Principal Learning Outcome 1">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<section id="installing-anaconda" class="level2">
-<h2 class="anchored" data-anchor-id="installing-anaconda">1: Installing Anaconda</h2>
-<p>If you have an existing installation of Anaconda, you can skip this step. Otherwise, download anaconda from <a href="https://www.anaconda.com/download/success">this link</a>. You’ll end up on this page: <a href="assets/download_anaconda.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Download Anaconda"><img src="assets/download_anaconda.png" class="img-fluid" alt="Download Anaconda"></a></p>
-<p>Follow the instructions provided to obtain a full installation of Anaconda.</p>
-</section>
-<section id="setting-up-the-anaconda-environment" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-the-anaconda-environment">2: Setting up the Anaconda environment</h2>
-<p>On your machine, open <strong>Anaconda Prompt</strong></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="assets/anaconda_prompt.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Anaconda Prompt"><img src="assets/anaconda_prompt.png" class="img-fluid figure-img" alt="Anaconda Prompt"></a></p>
-<figcaption>Anaconda Prompt</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Principal Learning Outcome 1
 </div>
-<section id="creating-the-conda-environment" class="level3">
-<h3 class="anchored" data-anchor-id="creating-the-conda-environment">Creating the conda environment</h3>
-<p>Type in the following command to create the conda environment. This command creates a new environment named <code>8bm050</code> with Python version 3.12.</p>
-<pre class="{shell}"><code>conda create -n 8bm050 python=3.12</code></pre>
-<p>When it asks to proceed, hit <code>[Enter]</code> to start creating the environment.</p>
-<p>Now, we have to activate the environment. Run the following command:</p>
-<pre class="{shell}"><code>conda activate 8bm050</code></pre>
-<p>Now we need to download some additional packages to be able to work with this environment. Run the following command in your <em>activated</em> environment:</p>
-<pre><code>conda install numpy matplotlib scipy jupyter ipykernel</code></pre>
-<p>And hit <code>[Enter]</code> after it asks to proceed.</p>
-</section>
-<section id="running-jupyter-from-your-conda-environment" class="level3">
-<h3 class="anchored" data-anchor-id="running-jupyter-from-your-conda-environment">Running Jupyter from your conda environment</h3>
-<p>To use this newly created environment. Open <em>Anaconda Navigator</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="assets/anaconda_navigator.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Anaconda Navigator"><img src="assets/anaconda_navigator.png" class="img-fluid figure-img" alt="Anaconda Navigator"></a></p>
-<figcaption>Anaconda Navigator</figcaption>
-</figure>
 </div>
-<p>On top, click the drop-down menu that says <code>base (root)</code> and select <code>8bm050</code>. You’ll now have this on the top of your anaconda navigator window.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="assets/active_env.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Active Environment"><img src="assets/active_env.png" class="img-fluid figure-img" alt="Active Environment"></a></p>
-<figcaption>Active Environment</figcaption>
-</figure>
+<div class="callout-body-container callout-body">
+<p>???</p>
 </div>
-<p>Then, launch <em>Jupyter</em> from the anaconda navigator to use them in this specific environment.</p>
+</div>
+<p>After this lecture, you should be able to:</p>
 </section>
-<section id="setting-the-environment-in-vs-code" class="level3">
-<h3 class="anchored" data-anchor-id="setting-the-environment-in-vs-code">Setting the environment in VS Code</h3>
-<p>If you want to use this environment in VS Code, you can open the folder you created for storing the notebooks in Visual Studio Code. Then, on the bottom bar where it says: <code>Python 3.x.x 64-bit ('base': conda)</code>, click on it to change it to <code>Python 3.12.0 64-bit ('8bm050': conda)</code>. In a Jupyter notebook opened through VS Code, you can also change the kernel to <code>Python 3.12.0 64-bit ('8bm050': conda)</code> in the top right corner.</p>
+<section id="book-chapters" class="level2">
+<h2 data-anchor-id="book-chapters">Book Chapters</h2>
+<ul>
+<li>Human Metabolism: A Regulatory Perspective, Chapter 8</li>
+</ul>
 </section>
+<section id="lecture-and-practical" class="level2">
+<h2 data-anchor-id="lecture-and-practical">Lecture and Practical</h2>
+<p><strong>Date</strong>: March 14 2025</p>
+<div class="slide-deck">
+<p>08:45 - 10:30 - <strong>Metabolism in Daily Life and Exercise</strong></p>
+<div class="slides">
+<p><a href="https://github.com/8bm050/24-25/blob/main/8bm050/slides/Lecture-5B.pdf">Slides</a></p>
+</div>
+</div>
+<div class="application-exercise">
+<p>10:45 - 12:30 - <strong>Practical Assignment Part 2</strong></p>
+<div class="source">
+<p><a href="https://canvas.tue.nl">Practical</a></p>
+</div>
+</div>
 </section>
-<section id="further-steps" class="level2">
-<h2 class="anchored" data-anchor-id="further-steps">Further Steps</h2>
-<p>When you want to use your default global environment again. Simply go to <em>Anaconda Navigator</em> and on top select <code>base (root)</code> to activate your base environment.</p>
+<section id="quiz-schedule" class="level2">
+<h2 data-anchor-id="quiz-schedule">Quiz Schedule</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">12 March</td>
+<td style="text-align: left;">13:00</td>
+<td style="text-align: left;">❌ <a href="https://canvas.tue.nl"><strong>Quiz 3 Resit Closed</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12 March</td>
+<td style="text-align: left;">13:00</td>
+<td style="text-align: left;">❌ <a href="https://canvas.tue.nl"><strong>Quiz 4 Closed</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12 March</td>
+<td style="text-align: left;">15:00</td>
+<td style="text-align: left;">✅ <a href="https://canvas.tue.nl"><strong>Quiz 4 Resit Open</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12 March</td>
+<td style="text-align: left;">15:00</td>
+<td style="text-align: left;">✅ <a href="https://canvas.tue.nl"><strong>Quiz 5 Open</strong></a></td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
-
-</main> <!-- /main -->
+</main> 
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -562,13 +576,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -634,7 +641,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/8BM050\.github\.io\/24-25\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -964,14 +971,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../lectures/7b-clinical-endocrinology.html" class="pagination-link" aria-label="Endocrinology (2), Case Studies in Clinical Endocrinology">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Endocrinology (2), Case Studies in Clinical Endocrinology</span>
+      <a href="../lectures/5a-metabolism-in-daily-life.html" class="pagination-link" aria-label="Metabolism in Daily Life">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metabolism in Daily Life</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../8bm050/notebooks/01-ode-simulation-with-Python.html" class="pagination-link" aria-label="ODEs with Python I">
-        <span class="nav-page-text">ODEs with Python I</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -982,16 +986,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>Academic year 2024-2025</p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/8bm050/environment-setup/environment.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/lectures/5b-exercise-and-extreme-situations.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../LICENSE.html">
+    <a class="nav-link" href="../LICENSE.html">
 <p>License</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../ATTRIBUTIONS.html">
+    <a class="nav-link" href="../ATTRIBUTIONS.html">
 <p>Attribution</p>
 </a>
   </li>  
@@ -999,38 +1003,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 
