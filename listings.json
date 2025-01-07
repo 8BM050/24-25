@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/lectures/1a-course-introduction.html",
+      "/lectures/1b-graph-theory.html",
+      "/lectures/2a-differential-equations.html",
+      "/lectures/2b-cell-biology.html",
+      "/lectures/3a-biological-models.html",
+      "/lectures/3b-digestive-system.html",
+      "/lectures/4a-building-models.html",
+      "/lectures/4b-organ-specialization.html",
+      "/lectures/5a-metabolism-in-daily-life.html",
+      "/lectures/5b-exercise-and-extreme-situations.html",
+      "/lectures/6a-immunometabolism.html",
+      "/lectures/6b-diabetes.html",
+      "/lectures/7a-endocrinology.html",
+      "/lectures/7b-clinical-endocrinology.html",
+      "/staff/lecturers/01-natal-van-riel.html",
+      "/staff/lecturers/02-shauna-odonovan.html",
+      "/staff/lecturers/03-max-de-rooij.html",
+      "/staff/lecturers/04-arjen-kars-boer.html",
+      "/staff/assistants/marjolein-severens.html",
+      "/staff/assistants/jort-lokers.html"
+    ]
+  }
+]

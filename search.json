@@ -1,0 +1,1196 @@
+[
+  {
+    "objectID": "lectures/1b-graph-theory.html",
+    "href": "lectures/1b-graph-theory.html",
+    "title": "Graph Theory",
+    "section": "",
+    "text": "Principal Learning Outcome 6\n\n\n\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the main principles of biological regulatory systems (emergence, redundancy, modularity) and connect these to the how systems biology can be used to study human metabolism.\nDescribe the different usage of “models” in systems biology, explain the distinction between “top-down” and “bottom-up” models, and give examples of each.\nExplain the concept of a mathematical graph and give examples of graphs encountered in studying systems biology.\nConvert a graph into a matrix representation (adjacency matrix) and vice versa.\nExplain different types of graphs (directed, undirected, weighted, unweighted, connected, disconnected, cyclic, acyclic, bipartite, and self-looped) and give examples of each.\nCalculate various properties of a graph (degree, degree distribution, scale-free, connectedness, hubs, walks, trails, paths, shortest paths) and give a biological interpretation of these properties.\nExplain the concept of a metabolic network and give examples of metabolic networks in human metabolism.\nConstruct the three types of biochemical graph representations (metabolite graphs, reaction graphs, and combined metabolite-reaction graphs) from a metabolic network.\nCompute the stoichiometry matrix of a metabolic network.\nExplain what data can be used to reconstruct metabolic networks and give confidence levels for different types of data.",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/1b-graph-theory.html#learning-outcomes",
+    "href": "lectures/1b-graph-theory.html#learning-outcomes",
+    "title": "Graph Theory",
+    "section": "",
+    "text": "Principal Learning Outcome 6\n\n\n\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the main principles of biological regulatory systems (emergence, redundancy, modularity) and connect these to the how systems biology can be used to study human metabolism.\nDescribe the different usage of “models” in systems biology, explain the distinction between “top-down” and “bottom-up” models, and give examples of each.\nExplain the concept of a mathematical graph and give examples of graphs encountered in studying systems biology.\nConvert a graph into a matrix representation (adjacency matrix) and vice versa.\nExplain different types of graphs (directed, undirected, weighted, unweighted, connected, disconnected, cyclic, acyclic, bipartite, and self-looped) and give examples of each.\nCalculate various properties of a graph (degree, degree distribution, scale-free, connectedness, hubs, walks, trails, paths, shortest paths) and give a biological interpretation of these properties.\nExplain the concept of a metabolic network and give examples of metabolic networks in human metabolism.\nConstruct the three types of biochemical graph representations (metabolite graphs, reaction graphs, and combined metabolite-reaction graphs) from a metabolic network.\nCompute the stoichiometry matrix of a metabolic network.\nExplain what data can be used to reconstruct metabolic networks and give confidence levels for different types of data.",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/1b-graph-theory.html#book-chapters",
+    "href": "lectures/1b-graph-theory.html#book-chapters",
+    "title": "Graph Theory",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nLecture notes chapters 1 and 2",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/1b-graph-theory.html#lecture-and-practical",
+    "href": "lectures/1b-graph-theory.html#lecture-and-practical",
+    "title": "Graph Theory",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 7 2025\n\n08:45 - 10:30 - Introduction to Systems Biology, Graph Theory\n\nSlides\n\n\n\n10:45 - 12:30 - Graph Theory\n\nLecture Notes Chapter 2: Exercises\nCourse notebooks: graph theory",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/1b-graph-theory.html#quiz-schedule",
+    "href": "lectures/1b-graph-theory.html#quiz-schedule",
+    "title": "Graph Theory",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n5 February\n15:00\n✅ Quiz 1 Open",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html",
+    "href": "lectures/5a-metabolism-in-daily-life.html",
+    "title": "Metabolism in Daily Life",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html#learning-outcomes",
+    "href": "lectures/5a-metabolism-in-daily-life.html#learning-outcomes",
+    "title": "Metabolism in Daily Life",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html#book-chapters",
+    "href": "lectures/5a-metabolism-in-daily-life.html#book-chapters",
+    "title": "Metabolism in Daily Life",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 7 and 10",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html#lecture-and-practical",
+    "href": "lectures/5a-metabolism-in-daily-life.html#lecture-and-practical",
+    "title": "Metabolism in Daily Life",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 12 2025\n\n13:30 - 15:15 - Communication Systems\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html#quiz-schedule",
+    "href": "lectures/5a-metabolism-in-daily-life.html#quiz-schedule",
+    "title": "Metabolism in Daily Life",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 March\n13:00\n❌ Quiz 3 Resit Closed\n\n\n12 March\n13:00\n❌ Quiz 4 Closed\n\n\n12 March\n15:00\n✅ Quiz 4 Resit Open\n\n\n12 March\n15:00\n✅ Quiz 5 Open",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html",
+    "href": "lectures/7b-clinical-endocrinology.html",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html#learning-outcomes",
+    "href": "lectures/7b-clinical-endocrinology.html#learning-outcomes",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html#book-chapters",
+    "href": "lectures/7b-clinical-endocrinology.html#book-chapters",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Physiology, An Integrated Approach: Chapters 7 and 23",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html#lecture-and-practical",
+    "href": "lectures/7b-clinical-endocrinology.html#lecture-and-practical",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 28 2025\n\n08:45 - 10:30 - Case Studies in Clinical Endocrinology\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html#quiz-schedule",
+    "href": "lectures/7b-clinical-endocrinology.html#quiz-schedule",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 March\n13:00\n❌ Quiz 5 Resit Closed",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html",
+    "href": "lectures/2a-differential-equations.html",
+    "title": "Dynamic Models",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html#learning-outcomes",
+    "href": "lectures/2a-differential-equations.html#learning-outcomes",
+    "title": "Dynamic Models",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html#book-chapters",
+    "href": "lectures/2a-differential-equations.html#book-chapters",
+    "title": "Dynamic Models",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nLecture notes chapters 3 and 4",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html#lecture-and-practical",
+    "href": "lectures/2a-differential-equations.html#lecture-and-practical",
+    "title": "Dynamic Models",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 12 2025\n\n13:30 - 15:15 - Dynamic Models with Differential Equations\n\nSlides\n\n\n\n15:30 - 17:15 - Differential Equations with Python\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html#quiz-schedule",
+    "href": "lectures/2a-differential-equations.html#quiz-schedule",
+    "title": "Dynamic Models",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 February\n13:00\n❌ Quiz 1 Closed\n\n\n12 February\n15:00\n✅ Quiz 1 Resit Open\n\n\n12 February\n15:00\n✅ Quiz 2 Open",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html",
+    "href": "lectures/7a-endocrinology.html",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html#learning-outcomes",
+    "href": "lectures/7a-endocrinology.html#learning-outcomes",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html#book-chapters",
+    "href": "lectures/7a-endocrinology.html#book-chapters",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 11 and 12",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html#lecture-and-practical",
+    "href": "lectures/7a-endocrinology.html#lecture-and-practical",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 26 2025\n\n13:30 - 15:15 - Endocrinology and Metabolism\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html#quiz-schedule",
+    "href": "lectures/7a-endocrinology.html#quiz-schedule",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 March\n13:00\n❌ Quiz 5 Resit Closed",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html",
+    "href": "lectures/6a-immunometabolism.html",
+    "title": "Immunometabolism",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html#learning-outcomes",
+    "href": "lectures/6a-immunometabolism.html#learning-outcomes",
+    "title": "Immunometabolism",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html#book-chapters",
+    "href": "lectures/6a-immunometabolism.html#book-chapters",
+    "title": "Immunometabolism",
+    "section": "Book Chapters",
+    "text": "Book Chapters",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html#lecture-and-practical",
+    "href": "lectures/6a-immunometabolism.html#lecture-and-practical",
+    "title": "Immunometabolism",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 19 2025\n\n13:30 - 15:15 - Energy Balance and Weight Control\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html#quiz-schedule",
+    "href": "lectures/6a-immunometabolism.html#quiz-schedule",
+    "title": "Immunometabolism",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 March\n13:00\n❌ Quiz 4 Resit Closed\n\n\n19 March\n13:00\n❌ Quiz 5 Closed\n\n\n19 March\n15:00\n✅ Quiz 5 Resit Open",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html",
+    "href": "lectures/4a-building-models.html",
+    "title": "Building Models, Pharmacokinetics",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Building Models, Pharmacokinetics"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html#learning-outcomes",
+    "href": "lectures/4a-building-models.html#learning-outcomes",
+    "title": "Building Models, Pharmacokinetics",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Building Models, Pharmacokinetics"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html#book-chapters",
+    "href": "lectures/4a-building-models.html#book-chapters",
+    "title": "Building Models, Pharmacokinetics",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nLecture notes chapter 6",
+    "crumbs": [
+      "Lectures",
+      "Building Models, Pharmacokinetics"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html#lecture-and-practical",
+    "href": "lectures/4a-building-models.html#lecture-and-practical",
+    "title": "Building Models, Pharmacokinetics",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 26 2025\n\n13:30 - 15:15 - Building Models, Pharmacokinetics\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Building Models, Pharmacokinetics"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html#quiz-schedule",
+    "href": "lectures/4a-building-models.html#quiz-schedule",
+    "title": "Building Models, Pharmacokinetics",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 February\n13:00\n❌ Quiz 2 Resit Closed\n\n\n26 February\n13:00\n❌ Quiz 3 Closed\n\n\n26 February\n15:00\n✅ Quiz 3 Resit Open\n\n\n26 February\n15:00\n✅ Quiz 4 Open",
+    "crumbs": [
+      "Lectures",
+      "Building Models, Pharmacokinetics"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/02-shauna-odonovan.html",
+    "href": "staff/lecturers/02-shauna-odonovan.html",
+    "title": "Shauna O’Donovan",
+    "section": "",
+    "text": "Shauna O’Donovan is an assistant professor in the Department of Biomedical Engineering (research group Computational Biology), working on systems biology for the immune-gut axis.\n \n  \n   \n  \n    \n     TU/e Profile\n  \n  \n    \n     contact",
+    "crumbs": [
+      "Lecturers",
+      "Shauna O'Donovan"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/02-shauna-odonovan.html#research-profile",
+    "href": "staff/lecturers/02-shauna-odonovan.html#research-profile",
+    "title": "Shauna O’Donovan",
+    "section": "Research Profile",
+    "text": "Research Profile\nShauna uses computational approaches to investigate how factors such as the gut microbiome and chronic inflammation contribute to the development of Type 2 Diabetes and cardiovascular disease. She is particularly interested in developing and deploying hybrid-approaches, combining the favorable features of machine learning techniques and mechanistic mathematical models to generate models that can not only integrate different data types but can also be trained with less data. In this way, she aims to construct a holistic in silico model of metabolic health, shedding light on how differences in gut health and chronic low-grade inflammation influence the development of cardiometabolic diseases and aiding in the design of personalised treatment programs for cardiometabolic diseases.",
+    "crumbs": [
+      "Lecturers",
+      "Shauna O'Donovan"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/02-shauna-odonovan.html#academic-background",
+    "href": "staff/lecturers/02-shauna-odonovan.html#academic-background",
+    "title": "Shauna O’Donovan",
+    "section": "Academic Background",
+    "text": "Academic Background\nShauna O’Donovan received a B.SC in Mathematical Science (2013) and a M.Sc in Bioinformatics and Computational Biology (2015) from University College Cork, Ireland. She then went on to pursue a PhD in systems biology at Maastricht University under the supervision of Prof. Theo de Kok developing computational approaches to understand dynamic behaviors of biological systems from time series of omics measurements. She obtained her PhD in 2020. She then joined the Division of Human Nutrition and Health at Wageningen University as a postdoc. In 2022 she was appointed assistant professor at the Computational Biology group at the Department of Biomedical Engineering (TU/e, the Netherlands) working on systems biology for the immune-gut axis.",
+    "crumbs": [
+      "Lecturers",
+      "Shauna O'Donovan"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/03-max-de-rooij.html",
+    "href": "staff/lecturers/03-max-de-rooij.html",
+    "title": "Max de Rooij",
+    "section": "",
+    "text": "Max de Rooij is a PhD-TA candidate in the Department of Biomedical Engineering (research group Computational Biology), involved in hybrid modelling for systems biology.\n \n  \n   \n  \n    \n     TU/e Profile\n  \n  \n    \n     contact",
+    "crumbs": [
+      "Lecturers",
+      "Max de Rooij"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/03-max-de-rooij.html#research-profile",
+    "href": "staff/lecturers/03-max-de-rooij.html#research-profile",
+    "title": "Max de Rooij",
+    "section": "Research Profile",
+    "text": "Research Profile\nMax’ research primarily focuses on the applications of scientific machine learning techniques such as universal differential equations for studying and modelling human metabolism, as well as applying unsupervised machine learning for the analysis of large metabolic datasets. His work is used to investigate the heterogeneity in the development of lifestyle-associated metabolic diseases, in order to enable tailored treatment and prevention.",
+    "crumbs": [
+      "Lecturers",
+      "Max de Rooij"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/03-max-de-rooij.html#academic-background",
+    "href": "staff/lecturers/03-max-de-rooij.html#academic-background",
+    "title": "Max de Rooij",
+    "section": "Academic Background",
+    "text": "Academic Background\nMax de Rooij received his BSc. in biomedical engineering (2020) and his MSc. in Medical Engineering (2022) from Eindhoven University of Technology.",
+    "crumbs": [
+      "Lecturers",
+      "Max de Rooij"
+    ]
+  },
+  {
+    "objectID": "staff/assistants/jort-lokers.html",
+    "href": "staff/assistants/jort-lokers.html",
+    "title": "Jort Lokers",
+    "section": "",
+    "text": "Jort Lokers is a MSc student Biomedical Engineering focussing on Computational Biology in the form of quantitative systems pharmacology (QSP) and pharmacometrics. He is currently writing his thesis on hybrid pharmacokinetic (PK) modelling for vancomycin model-informed precision dosing (MIPD).\n \n  \n   \n  \n    \n     contact",
+    "crumbs": [
+      "Teaching Assistants",
+      "Jort Lokers"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/02-whole-body-models.html",
+    "href": "8bm050/notebooks/02-whole-body-models.html",
+    "title": "Whole-body ODE Models with Python",
+    "section": "",
+    "text": "Download this notebook\nThis notebook accompanies chapter 6 of the lecture notes. In this notebook, we will take a look at:",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python II"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/02-whole-body-models.html#packages",
+    "href": "8bm050/notebooks/02-whole-body-models.html#packages",
+    "title": "Whole-body ODE Models with Python",
+    "section": "Packages",
+    "text": "Packages\nBelow the packages we will use in this notebook are imported.\n\n\nCode\nimport matplotlib.pyplot as plt\nfrom math import exp\nfrom scipy.integrate import odeint\nimport numpy as np",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python II"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/02-whole-body-models.html#model-extension",
+    "href": "8bm050/notebooks/02-whole-body-models.html#model-extension",
+    "title": "Whole-body ODE Models with Python",
+    "section": "Model Extension",
+    "text": "Model Extension\nA simple kinetic model for a whole-body system is given by the following set of ODEs:\n\\[\\begin{align}\n\\frac{\\mathrm{d}C_1}{\\mathrm{d}t} &= -(k_1 + k_0) C_1 + k_2 C_2 \\\\\n\\frac{\\mathrm{d}C_2}{\\mathrm{d}t} &= k_1 C_1 - k_2 C_2\n\\end{align}\\]\nwhere \\(C_1\\) and \\(C_2\\) are the concentrations in compartment 1 and compartment 2, and \\(k_0\\), \\(k_1\\), and \\(k_2\\) are rate constants. This model can be implemented in Python as follows:\n\ndef compartment_model(c, t, k0, k1, k2):\n\n    dC1 = -(k1 + k0) * c[0] + k2 * c[1]\n    dC2 = k1*c[0] - k2 * c[1]\n\n    return [dC1, dC2]\n\nWe may want to extend this model, for example, a first-order appearance term of \\(C_1\\) from a new compartment \\(C_0\\). The model then becomes:\n\\[\\begin{align}\n\\frac{\\mathrm{d}C_0}{\\mathrm{d}t} &= -k_3 C_0 \\\\\n\\frac{\\mathrm{d}C_1}{\\mathrm{d}t} &= -k_0 C_1 - k_1 C_1 + k_2 C_2 + k_3 C_0 \\\\\n\\frac{\\mathrm{d}C_2}{\\mathrm{d}t} &= k_1 C_1 - k_2 C_2\n\\end{align}\\]\nA way to extend the current model in Python, is to build a new function of the extended model, that calls the original model function. This is shown in the code below.\n\ndef extended_compartment_model(c, t, k0, k1, k2, k3):\n    dC0 = -k3*c[0]\n    dC1, dC2 = compartment_model(c[1:2], t, k0, k1, k2)\n\n    dC1 += k3*c[0]\n\n    return [dC0, dC1, dC2]\n\nWe can then use the odeint function from the scipy.integrate module to solve the ODEs, which is similar to the previous notebook.\n\nExercise 1)\nSimulate the compartment model and the extended compartment model for the following parameters: - \\(k_0 = 0.1\\) - \\(k_1 = 0.15\\) - \\(k_2 = 0.32\\) - \\(k_3 = 0.2\\)\nUse the initial conditions \\(C_0(0) = 1\\), \\(C_1(0) = 1\\), and \\(C_2(0) = 0\\). Plot the concentrations as a function of time.\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python II"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/02-whole-body-models.html#modeling-delays",
+    "href": "8bm050/notebooks/02-whole-body-models.html#modeling-delays",
+    "title": "Whole-body ODE Models with Python",
+    "section": "Modeling Delays",
+    "text": "Modeling Delays\nIn the lecture notes and in the lectures, delay compartments were introduced. Delay compartments are implemented in the same way as a normal equation. Consider the model:\n\\[\n\\begin{align}\n\\frac{\\mathrm{d}C_0}{\\mathrm{d}t} &= -k_0 C_0 \\\\\n\\frac{\\mathrm{d}C_{\\text{end}}}{\\mathrm{d}t} &= k_0 C_0 - k_{\\text{end}} C_1\n\\end{align}\n\\]\nwhere \\(C_0\\) is the input compartment, and \\(C_{\\text{end}}\\) is the output compartment. We can add a delay compartment \\(C_1\\), which is a first-order compartment with a rate constant \\(k_1\\). The model then becomes:\n\\[\n\\begin{align}\n\\frac{\\mathrm{d}C_0}{\\mathrm{d}t} &= -k_0 C_0 \\\\\n\\frac{\\mathrm{d}C_1}{\\mathrm{d}t} &= k_0 C_0 - k_1 C_1 \\\\\n\\frac{\\mathrm{d}C_{\\text{end}}}{\\mathrm{d}t} &= k_1 C_1 - k_{\\text{end}} C_{\\text{end}}\n\\end{align}\n\\]\nWe can implement this model in Python in the same way as the previous models. The code below shows how to implement this model.\n\ndef zero_delay(c, t, k0, kend):\n\n    dc0 = -k0*c[0]\n    dcend = k0*c[0] - kend*c[-1]\n\n    return [dc0, dcend]\n\n\ndef one_delay(c, t, k0, k1, kend):\n    dc0 = -k0*c[0]\n    dc1 = k0*c[0] - k1*c[1]\n    dcend = k1*c[1] - kend*c[-1]\n\n    return [dc0, dc1, dcend]\n\n\nExercise 2)\nSimulate the delay compartment model for the following parameters: - \\(k_0 = 0.1\\) - \\(k_1 = 0.15\\)\nUse the initial conditions \\(C_0(0) = 1\\), \\(C_1(0) = 0\\), and \\(C_{\\text{end}}(0) = 0\\). Plot the concentrations of \\(C_{\\text{end}}\\) as a function of time. Compare the results with the model without the delay compartment.\n\n# Your code here!\n\n\n\nExercise 3)\nCreate a model with two, three and four delay compartments. Each delay compartment has the same rate constant \\(k_1\\). Simulate the model for the parameters given in exercise 2. Plot the concentrations of \\(C_{\\text{end}}\\) as a function of time for each model in one plot. Explain the effect of the number of delay compartments on the output.\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python II"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/02-whole-body-models.html#combining-simulations-for-subsequent-perturbations",
+    "href": "8bm050/notebooks/02-whole-body-models.html#combining-simulations-for-subsequent-perturbations",
+    "title": "Whole-body ODE Models with Python",
+    "section": "Combining Simulations for Subsequent Perturbations",
+    "text": "Combining Simulations for Subsequent Perturbations\nFor example, when modeling multiple subsequent bolus injections at different times, we need to combine different simulations into one. This can be done by running the simulation for the first perturbation, and then using the final concentrations as initial conditions for the next simulation. The code below shows how to do this.\nAn example the following simple system can be:\n\\[\\frac{\\mathrm{d}x}{\\mathrm{d}t} = -kx \\]\nWhere we have an initial value of \\(x = 2.0\\) at \\(t = 0\\), and add another dose of \\(2.0\\) at \\(t = 4\\).\nWe can first implement the model:\n\ndef simple_model(x, t, k):\n    return -k*x\n\nk = 0.5\nx0 = 2.0\n\nWe can then do the first simulation, up to \\(t=4.0\\)\n\nsimulation_1 = odeint(simple_model, x0, np.linspace(0,4,100), args=(k,))\n\nWe can then do the second simulation, taking the final timepoint of the first as initial condition and adding the second dose.\n\n# the new initial condition is the end of simulation 1 plus the dose\nx0_2 = simulation_1[-1] + 2.0\n\n# simulate with the new initial condition, starting where the previous simulation ended\nsimulation_2 = odeint(simple_model, x0_2, np.linspace(4,10,100), args=(k,))\n\nWe can then combine both simulations and visualize the result.\n\n# combine the timepoints\ntimepoints = np.concatenate([np.linspace(0,4,100), np.linspace(4,10,100)])\nsimulation = np.concatenate([simulation_1, simulation_2])\n\n\n\nCode\n# visualize\nplt.plot(timepoints, simulation)\nplt.xlabel(\"Time [h]\")\nplt.ylabel(\"Value [a.u.]\")\nplt.show()\n\n\n\n\n\nTwo sequential perturbations of the simulated ODE system.\n\n\n\n\n\nExercise 4)\nCombine three simulations of the previous model with the following perturbations: - \\(x = 2.0\\) at \\(t = 0\\) - \\(x = x + 2.0\\) at \\(t = 4\\) - \\(x = x + 2.0\\) at \\(t = 8\\)",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python II"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/00-test-environment-setup.html",
+    "href": "8bm050/notebooks/00-test-environment-setup.html",
+    "title": "Environment Setup Test",
+    "section": "",
+    "text": "# test matplotlib\ntry:\n    import matplotlib\n    _matplotlib = True\n    print(\"1:\\t✓\\tMatplotlib found!\")\nexcept:\n    _matplotlib = False\n    print(\"1:\\t✗\\tMatplotlib not found\")\n\n# test numpy\ntry:\n    import numpy\n    _numpy = True\n    print(\"2:\\t✓\\tNumpy found!\")\nexcept:\n    _numpy = False\n    print(\"2:\\t✗\\tNumpy not found\")\n\n# test scipy\ntry:\n    import scipy\n    _scipy = True\n    print(\"3:\\t✓\\tScipy found!\")\nexcept:\n    _scipy = False\n    print(\"3:\\t✗\\tScipy not found\")\n\nprint(\"\\n---------------------------------\\n\")\nif _matplotlib & _numpy & _scipy:\n\n    print(\"All tests successful!\")\nelse:\n    print(\"Tests unsuccessful!\")\n\n1:  ✓   Matplotlib found!\n2:  ✓   Numpy found!\n3:  ✓   Scipy found!\n\n---------------------------------\n\nAll tests successful!"
+  },
+  {
+    "objectID": "update_checklist.html",
+    "href": "update_checklist.html",
+    "title": "Checklist for course updates",
+    "section": "",
+    "text": "_quarto.yml: - [ ] Update the repository URL to match the new course repository. - [ ] Update the center footer to match the new academic year. - [ ] Update the repository URL in the navbar.\n_variables.yml: - [ ] Update the course repository - [ ] Update the canvas link\nindex.qmd: - [ ] Update the notification dates to match the new lecture weeks.\n\n\n\ncontent/content.qmd: - [ ] Update the learning outcomes. - [ ] Update the course structure based on modifications that were made. - [ ] Update the assessment structure based on modifications that were made.\ncontent/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the pdf files in the slides folder.\n\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
+  },
+  {
+    "objectID": "update_checklist.html#course-website",
+    "href": "update_checklist.html#course-website",
+    "title": "Checklist for course updates",
+    "section": "",
+    "text": "_quarto.yml: - [ ] Update the repository URL to match the new course repository. - [ ] Update the center footer to match the new academic year. - [ ] Update the repository URL in the navbar.\n_variables.yml: - [ ] Update the course repository - [ ] Update the canvas link\nindex.qmd: - [ ] Update the notification dates to match the new lecture weeks.\n\n\n\ncontent/content.qmd: - [ ] Update the learning outcomes. - [ ] Update the course structure based on modifications that were made. - [ ] Update the assessment structure based on modifications that were made.\ncontent/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the pdf files in the slides folder.\n\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
+  },
+  {
+    "objectID": "ATTRIBUTIONS.html",
+    "href": "ATTRIBUTIONS.html",
+    "title": "8BM050",
+    "section": "",
+    "text": "Students icon made by Eucalyp on Flaticon\nTeacher icon made by Eucalyp on Flaticon\n\nBack to Home"
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "License",
+    "section": "",
+    "text": "License"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to 8BM050 Systems Biology Models",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nWelcome to week 1 of the 8BM050 course!\nLecture A: Course Introduction\nLecture B: Graph Theory\nCanvas →  Lecture Notes →      Course Information →\nThis course will discuss principles of human metabolism and its regulation. Basic principles will be discussed first, such as the central human energy metabolism and regulation of metabolism at a cellular level. Then, the functional anatomy of digestive tract, metabolism and its regulatory organs are discussed, additionally discussing regulatory hormones. Finally, the knowledge will be integrated into the discussion of whole-body metabolism, and its adaptation to factors such as stress, exercise and disease.\nThe biological theory will be complemented by an engineering perspective on metabolic regulation, by discussion of techniques to statically and dynamically model components of this regulatory system. We will discuss the basics of mathematical graph theory and use these to move from static models to dynamic models of biochemical processes and signalling networks. During the practical part of the course, students will be working with these models and using Python to perform simulations and analyses.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-outcomes",
+    "href": "index.html#learning-outcomes",
+    "title": "Welcome to 8BM050 Systems Biology Models",
+    "section": "🏁 Learning Outcomes",
+    "text": "🏁 Learning Outcomes\nAt the end of this course, the student is able to:\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\nUnderstand and describe the compartmentalisation and adaptation of metabolic processes at a cellular level.\nUnderstand and describe the functional anatomy of the digestive system for carbohydrates, lipids and proteins.\nDescribe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation\nConstruct a linear dynamic model of biochemical processes using the law of mass action\nExplain the function of different terms in a simple system of (possibly nonlinear) ordinary differential equations.\nCalculate the steady-state conditions for a simple system of ordinary differential equations.\nUse Python to simulate and analyse systems of ordinary differential equations",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#lecture-schedule",
+    "href": "index.html#lecture-schedule",
+    "title": "Welcome to 8BM050 Systems Biology Models",
+    "section": "📅 Lecture Schedule",
+    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\nSlides\n\n\n\n\n\n\nWed, 5 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\nLecture Slides    \n\n\n\n\nFri, 7 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\nLecture Slides    \n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\nLecture Slides    \n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\nLecture Slides    \n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nBiological Models\n\n\nLecture Slides    \n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\nLecture Slides    \n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nBuilding Models, Pharmacokinetics\n\n\nLecture Slides    \n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\nLecture Slides    \n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\nLecture Slides    \n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nExercise and Extreme Physiological Situations\n\n\nLecture Slides    \n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nImmunometabolism\n\n\nLecture Slides    \n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\nLecture Slides    \n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\nLecture Slides    \n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nEndocrinology (2), Case Studies in Clinical Endocrinology\n\n\nLecture Slides    \n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#assessment-deadlines",
+    "href": "index.html#assessment-deadlines",
+    "title": "Welcome to 8BM050 Systems Biology Models",
+    "section": "📝 Assessment & Deadlines",
+    "text": "📝 Assessment & Deadlines\nThe assessments for this course have been scheduled per week, and can be found in the following table.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\nWeek 2\nWeek 3\nWeek 4\nWeek 5\nWeek 6\nWeek 7\nWeek 8\nExamination period\n\n\n\n\nWeekly quizzes\nWeek 1\nWeek 2\nWeek 3\nWeek 4\nWeek 5\n\n\n\n\n\n\nResit quizzes\n\nWeek 1 - Resit\nWeek 2 - Resit\nWeek 3 - Resit\nWeek 4 - Resit\nWeek 5 - Resit\n\n\n\n\n\nAssignment\n\nPart 1\nPart 1\nPart 2\nPart 2\nPart 2\n\n\n\n\n\nFinal Exam\n\n\n\n\n\n\n\n\nExam",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#lecturers-contact",
+    "href": "index.html#lecturers-contact",
+    "title": "Welcome to 8BM050 Systems Biology Models",
+    "section": "✉️ Lecturers & Contact",
+    "text": "✉️ Lecturers & Contact\n\nLecturers\n\n\n\n\n\n\n\n\n\n\nNatal van Riel\n\n\nResponsible Lecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nShauna O’Donovan\n\n\nLecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nMax de Rooij\n\n\nLecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nArjen-Kars Boer\n\n\nGuest Lecturer\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTeaching Assistants\n\n\n\n\n\n\n\n\nMarjolein Severens\n\n\nTeaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\nJort Lokers\n\n\nTeaching Assistant\n\n\n\n\n\n\n\nNo matching items\n\n\n⚠ This course website is carefully filled with all necessary information. When unexpected differences occur between the website and Osiris, the information provided in Osiris is leading.\n⚠ Please note that all educational materials related to this course and uploaded to the course website page, including but not limited to, presentation slides, lecture notes, examination materials, tests, formula sheets, are subject to copyright protection by Eindhoven University of Technology and authors of the course. Additionally, the course materials placed on the website, may contain third parties’ copyright protected material. By copying, distorting, distributing, uploading any of the materials placed on the website to the third party websites, you are responsible and liable for infringing copyright of these resources.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "info/info.html",
+    "href": "info/info.html",
+    "title": "Course Information",
+    "section": "",
+    "text": "↪︎ Return home"
+  },
+  {
+    "objectID": "info/info.html#course-material",
+    "href": "info/info.html#course-material",
+    "title": "Course Information",
+    "section": "📖 Course Material",
+    "text": "📖 Course Material\nThe course materials for the biological part of the course will be based on the book Human Metabolism: A Regulatory Perspective by Keith Frayn and Rhys Evans. For the modelling component of the course, we will use the lecture notes and the provided Python code examples in Practical 1 and Practical 2.\n\n\n\nThe book “Human Metabolism: A Regulatory Perspective” by Keith Frayn and Rhys Evans. Image source\n\n\nAdditionally, for the final lecture, we will teach material from two chapters of the book Human Physiology, An Integrated Approach by Dee Unglaub Silverthorn. You do not need to purchase this second book, as the material will be provided in the lecture slides.\n\n\n\nThe book “Human Physiology, An Integrated Approach” by Dee Unglaub Silverthorn. Image source"
+  },
+  {
+    "objectID": "info/info.html#online-resources",
+    "href": "info/info.html#online-resources",
+    "title": "Course Information",
+    "section": "🖥️ Online Resources",
+    "text": "🖥️ Online Resources\nThe course will be supported by the online learning platform Canvas. The course staff will use Canvas to post information that cannot be made public, make announcements, and for online quizzes. Canvas can be used by students to take the online quizzes, to submit the assignment, and to view grades. All public course material is available on the course website."
+  },
+  {
+    "objectID": "info/info.html#course-structure",
+    "href": "info/info.html#course-structure",
+    "title": "Course Information",
+    "section": "🔨 Course Structure",
+    "text": "🔨 Course Structure\nThe course will feature a mix of lectures and practical sessions. The lectures will alternate between biological theory and mathematical modelling. The practical sessions will be used to apply the theory in practice, by working with Python code examples and performing simulations and analyses.\n\nLectures\nLectures are two-hour sessions where the lecturer will present the course material. The lectures are interactive and students are strongly encouraged to ask questions and to participate in discussions. For interactivity, the Mentimeter tool is used.\n\n\nPractical Sessions\nDuring the practical sessions, students are expected to work independently on practical exercises and the graded assignment. The practical sessions are supervised by the course staff and TAs, who are available to answer questions and provide guidance. The first practical session will be used to help students set up their Python environment and to install the required packages. The next practical sessions are used to introduce the odeint package used in the course and to work on the assignment."
+  },
+  {
+    "objectID": "info/info.html#assessment",
+    "href": "info/info.html#assessment",
+    "title": "Course Information",
+    "section": "🏆 Assessment",
+    "text": "🏆 Assessment\nThe course will be assessed through a combination of the written final exam and the assignment. The final exam will test the students’ knowledge of the biological theory and the mathematical modelling. The assignment will test the students’ ability to apply the theory in practice, by working with Python code examples and performing simulations and analyses. The final grade will be calculated as follows:\n\n\n\nElement\nWeight\nMinimum grade for passing the course\n\n\n\n\nFinal Exam\n80%\n5.0\n\n\nAssignment\n20%\n-\n\n\n\nThe final grade will therefore be calculated as follows:\n\\[\n\\text{Final Grade} = \\begin{cases}\n0.8 \\times \\text{Exam grade with bonus} + 0.2 \\times \\text{Assignment}& \\text{if } \\text{Final Exam} \\geq 5.0 \\\\\n0 & \\text{otherwise }\\end{cases}\n\\]\nThe grade from this calculation will be rounded to the nearest integer.\nAdditionally, students will have the opportunity to earn bonus marks through weekly online quizzes. The quizzes will test the students’ understanding of the material discussed in the lectures and practical sessions.\n\nQuiz Schedule\nEach week, an online quiz will be available on Canvas. The quiz will open on Wednesday at 15:00 and close on Wednesday the week after at 13:00. The topic of the quiz will be the material discussed in the lectures that take place after the quiz closes.\n\n\nTaking the Quiz\nIf the quiz has been made available, the student can take the quiz at any time between the open and close date. If this quiz is taken, students will receive feedback on their answers directly.\n\n\nResit Quiz\n\n\n\n\n\n\nWarning\n\n\n\nThe resit quiz will only be available if the original quiz was taken within the open and closing time of the original quiz.\n\n\nThe resit quiz will open on the same day as the original quiz closes and will close the week after at 13:30. The resit quiz will cover the same material as the original quiz. If the original quiz is not taken, the resit quiz will not become available. The final grade for each quiz will be the maximum of the original quiz and the resit quiz.\n\n\nBonus Marks\nEach quiz is worth 1 point, which will be awarded if the final grade of the quiz is 8.0 or higher. The maximum number of bonus marks that can be earned is 5. The bonus marks will be added to the final exam grade as follows: \\[\\text{Exam grade with bonus} = \\begin{cases}\n\\text{Final Exam} + \\frac{\\text{Bonus Marks}}{10} & \\text{if } \\text{Final Exam} \\geq 5.0 \\\\\n\\text{Final Exam} & \\text{otherwise }\\end{cases} \\]\n\n\n\n\n\n\nWarning\n\n\n\nThe bonus marks will only be awarded if the exam grade is at least 5.0. The maximum bonus on the final exam grade is 0.5.\n\n\n\n\nExample Calculations\n1. A student has the following grades: - Final Exam: 6.5 - Assignment: 7.0 - Quiz 1: 8.0 (1 bonus mark) - Quiz 2: 7.5 (0 bonus marks) - Quiz 3: 6.0 (0 bonus marks) - Quiz 4: 8.0 (1 bonus mark) - Quiz 5: 7.0 (0 bonus marks) - Total bonus marks: 2\nThe bonus marks will be added as follows: \\[\\text{Exam grade with bonus} = 6.5 + \\frac{2}{10} = 6.7\\]\nThe final grade will be calculated as follows: \\[\\text{Final Grade} = 0.8 \\times 6.7 + 0.2 \\times 7.0 = 6.76\\]\nThe final grade will be 7.\n2. A student has the following grades: - Final Exam: 4.5 - Assignment: 7.0 - Quiz 1: 8.0 (1 bonus mark) - Quiz 2: 9.0 (1 bonus marks) - Quiz 3: 8.9 (1 bonus marks) - Quiz 4: 8.0 (1 bonus mark) - Quiz 5: 10 (1 bonus marks) - Total bonus marks: 5\nAs the final exam grade is below 5, the bonus marks will not be added. \\[\\text{Exam grade with bonus} = 4.5 + \\frac{0}{10} = 4.5\\]\nThe final exam grade is below a 5, so the final grade will be: \\[\\text{Final Grade} = 0\\]"
+  },
+  {
+    "objectID": "info/info.html#course-evaluation",
+    "href": "info/info.html#course-evaluation",
+    "title": "Course Information",
+    "section": "💭 Course Evaluation",
+    "text": "💭 Course Evaluation\nFeedback is highly appreciated. Please fill in the course evaluation at the end of the quartile, so we can further improve this course. You will receive an e-mail from Evalytics about this."
+  },
+  {
+    "objectID": "8bm050/environment-setup/environment.html",
+    "href": "8bm050/environment-setup/environment.html",
+    "title": "Setting up your Python Environment",
+    "section": "",
+    "text": "For this course, you will have to set up your own environment, as additional Python packages have to be installed that may conflict with packages that are installed in your global environment. Setting this up is very simple, and we’ll go through this step by step. To get started, you can already download the Jupyter notebook to test if your environment is set up correctly.\nDownload test notebook",
+    "crumbs": [
+      "Practicals",
+      "Setting up your Python Environment"
+    ]
+  },
+  {
+    "objectID": "8bm050/environment-setup/environment.html#installing-anaconda",
+    "href": "8bm050/environment-setup/environment.html#installing-anaconda",
+    "title": "Setting up your Python Environment",
+    "section": "1: Installing Anaconda",
+    "text": "1: Installing Anaconda\nIf you have an existing installation of Anaconda, you can skip this step. Otherwise, download anaconda from this link. You’ll end up on this page: \nFollow the instructions provided to obtain a full installation of Anaconda.",
+    "crumbs": [
+      "Practicals",
+      "Setting up your Python Environment"
+    ]
+  },
+  {
+    "objectID": "8bm050/environment-setup/environment.html#setting-up-the-anaconda-environment",
+    "href": "8bm050/environment-setup/environment.html#setting-up-the-anaconda-environment",
+    "title": "Setting up your Python Environment",
+    "section": "2: Setting up the Anaconda environment",
+    "text": "2: Setting up the Anaconda environment\nOn your machine, open Anaconda Prompt\n\n\n\nAnaconda Prompt\n\n\n\nCreating the conda environment\nType in the following command to create the conda environment. This command creates a new environment named 8bm050 with Python version 3.12.\nconda create -n 8bm050 python=3.12\nWhen it asks to proceed, hit [Enter] to start creating the environment.\nNow, we have to activate the environment. Run the following command:\nconda activate 8bm050\nNow we need to download some additional packages to be able to work with this environment. Run the following command in your activated environment:\nconda install numpy matplotlib scipy jupyter ipykernel\nAnd hit [Enter] after it asks to proceed.\n\n\nRunning Jupyter from your conda environment\nTo use this newly created environment. Open Anaconda Navigator\n\n\n\nAnaconda Navigator\n\n\nOn top, click the drop-down menu that says base (root) and select 8bm050. You’ll now have this on the top of your anaconda navigator window.\n\n\n\nActive Environment\n\n\nThen, launch Jupyter from the anaconda navigator to use them in this specific environment.\n\n\nSetting the environment in VS Code\nIf you want to use this environment in VS Code, you can open the folder you created for storing the notebooks in Visual Studio Code. Then, on the bottom bar where it says: Python 3.x.x 64-bit ('base': conda), click on it to change it to Python 3.12.0 64-bit ('8bm050': conda). In a Jupyter notebook opened through VS Code, you can also change the kernel to Python 3.12.0 64-bit ('8bm050': conda) in the top right corner.",
+    "crumbs": [
+      "Practicals",
+      "Setting up your Python Environment"
+    ]
+  },
+  {
+    "objectID": "8bm050/environment-setup/environment.html#further-steps",
+    "href": "8bm050/environment-setup/environment.html#further-steps",
+    "title": "Setting up your Python Environment",
+    "section": "Further Steps",
+    "text": "Further Steps\nWhen you want to use your default global environment again. Simply go to Anaconda Navigator and on top select base (root) to activate your base environment.",
+    "crumbs": [
+      "Practicals",
+      "Setting up your Python Environment"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "",
+    "text": "Download this notebook\nThis notebook accompanies sections 4.3 and 4.5 of the lecture notes. It provides an introduction to the numerical solution of ordinary differential equations (ODEs) using Python. We will focus on the solution of initial value problems (IVPs) for first-order ODEs. For this purpose, we will use the scipy.integrate.odeint function. But first, we will briefly look at the fundamentals of numerical solutions of ODEs by discussing the Euler method. As stated in the lecture notes, the Euler method is the simplest numerical method for solving ODEs. It is based on the approximation of the derivative by a finite difference. The Euler method is not always very accurate, but it is easy to implement and understand. We will use the Euler method to solve a simple ODE and later compare the results with the solution obtained by odeint.",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html#packages",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html#packages",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "Packages",
+    "text": "Packages\nBelow the packages we will use in this notebook are imported.\n\n\nCode\nimport matplotlib.pyplot as plt\nfrom math import exp\nfrom scipy.integrate import odeint\nimport numpy as np",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html#eulers-method",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html#eulers-method",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "Euler’s Method",
+    "text": "Euler’s Method\nAs mentioned in the lecture notes, Euler’s method can be formulated as follows: For a first-order ODE of the form \\[ \\frac{\\mathrm{d}y}{\\mathrm{d}t} = f(y, t) \\]\nThe Euler method approximates the solution at time \\(t_{n+1} = t_n + \\Delta t\\) by \\[ y_{n+1} = y_n + \\Delta t \\cdot f(y_n, t_n) \\] where \\(y_n\\) is the numerical approximation of the solution at time \\(t_n\\), \\(\\Delta t\\) is the step size, and \\(f(y_n, t_n)\\) is the derivative of the solution at time \\(t_n\\).\nLet’s implement the Euler method to solve the following simple ODE:\n\\[ \\frac{\\mathrm{d}y}{\\mathrm{d}t} = -y, \\quad y(0) = 1 \\]\n\nImplementation of Euler’s Method\nIn Python, we define a function euler_step that implements one step of the Euler method for a differential equation of the form \\(\\frac{\\mathrm{d}y}{\\mathrm{d}t} = f(y, t)\\). The function has four arguments: - f: the function \\(f(y, t)\\) that defines the ODE - y_n: the (numerical approximation of the solution) at time \\(t_n\\) - t_n: the time \\(t_n\\) - dt: the step size \\(\\Delta t\\)\nThe function returns the numerical approximation of the solution at time \\(t_{n+1} = t_n + \\Delta t\\).\n\ndef euler_step(f, y_n, t_n, dt):\n\n    next_y = y_n + dt * f(y_n, t_n)\n\n    return next_y\n\nNow we have to define the function \\(f(y, t)\\) for the ODE \\(\\frac{\\mathrm{d}y}{\\mathrm{d}t} = -y\\). We will call this function dydt.\n\ndef dydt(y_n, t_n):\n\n    return -y_n\n\nWe now define a function euler_solve that uses the euler_step function to solve the ODE for a given time interval \\([t_0, t_{\\text{end}}]\\) and a given step size \\(\\Delta t\\). The function has the following arguments: - f: the function \\(f(y, t)\\) that defines the ODE - y0: the initial value \\(y(0)\\) - t0: the initial time \\(t_0\\) - t_end: the final time \\(t_{\\text{end}}\\) - dt: the step size \\(\\Delta t\\)\nThe function returns two arrays: one with the time values and one with the corresponding numerical approximations of the solution.\n\ndef euler_solve(f, y_0, t_0, t_end, dt):\n\n    # make sure t_end is higher than t_0\n    if t_end &lt;= t_0:\n        raise ValueError(f\"Argument t_end must be larger than t_0. Currently, t_end = {t_end}, which is not larger than t_0 = {t_0}.\")\n    \n    # make sure dt is larger than 0\n    if dt &lt;= 0:\n        raise ValueError(f\"Argument dt must be larger than zero. Currently, dt = {dt} &lt;= 0\")\n\n    # now we can start solving\n    solution = [y_0]\n    time_steps = [t_0]\n\n    # we start at time t_0 + dt, and take steps of size dt, until we hit t_end\n    t_n = t_0+dt\n\n    while t_n &lt;= t_end:\n        \n        # take the last step\n        y_n = solution[-1]\n\n        # compute the next value\n        next_y = euler_step(f, y_n, t_n, dt)\n\n        # add the next value to the solution \n        solution.append(next_y)\n        time_steps.append(t_n)\n\n        # increase the time value\n        t_n += dt\n\n    return time_steps, solution\n\nNow, let’s use the euler_solve function to solve the ODE \\(\\frac{\\mathrm{d}y}{\\mathrm{d}t} = -y\\) with the initial condition \\(y(0) = 1\\) for the time interval \\([0, 5]\\) and a step size of \\(\\Delta t = 0.1\\).\n\ny_0 = 1\nt_0 = 0\nt_end = 5\ndt = 0.1\n\ntime_steps, numerical_solution = euler_solve(dydt, y_0, t_0, t_end, dt)\n\nAs this is a simple ODE, we can also solve it analytically. The analytical solution of the ODE \\(\\frac{\\mathrm{d}y}{\\mathrm{d}t} = -y\\) with the initial condition \\(y(0) = 1\\) is given by \\(y(t) = e^{-t}\\). Comparing the numerical solution with the analytical solution will allow us to assess the accuracy of the Euler method. We will plot the numerical and analytical solutions to visualize the results.\n\n\nCode\ndef analytical_solution(time_steps):\n    solution = []\n    for t in time_steps:\n        solution.append(exp(-t))\n    return solution\n\nfig, axs = plt.subplots(1, 2, figsize=(8,3))\n\n# first plot both solutions\naxs[0].plot(time_steps, numerical_solution, label=\"Euler (dt = 0.1)\")\naxs[0].plot(time_steps, analytical_solution(time_steps), label = \"Analytical\")\naxs[0].set_title(\"Euler (dt = 0.1) versus the analytical solution\")\naxs[0].legend()\naxs[0].set_xlabel(\"Time (a.u.)\")\naxs[0].set_ylabel(\"y(t)\")\n# get the difference\nerror = [numerical - analytical for numerical, analytical in zip(numerical_solution, analytical_solution(time_steps))]\n\naxs[1].set_title(\"Error (euler-analytical)\")\naxs[1].plot(time_steps, error)\naxs[1].set_xlabel(\"Time (a.u.)\")\naxs[1].set_ylabel(\"Error (euler-analytical)\")\n\n\nplt.tight_layout()\n\n\n\n\n\nComparison of Euler’s method with the analytical solution of the differential equation\n\n\n\n\nFrom this figure we can see that in general, the Euler method with this time step reflects the analytical solution quite well, but the difference is visible.\n\n\nExercise 1)\nReduce the time step \\(\\Delta t\\) to 0.01 and observe the difference between the numerical and analytical solutions. What do you observe? What happens if you further reduce the time step to 0.001?\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html#using-odeint-to-solve-the-ode",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html#using-odeint-to-solve-the-ode",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "Using odeint to Solve the ODE",
+    "text": "Using odeint to Solve the ODE\nNow, let’s use the odeint function from the scipy.integrate module to solve the same ODE and compare the results with the Euler method. The function odeint works very similarly to how we have defined the euler_solve function. The odeint function requires the following arguments: - f: the function \\(f(y, t)\\) that defines the ODE - y0: the initial value \\(y(0)\\) - t: an array of time values at which the solution should be computed\nThe odeint function returns an array with the numerical approximations of the solution at the time values specified in the input array.\n\n\nCode\nodeint_solution = odeint(dydt, 1, time_steps)\n\nfig, axs = plt.subplots(1, 3, figsize=(10,3))\n\n# first plot both solutions\naxs[0].plot(time_steps, odeint_solution, label=\"odeint\")\naxs[0].plot(time_steps, analytical_solution(time_steps), label = \"Analytical\")\naxs[0].set_title(\"odeint versus the analytical solution\")\naxs[0].legend()\naxs[0].set_xlabel(\"Time (a.u.)\")\naxs[0].set_ylabel(\"y(t)\")\n# get the difference\nerror_odeint = [numerical - analytical for numerical, analytical in zip(odeint_solution, analytical_solution(time_steps))]\n\naxs[1].set_title(\"Error odeint versus euler\")\naxs[1].plot(time_steps, error, label=\"euler (dt=0.1)\")\naxs[1].plot(time_steps, error_odeint, label=\"odeint\")\naxs[1].set_xlabel(\"Time (a.u.)\")\naxs[1].set_ylabel(\"Error (euler-analytical)\")\naxs[1].legend()\n\naxs[2].set_title(\"Log absolute error: odeint versus euler\")\naxs[2].plot(time_steps, [abs(e) for e in error], label=\"euler (dt=0.1)\")\naxs[2].plot(time_steps, [abs(e) for e in error_odeint], label=\"odeint\")\naxs[2].set_yscale('log')\naxs[2].set_xlabel(\"Time (a.u.)\")\naxs[2].set_ylabel(\"Error (euler-analytical)\")\naxs[2].legend()\n\nplt.tight_layout()\n\n\n\n\n\nComparison of Euler’s method with the default method of odeint.\n\n\n\n\nWe can see that the odeint function provides a more accurate solution than the Euler method. The Euler method is a simple method that is easy to implement and understand, but it is not always very accurate. The odeint function uses more sophisticated algorithms to solve ODEs and is generally more accurate. For this reason, it is recommended to use odeint for solving ODEs in practice. However, the Euler method is a good starting point to understand the basics of numerical solutions of ODEs.\n\nExercise 2)\nNow that you know how to solve ODEs using the odeint function, solve the following ODE using odeint:\n\\[ \\frac{\\mathrm{d}y}{\\mathrm{d}t} = y \\cdot (1 - y/100), \\quad y(0) = 1 \\]\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html#solving-systems-of-odes",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html#solving-systems-of-odes",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "Solving Systems of ODEs",
+    "text": "Solving Systems of ODEs\nThe odeint function can also be used to solve systems of ODEs. In many models, we encounter systems of multiple ODEs, which describe the dynamics of different variables. Let’s consider the following system of two ODEs:\n\\[ \\frac{\\mathrm{d}y_1}{\\mathrm{d}t} = -y_1 + y_2, \\quad \\frac{\\mathrm{d}y_2}{\\mathrm{d}t} = y_1 - y_2, \\quad y_1(0) = 1, \\quad y_2(0) = 0 \\]\nWe can solve this system of ODEs using the odeint function. However, instead of defining a function that describes a single ODE, we need to define a function that describes the system of ODEs. This function should return an array with the derivatives of all variables at a given time. We will call this function dydt_system.\n\ndef dydt_system(y_n, t_n):\n\n    dydt1 = -y_n[0] + y_n[1]\n    dydt2 = y_n[0] - y_n[1]\n\n    return [dydt1, dydt2]\n\nAlso, instead of providing a single initial value, we need to provide an array with the initial values for all variables. We will call this array y0_system. The rest of the procedure is the same as before.\n\ny0_system = [1, 0]\n\n# we can use numpy to easily define a range of values\ntime_steps = np.linspace(0, 5, 1000)\n\nsolution = odeint(dydt_system, y0_system, time_steps)\n\nInstead of a single array with the numerical approximations of the solution, the odeint function now returns a two-dimensional array with the numerical approximations of all variables at the time values specified in the input array. We can plot the numerical solutions of both variables to visualize the results.\n\n\nCode\nplt.plot(time_steps, solution[:,0], label=\"y1\")\nplt.plot(time_steps, solution[:,1], label=\"y2\")\nplt.legend()\nplt.xlabel(\"time (a.u.)\")\nplt.ylabel(\"y(t)\")\nplt.show()\n\n\n\n\n\nSolving a system of ODEs with odeint\n\n\n\n\n\nExercise 3)\nSolve the following system of ODEs using the odeint function:\n\\[\n\\begin{align}\n\\dot{S} &= \\frac{-b I S}{n} \\\\\n\\dot{I} &= \\frac{b I S}{n} - c I \\\\\n\\dot{R} &= c I \\\\\n\\end{align}\n\\]\nUse the following parameter values: \\(b = 0.1\\), \\(c = 0.05\\), \\(n = 1000\\), and the initial conditions \\(S(0) = 999\\), \\(I(0) = 1\\), \\(R(0) = 0\\). Plot the numerical solutions of \\(S(t)\\), \\(I(t)\\), and \\(R(t)\\).\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "8bm050/notebooks/01-ode-simulation-with-Python.html#parameterized-odes",
+    "href": "8bm050/notebooks/01-ode-simulation-with-Python.html#parameterized-odes",
+    "title": "Numerical Solutions of Ordinary Differential Equations (ODEs) with Python",
+    "section": "Parameterized ODEs",
+    "text": "Parameterized ODEs\nIn many models, the ODEs depend on parameters that can be varied. For example, in the model above, the parameters \\(b\\) and \\(c\\) can have different values. We can study how the solutions of the ODEs change with different parameter values by solving the ODEs for different parameter values. However, it is hard to have to change the parameter values manually and solve the ODEs for each parameter value, or to have a separate function for each combination of parameter values.\nInstead, we can define a function that describes the ODEs and takes the parameters as arguments. We will call this function dydt_system_param. Observe the following ODE system:\n\\[\n\\begin{align}\n\\dot{S} &= -K_g \\cdot S \\\\\n\\dot{SI} &= K_g \\cdot S - K_a \\cdot SI \\\\\n\\dot{PV} &= K_a \\cdot SI - K_b \\cdot PV - \\frac{K_l \\cdot PV}{K_m + PV} \\\\\n\\dot{C} &= \\frac{K_b \\cdot PV}{V_d} + K_{pc} \\cdot P - (K_{cp} + K_e) \\cdot C \\\\\n\\dot{P} &= K_{cp} \\cdot C - K_{pc} \\cdot P \\\\\n\\end{align}\n\\]\nIn here, we have a system of 5 ODEs. We can define a function that describes the system of ODEs and takes the parameters as arguments. We will call this function dydt_system_param. The function should return an array with the derivatives of all variables at a given time. The function should take the following arguments: - y: an array with the values of all variables at a given time - t: the time - kg: the parameter \\(K_g\\) - ka: the parameter \\(K_a\\) - kl: the parameter \\(K_l\\) - kb: the parameter \\(K_b\\) - ke: the parameter \\(K_e\\) - kcp: the parameter \\(K_{cp}\\) - kpc: the parameter \\(K_{pc}\\) - vd: the parameter \\(V_d\\) - km: the parameter \\(K_m\\)\n\ndef dydt_system_param(y, t, kg, ka, kl, kb, ke, kcp, kpc, vd, km):\n\n    stomach, small_intestine, portal, central, peripheral = y\n\n    dS = -kg * stomach\n    dSI = kg * stomach - ka * small_intestine\n    dPV = ka * small_intestine - kb*portal - kl * portal / (km + portal)\n    dC = (kb*portal)/vd + kpc*peripheral - (kcp + ke) * central\n    dP = kcp * central - kpc * peripheral\n\n    return [dS, dSI, dPV, dC, dP]\n\nWe can also simulate this system of ODEs for different parameter values using the args argument of the odeint function. The args argument allows us to pass additional arguments to the function that describes the ODEs. We can pass the parameter values as a tuple to the args argument. The odeint function will then pass these parameter values to the function that describes the ODEs. We can use this feature to simulate the system of ODEs for different parameter values:\n\n# select some parameter values\nkg = 0.6\nka = 2.9\nkl = 42.5\nkb = 4.5\nke = 3.2\nkcp = 1.5\nkpc = 1.9\nvd = 18.\nkm = 1.7\n\ny_0 = [500.0, 0.0, 0.0, 0.0, 0.0]\ntime_steps = np.linspace(0, 12, 1000)\n\nsolution = odeint(dydt_system_param, y_0, time_steps, args=(kg,ka,kl,kb,ke,kcp,kpc,vd,km))\n\n\n\nCode\nfor i in range(0,5):\n    plt.plot(time_steps, solution[:,i])\nplt.xlabel(\"Time [h]\")\nplt.ylabel(\"Value (a.u.)\")\nplt.show()\n\n\n\n\n\nSolving a parameterized ODE with odeint.\n\n\n\n\n\nExercise 4)\nTake the system from exercise 3, and implement it so you can use the args option from the odeint function. Simulate the model for different values of b and plot the results. What do you observe?\n\n# Your code here!",
+    "crumbs": [
+      "Practicals",
+      "ODEs with Python I"
+    ]
+  },
+  {
+    "objectID": "staff/assistants/marjolein-severens.html",
+    "href": "staff/assistants/marjolein-severens.html",
+    "title": "Marjolein Severens",
+    "section": "",
+    "text": "Marjolein Severens is a MSc student Biomedical Engineering focusing on Computational Biology.\n \n  \n   \n  \n    \n     contact",
+    "crumbs": [
+      "Teaching Assistants",
+      "Marjolein Severens"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/04-arjen-kars-boer.html",
+    "href": "staff/lecturers/04-arjen-kars-boer.html",
+    "title": "Arjen-Kars Boer",
+    "section": "",
+    "text": "dr. Arjen-Kars Boer is a specialist in laboratory medicine at the Catharina Hospital in Eindhoven and affiliated with the Eindhoven University of Technology as a university researcher in the Department of Biomedical Engineering.\n \n  \n   \n  \n    \n     TU/e Profile\n  \n  \n    \n     contact",
+    "crumbs": [
+      "Lecturers",
+      "Arjen-Kars Boer"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/01-natal-van-riel.html",
+    "href": "staff/lecturers/01-natal-van-riel.html",
+    "title": "Natal van Riel",
+    "section": "",
+    "text": "Natal van Riel is Professor of Biomedical Systems Biology at the department of Biomedical Engineering at Eindhoven University of Technology, where he leads the Computational Biology group and the Systems Biology and Metabolic Diseases research program. He is also part-time Professor of Computational Modelling at Amsterdam University Medical Centers (location AMC, University of Amsterdam’s Faculty of Medicine).\n \n  \n   \n  \n    \n     TU/e Profile\n  \n  \n    \n     contact",
+    "crumbs": [
+      "Lecturers",
+      "Natal van Riel"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/01-natal-van-riel.html#research-profile",
+    "href": "staff/lecturers/01-natal-van-riel.html#research-profile",
+    "title": "Natal van Riel",
+    "section": "Research Profile",
+    "text": "Research Profile\nNatal’s research focuses on modelling of metabolic networks and physiology, machine learning for parameter estimation, methods for analysis of dynamic models, and applications in Metabolic Syndrome and associated diseases such as Type 2 Diabetes. The role of bile acids in the complex interaction between gut microbiome and metabolic health is currently an important research focus in his group (e.g. in the RESOLVE project in collaboration with Amsterdam UMC). Within the NWO program ‘Complexity in Health and Nutrition’, Natal van Riel also focuses on modelling the digestion and metabolism of nutrients in the project ‘Metabolic adaptation, transitions and resilience in overweight individuals’. In cooperation with the Catharina hospital in Eindhoven he has developed the Metabolic Health Index (MHI) to quantify the benefit of bariatric surgery to resolve metabolic diseases (type 2 diabetes, dyslipidemia), which is a second important outcome of the surgical treatment in addition to weight reduction. He develops metabolic ‘digital twins’ of human individuals to enable predictive, preventive, personalized, and participatory medicine. In the DiaGame project digital twins are developed to empower patients with diabetes in self-management of their disease.",
+    "crumbs": [
+      "Lecturers",
+      "Natal van Riel"
+    ]
+  },
+  {
+    "objectID": "staff/lecturers/01-natal-van-riel.html#academic-background",
+    "href": "staff/lecturers/01-natal-van-riel.html#academic-background",
+    "title": "Natal van Riel",
+    "section": "Academic Background",
+    "text": "Academic Background\nNatal van Riel studied Electrical Engineering at Eindhoven University of Technology (TU/e, The Netherlands) where he was trained in system identification and control engineering. After receiving his MSc degree in 1995, he started PhD research in the Biotechnology group of Unilever Research Vlaardingen (The Netherlands) under supervision of Prof. Theo Verrips, on integrating computational modelling and experiments to study cell metabolism. In 2000, he obtained his PhD from Utrecht University (The Netherlands). From 2000 to 2003, he worked in the department of Electrical Engineering of TU/e, investigating the application of system and control theory to understand biological processes. In 2003, he was appointed as Assistant Professor in the department of Biomedical Engineering at TU/e where he initiated Systems Biology research. This was expanded when he joined the group of Prof. Peter Hilbers in 2006, to lead the Computational Systems Biology research program, investigating complex, multi-factorial diseases. In 2014, Natal van Riel was appointed Associate Professor of Systems Biology and Metabolic Diseases. In that same year he was a visiting scholar of the department of Bioengineering at the University of California San Diego (UCSD) in the group of Prof. Bernhard Palsson. In 2015, he was appointed part-time Professor of Computational Modelling at the Academic Medical Center AMC (University of Amsterdam). In 2019, he was appointed full Professor of Biomedical Systems Biology at TU/e. In 2023 he became head of the Computational Biology group at TU/e.\nNatal van Riel is chair of the Examination Committee of BmE and as such member of the general Examination Committee of the TU/e and member of the Quality Committee of the department. He is member of the Curriculum Committee of the department and coordinates the learning line on Biomedical Systems Modeling. He is also member of the Research Committee of the department and member of the Interdepartmental Committee (IFC) for Engineering. Dr. Jeffrey Girard studies how emotions are expressed through verbal and nonverbal behavior, as well as how interpersonal communication is influenced by individual differences (e.g., personality and mental health) and social factors (e.g., culture and context). This work is deeply interdisciplinary and draws insights and tools from various areas of social science, computer science, statistics, and medicine.",
+    "crumbs": [
+      "Lecturers",
+      "Natal van Riel"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html",
+    "href": "lectures/6b-diabetes.html",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html#learning-outcomes",
+    "href": "lectures/6b-diabetes.html#learning-outcomes",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html#book-chapters",
+    "href": "lectures/6b-diabetes.html#book-chapters",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 11 and 12",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html#lecture-and-practical",
+    "href": "lectures/6b-diabetes.html#lecture-and-practical",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 21 2025\n\n08:45 - 10:30 - Diabetes\n\nSlides\n\n\n\n10:45 - 12:30 - Poster Session\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html#quiz-schedule",
+    "href": "lectures/6b-diabetes.html#quiz-schedule",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 March\n13:00\n❌ Quiz 4 Resit Closed\n\n\n19 March\n13:00\n❌ Quiz 5 Closed\n\n\n19 March\n15:00\n✅ Quiz 5 Resit Open",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html",
+    "href": "lectures/4b-organ-specialization.html",
+    "title": "Organ Specialization",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html#learning-outcomes",
+    "href": "lectures/4b-organ-specialization.html#learning-outcomes",
+    "title": "Organ Specialization",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html#book-chapters",
+    "href": "lectures/4b-organ-specialization.html#book-chapters",
+    "title": "Organ Specialization",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 5 and 6.2.5.1: Leptin",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html#lecture-and-practical",
+    "href": "lectures/4b-organ-specialization.html#lecture-and-practical",
+    "title": "Organ Specialization",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 28 2025\n\n08:45 - 10:30 - Organ Specialization\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 2\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html#quiz-schedule",
+    "href": "lectures/4b-organ-specialization.html#quiz-schedule",
+    "title": "Organ Specialization",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 February\n13:00\n❌ Quiz 2 Resit Closed\n\n\n26 February\n13:00\n❌ Quiz 3 Closed\n\n\n26 February\n15:00\n✅ Quiz 3 Resit Open\n\n\n26 February\n15:00\n✅ Quiz 4 Open",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html",
+    "href": "lectures/3b-digestive-system.html",
+    "title": "The Digestive System",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html#learning-outcomes",
+    "href": "lectures/3b-digestive-system.html#learning-outcomes",
+    "title": "The Digestive System",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html#book-chapters",
+    "href": "lectures/3b-digestive-system.html#book-chapters",
+    "title": "The Digestive System",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 4, Chapter 6.2.1: Pancreas, and Chapter 6.2.5.5: Incretins",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html#lecture-and-practical",
+    "href": "lectures/3b-digestive-system.html#lecture-and-practical",
+    "title": "The Digestive System",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 21 2025\n\n08:45 - 10:30 - The Digestive System\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 1\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html#quiz-schedule",
+    "href": "lectures/3b-digestive-system.html#quiz-schedule",
+    "title": "The Digestive System",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 February\n13:00\n❌ Quiz 1 Resit Closed\n\n\n19 February\n13:00\n❌ Quiz 2 Closed\n\n\n19 February\n15:00\n✅ Quiz 2 Resit Open\n\n\n19 February\n15:00\n✅ Quiz 3 Open",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html",
+    "href": "lectures/3a-biological-models.html",
+    "title": "Biological Models",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Biological Models"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html#learning-outcomes",
+    "href": "lectures/3a-biological-models.html#learning-outcomes",
+    "title": "Biological Models",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Biological Models"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html#book-chapters",
+    "href": "lectures/3a-biological-models.html#book-chapters",
+    "title": "Biological Models",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nLecture notes chapter 5",
+    "crumbs": [
+      "Lectures",
+      "Biological Models"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html#lecture-and-practical",
+    "href": "lectures/3a-biological-models.html#lecture-and-practical",
+    "title": "Biological Models",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 19 2025\n\n13:30 - 15:15 - Biological Models\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 1\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Biological Models"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html#quiz-schedule",
+    "href": "lectures/3a-biological-models.html#quiz-schedule",
+    "title": "Biological Models",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 February\n13:00\n❌ Quiz 1 Resit Closed\n\n\n19 February\n13:00\n❌ Quiz 2 Closed\n\n\n19 February\n15:00\n✅ Quiz 2 Resit Open\n\n\n19 February\n15:00\n✅ Quiz 3 Open",
+    "crumbs": [
+      "Lectures",
+      "Biological Models"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html",
+    "href": "lectures/1a-course-introduction.html",
+    "title": "Course Introduction",
+    "section": "",
+    "text": "During this lecture, we’ll address principal learning outcome number 1, which is:\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the goal of metabolism in the human body and name its main energy sources.\nGive the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).\nExplain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.\nIdentify reducing agents and oxidizing agents in a chemical reaction.\nGive the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.\nExplain the difference between catabolic and anabolic reactions in human metabolism.\nGive examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.\nExplain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.\nGive the main pathways of the metabolic (energy) flux in the human body\nLocate and explain the subprocesses of the metabolic energy pathways:\n\n\ngeneral: TCA cycle, electron transport chain\nglucose: Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways\nlipids: beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis\namino acids: amino acid catabolism, urea cycle, amino acid synthesis",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html#learning-outcomes",
+    "href": "lectures/1a-course-introduction.html#learning-outcomes",
+    "title": "Course Introduction",
+    "section": "",
+    "text": "During this lecture, we’ll address principal learning outcome number 1, which is:\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the goal of metabolism in the human body and name its main energy sources.\nGive the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).\nExplain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.\nIdentify reducing agents and oxidizing agents in a chemical reaction.\nGive the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.\nExplain the difference between catabolic and anabolic reactions in human metabolism.\nGive examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.\nExplain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.\nGive the main pathways of the metabolic (energy) flux in the human body\nLocate and explain the subprocesses of the metabolic energy pathways:\n\n\ngeneral: TCA cycle, electron transport chain\nglucose: Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways\nlipids: beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis\namino acids: amino acid catabolism, urea cycle, amino acid synthesis",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html#book-chapters",
+    "href": "lectures/1a-course-introduction.html#book-chapters",
+    "title": "Course Introduction",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 1",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html#lecture-and-practical",
+    "href": "lectures/1a-course-introduction.html#lecture-and-practical",
+    "title": "Course Introduction",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 5 2025\n\n13:30 - 15:15 - Course Introduction\n\nSlides\n\n\n\n15:30 - 17:15 - Installing diffeqpy\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html#quiz-schedule",
+    "href": "lectures/1a-course-introduction.html#quiz-schedule",
+    "title": "Course Introduction",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n5 February\n15:00\n✅ Quiz 1 Open",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html",
+    "href": "lectures/5b-exercise-and-extreme-situations.html",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
+    "href": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html#book-chapters",
+    "href": "lectures/5b-exercise-and-extreme-situations.html#book-chapters",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 8",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html#lecture-and-practical",
+    "href": "lectures/5b-exercise-and-extreme-situations.html#lecture-and-practical",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: March 14 2025\n\n08:45 - 10:30 - Metabolism in Daily Life and Exercise\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 2\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html#quiz-schedule",
+    "href": "lectures/5b-exercise-and-extreme-situations.html#quiz-schedule",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 March\n13:00\n❌ Quiz 3 Resit Closed\n\n\n12 March\n13:00\n❌ Quiz 4 Closed\n\n\n12 March\n15:00\n✅ Quiz 4 Resit Open\n\n\n12 March\n15:00\n✅ Quiz 5 Open",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html",
+    "href": "lectures/2b-cell-biology.html",
+    "title": "Cell Biology of Metabolism",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html#learning-outcomes",
+    "href": "lectures/2b-cell-biology.html#learning-outcomes",
+    "title": "Cell Biology of Metabolism",
+    "section": "",
+    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html#book-chapters",
+    "href": "lectures/2b-cell-biology.html#book-chapters",
+    "title": "Cell Biology of Metabolism",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 2 and 3",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html#lecture-and-practical",
+    "href": "lectures/2b-cell-biology.html#lecture-and-practical",
+    "title": "Cell Biology of Metabolism",
+    "section": "Lecture and Practical",
+    "text": "Lecture and Practical\nDate: February 14 2025\n\n08:45 - 10:30 - Cell Biology of Metabolism\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 1\n\nPractical",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html#quiz-schedule",
+    "href": "lectures/2b-cell-biology.html#quiz-schedule",
+    "title": "Cell Biology of Metabolism",
+    "section": "Quiz Schedule",
+    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 February\n13:00\n❌ Quiz 1 Closed\n\n\n12 February\n15:00\n✅ Quiz 1 Resit Open\n\n\n12 February\n15:00\n✅ Quiz 2 Open",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  }
+]
