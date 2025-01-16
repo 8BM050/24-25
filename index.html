@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to 8BM050 Systems Biology Models – 8BM050</title>
+<title>8BM050 - Systems Biology Models – 8BM050</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,8 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3794884eef2655717d138b4249410d2a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-016b915ed9a0be4626ab817cdeb28b7a.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-11a335086794ac4d2fd8551de4845674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a7251800ad0119cce33584d1e6de8dee.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,13 +80,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-Time','listing-title','listing-Slides',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-time','listing-title','listing-location',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-lectures'] = new List('listing-lectures', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-assignments .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-categories","listing-date-open"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-assignments'] = new List('listing-assignments', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -189,12 +217,12 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Welcome to 8BM050 Systems Biology Models – 8BM050">
+<meta property="og:title" content="8BM050 - Systems Biology Models – 8BM050">
 <meta property="og:description" content="Homepage for 8BM050 - Systems Biology Models at Eindhoven University of Technology">
 <meta property="og:site_name" content="8BM050">
 </head>
 
-<body class="nav-sidebar floating nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -243,7 +271,7 @@ window.Quarto = {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
@@ -300,7 +328,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/3a-biological-models.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Biological Models</span></a>
+ <span class="menu-text">Dynamic Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -316,7 +344,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lectures/4a-building-models.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Building Models, Pharmacokinetics</span></a>
+ <span class="menu-text">Whole-Body Models</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -409,18 +437,33 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes">🏁 Learning Outcomes</a></li>
+  <li><a href="#lecture-schedule" id="toc-lecture-schedule" class="nav-link" data-scroll-target="#lecture-schedule">📅 Lecture Schedule</a></li>
+  <li><a href="#assessment-deadlines" id="toc-assessment-deadlines" class="nav-link" data-scroll-target="#assessment-deadlines">📝 Assessment &amp; Deadlines</a></li>
+  <li><a href="#lecturers-contact" id="toc-lecturers-contact" class="nav-link" data-scroll-target="#lecturers-contact">✉️ Lecturers &amp; Contact</a>
+  <ul class="collapse">
+  <li><a href="#lecturers" id="toc-lecturers" class="nav-link" data-scroll-target="#lecturers">Lecturers</a></li>
+  <li><a href="#teaching-assistants" id="toc-teaching-assistants" class="nav-link" data-scroll-target="#teaching-assistants">Teaching Assistants</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to 8BM050 Systems Biology Models</h1>
+<h1 class="title">8BM050 - Systems Biology Models</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -432,21 +475,39 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-default callout-caution callout-titled" title="Information regarding the postponement of the course">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Information regarding the postponement of the course
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Due to the cyber attack at the Eindhoven University of Technology, the start of the course has been postponed by <strong>one week</strong>. The course will now start on February 12, 2025. The course schedule has been adjusted accordingly. Please check the schedule below for the new dates of the lectures.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Welcome to the 8BM050 course!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Welcome to the 8BM050 course!
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <div id="2" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display" data-execution_count="1">
 <div class="markdown"><p>Welcome to <strong>week 1</strong> of the 8BM050 course!</p>
-<p>Lecture A: <a href="./lectures/1a-course-introduction.html">Course Introduction</a></p>
-<p>Lecture B: <a href="./lectures/1b-graph-theory.html">Graph Theory</a></p>
+<ul>
+<li><p>Lecture A: <a href="./lectures/1a-course-introduction.html">Course Introduction</a></p>
+</li>
+<li><p>Lecture B: <a href="./lectures/1b-graph-theory.html">Graph Theory</a></p>
+</li>
+</ul>
+<p>There are no upcoming deadlines this week.</p>
 </div>
 </div>
 </div>
@@ -486,13 +547,13 @@ Note
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
+          **Date** - Oldest
         </option>
          <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
+          **Date** - Newest
         </option>
          <option value="listing-title-sort" data-direction="asc">
-          Title
+          **Title**
         </option>
      </select>
   </div>
@@ -505,214 +566,214 @@ Note
 <thead>
 <tr>
 <th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><strong>Date</strong></a>
 </th>
 <th>
 Time
 </th>
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><strong>Title</strong></a>
 </th>
 <th>
-Slides
+Location
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1738713600000" data-listing-file-modified-sort="1736257231763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296" data-listing-title-sort="Course Introduction" data-listing-filename-sort="1a-course-introduction.qmd">
+<tr data-index="0" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739318400000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="269" data-listing-title-sort="Course Introduction" data-listing-filename-sort="1a-course-introduction.qmd">
 <td>
-<span class="listing-date">Wed, 5 Feb</span>
+<span class="listing-date">Wed, 12 Feb</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
 <a href="./lectures/1a-course-introduction.html" class="title listing-title">Course Introduction</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="https://canvas.tue.nl/files/6038174/download?download_frd=1">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1738886400000" data-listing-file-modified-sort="1736257231763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="279" data-listing-title-sort="Graph Theory" data-listing-filename-sort="1b-graph-theory.qmd">
+<tr data-index="1" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="237" data-listing-title-sort="Graph Theory" data-listing-filename-sort="1b-graph-theory.qmd">
 <td>
-<span class="listing-date">Fri, 7 Feb</span>
+<span class="listing-date">Fri, 14 Feb</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/1b-graph-theory.html" class="title listing-title">Graph Theory</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="https://canvas.tue.nl/files/6038173/download?download_frd=1">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="2" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739318400000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="90" data-listing-title-sort="Dynamic Models" data-listing-filename-sort="2a-differential-equations.qmd">
+<tr data-index="2" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739923200000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="115" data-listing-title-sort="Dynamic Models" data-listing-filename-sort="2a-differential-equations.qmd">
 <td>
-<span class="listing-date">Wed, 12 Feb</span>
+<span class="listing-date">Wed, 19 Feb</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
 <a href="./lectures/2a-differential-equations.html" class="title listing-title">Dynamic Models</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-2A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739491200000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="92" data-listing-title-sort="Cell Biology of Metabolism" data-listing-filename-sort="2b-cell-biology.qmd">
+<tr data-index="3" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740096000000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-title-sort="Cell Biology of Metabolism" data-listing-filename-sort="2b-cell-biology.qmd">
 <td>
-<span class="listing-date">Fri, 14 Feb</span>
+<span class="listing-date">Fri, 21 Feb</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/2b-cell-biology.html" class="title listing-title">Cell Biology of Metabolism</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-2B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1739923200000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="96" data-listing-title-sort="Biological Models" data-listing-filename-sort="3a-biological-models.qmd">
+<tr data-index="4" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740528000000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="Dynamic Models" data-listing-filename-sort="3a-biological-models.qmd">
 <td>
-<span class="listing-date">Wed, 19 Feb</span>
+<span class="listing-date">Wed, 26 Feb</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
-<a href="./lectures/3a-biological-models.html" class="title listing-title">Biological Models</a>
+<a href="./lectures/3a-biological-models.html" class="title listing-title">Dynamic Models</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-3A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740096000000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107" data-listing-title-sort="The Digestive System" data-listing-filename-sort="3b-digestive-system.qmd">
+<tr data-index="5" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740700800000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="42" data-listing-title-sort="The Digestive System" data-listing-filename-sort="3b-digestive-system.qmd">
 <td>
-<span class="listing-date">Fri, 21 Feb</span>
+<span class="listing-date">Fri, 28 Feb</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/3b-digestive-system.html" class="title listing-title">The Digestive System</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-3B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740528000000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97" data-listing-title-sort="Building Models, Pharmacokinetics" data-listing-filename-sort="4a-building-models.qmd">
+<tr data-index="6" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1741737600000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33" data-listing-title-sort="Whole-Body Models" data-listing-filename-sort="4a-building-models.qmd">
 <td>
-<span class="listing-date">Wed, 26 Feb</span>
+<span class="listing-date">Wed, 12 Mar</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
-<a href="./lectures/4a-building-models.html" class="title listing-title">Building Models, Pharmacokinetics</a>
+<a href="./lectures/4a-building-models.html" class="title listing-title">Whole-Body Models</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-4A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="7" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1740700800000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="102" data-listing-title-sort="Organ Specialization" data-listing-filename-sort="4b-organ-specialization.qmd">
+<tr data-index="7" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1741910400000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Organ Specialization" data-listing-filename-sort="4b-organ-specialization.qmd">
 <td>
-<span class="listing-date">Fri, 28 Feb</span>
+<span class="listing-date">Fri, 14 Mar</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/4b-organ-specialization.html" class="title listing-title">Organ Specialization</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-4B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="8" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1741737600000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Metabolism in Daily Life" data-listing-filename-sort="5a-metabolism-in-daily-life.qmd">
+<tr data-index="8" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742342400000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Metabolism in Daily Life" data-listing-filename-sort="5a-metabolism-in-daily-life.qmd">
 <td>
-<span class="listing-date">Wed, 12 Mar</span>
+<span class="listing-date">Wed, 19 Mar</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
 <a href="./lectures/5a-metabolism-in-daily-life.html" class="title listing-title">Metabolism in Daily Life</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-5A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="9" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1741910400000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="103" data-listing-title-sort="Exercise and Extreme Physiological Situations" data-listing-filename-sort="5b-exercise-and-extreme-situations.qmd">
+<tr data-index="9" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742515200000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35" data-listing-title-sort="Exercise and Extreme Physiological Situations" data-listing-filename-sort="5b-exercise-and-extreme-situations.qmd">
 <td>
-<span class="listing-date">Fri, 14 Mar</span>
+<span class="listing-date">Fri, 21 Mar</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/5b-exercise-and-extreme-situations.html" class="title listing-title">Exercise and Extreme Physiological Situations</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-5B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="10" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742342400000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85" data-listing-title-sort="Immunometabolism" data-listing-filename-sort="6a-immunometabolism.qmd">
+<tr data-index="10" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742947200000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Immunometabolism" data-listing-filename-sort="6a-immunometabolism.qmd">
 <td>
-<span class="listing-date">Wed, 19 Mar</span>
+<span class="listing-date">Wed, 26 Mar</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
 <a href="./lectures/6a-immunometabolism.html" class="title listing-title">Immunometabolism</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-6A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="11" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742515200000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-title-sort="Energy Balance, Weight Control, Diabetes" data-listing-filename-sort="6b-diabetes.qmd">
+<tr data-index="11" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1743120000000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-title-sort="Energy Balance, Weight Control, Diabetes" data-listing-filename-sort="6b-diabetes.qmd">
 <td>
-<span class="listing-date">Fri, 21 Mar</span>
+<span class="listing-date">Fri, 28 Mar</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/6b-diabetes.html" class="title listing-title">Energy Balance, Weight Control, Diabetes</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-6B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="12" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1742947200000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="61" data-listing-title-sort="Endocrinology: Cortisol, HPA, Adrenals" data-listing-filename-sort="7a-endocrinology.qmd">
+<tr data-index="12" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1743552000000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38" data-listing-title-sort="Endocrinology: Cortisol, HPA, Adrenals" data-listing-filename-sort="7a-endocrinology.qmd">
 <td>
-<span class="listing-date">Wed, 26 Mar</span>
+<span class="listing-date">Wed, 2 Apr</span>
 </td>
 <td>
-<span class="listing-Time">13:30 - 15:15</span>
+<span class="listing-time">13:30 - 15:15</span>
 </td>
 <td>
 <a href="./lectures/7a-endocrinology.html" class="title listing-title">Endocrinology: Cortisol, HPA, Adrenals</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-7A.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
-<tr data-index="13" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1743120000000" data-listing-file-modified-sort="1736257231764" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63" data-listing-title-sort="Endocrinology (2), Case Studies in Clinical Endocrinology" data-listing-filename-sort="7b-clinical-endocrinology.qmd">
+<tr data-index="13" data-categories="TGVjdHVyZQ==" data-listing-date-sort="1743724800000" data-listing-file-modified-sort="1737027621286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-title-sort="Endocrinology (2), Case Studies in Clinical Endocrinology" data-listing-filename-sort="7b-clinical-endocrinology.qmd">
 <td>
-<span class="listing-date">Fri, 28 Mar</span>
+<span class="listing-date">Fri, 4 Apr</span>
 </td>
 <td>
-<span class="listing-Time">08:45 - 10:30</span>
+<span class="listing-time">08:45 - 10:30</span>
 </td>
 <td>
 <a href="./lectures/7b-clinical-endocrinology.html" class="title listing-title">Endocrinology (2), Case Studies in Clinical Endocrinology</a>
 </td>
 <td>
-<span class="listing-Slides"><a href="24-25/blob/main/slides/Lecture-7B.pdf">Lecture Slides <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-ppt-fill" viewbox="0 0 16 16"> <path d="M8.188 10H7V6.5h1.188a1.75 1.75 0 1 1 0 3.5"></path> <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM7 5.5a1 1 0 0 0-1 1V13a.5.5 0 0 0 1 0v-2h1.188a2.75 2.75 0 0 0 0-5.5z"></path> </svg></a></span>
+<span class="listing-location">VEC 2.113</span>
 </td>
 </tr>
 </tbody>
@@ -724,85 +785,207 @@ No matching items
 </section>
 <section id="assessment-deadlines" class="level2">
 <h2 class="anchored" data-anchor-id="assessment-deadlines">📝 Assessment &amp; Deadlines</h2>
-<p>The assessments for this course have been scheduled per week, and can be found in the following table.</p>
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 19%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-<col style="width: 9%">
-</colgroup>
+<div id="listing-assignments" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-assignments-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-assignments'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          **Description**
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          **Deadline** - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          **Deadline** - Newest
+        </option>
+         <option value="listing-categories" data-direction="asc">
+          **Type**
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped table-hover">
 <thead>
-<tr class="header">
-<th></th>
-<th>Week 1</th>
-<th>Week 2</th>
-<th>Week 3</th>
-<th>Week 4</th>
-<th>Week 5</th>
-<th>Week 6</th>
-<th>Week 7</th>
-<th>Week 8</th>
-<th>Examination period</th>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><strong>Description</strong></a>
+</th>
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><strong>Type</strong></a>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;"><strong>Deadline</strong></a>
+</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td><a href="https://canvas.tue.nl/courses/27578/quizzes">Weekly quizzes</a></td>
-<td>Week 1</td>
-<td>Week 2</td>
-<td>Week 3</td>
-<td>Week 4</td>
-<td>Week 5</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<tbody class="list">
+<tr data-index="0" data-categories="UXVpeg==" data-listing-date-sort="1739970000000" data-listing-title-sort="Quiz Week 1" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25764" class="title listing-title">Quiz Week 1</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 19 Feb 13:00</span>
+</td>
 </tr>
-<tr class="even">
-<td><a href="https://canvas.tue.nl/courses/27578/quizzes">Resit quizzes</a></td>
-<td></td>
-<td>Week 1 - Resit</td>
-<td>Week 2 - Resit</td>
-<td>Week 3 - Resit</td>
-<td>Week 4 - Resit</td>
-<td>Week 5 - Resit</td>
-<td></td>
-<td></td>
-<td></td>
+<tr data-index="1" data-categories="UXVpeg==" data-listing-date-sort="1740574800000" data-listing-title-sort="Quiz Week 2" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25883" class="title listing-title">Quiz Week 2</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 26 Feb 13:00</span>
+</td>
 </tr>
-<tr class="odd">
-<td>Assignment</td>
-<td></td>
-<td><a href="https://canvas.tue.nl/courses/27578/assignments/123908">Part 1</a></td>
-<td><a href="https://canvas.tue.nl/courses/27578/assignments/123908">Part 1</a></td>
-<td><a href="https://canvas.tue.nl/courses/27578/assignments/123909">Part 2</a></td>
-<td><a href="https://canvas.tue.nl/courses/27578/assignments/123909">Part 2</a></td>
-<td><a href="https://canvas.tue.nl/courses/27578/assignments/123909">Part 2</a></td>
-<td></td>
-<td></td>
-<td></td>
+<tr data-index="2" data-categories="UXVpeg==" data-listing-date-sort="1740574800000" data-listing-title-sort="Resit Quiz Week 1" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25882" class="title listing-title">Resit Quiz Week 1</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 26 Feb 13:00</span>
+</td>
 </tr>
-<tr class="even">
-<td>Final Exam</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>Exam</td>
+<tr data-index="3" data-categories="QXNzaWdubWVudA==" data-listing-date-sort="1740959940000" data-listing-title-sort="Practical Assignment Part 1" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/assignments/123908" class="title listing-title">Practical Assignment Part 1</a>
+</td>
+<td>
+<span class="listing-categories">Assignment</span>
+</td>
+<td>
+<span class="listing-date">Sun, 2 Mar 23:59</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="UXVpeg==" data-listing-date-sort="1741784400000" data-listing-title-sort="Quiz Week 3" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25885" class="title listing-title">Quiz Week 3</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 12 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="UXVpeg==" data-listing-date-sort="1741784400000" data-listing-title-sort="Resit Quiz Week 2" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25884" class="title listing-title">Resit Quiz Week 2</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 12 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="UXVpeg==" data-listing-date-sort="1742389200000" data-listing-title-sort="Quiz Week 4" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25887" class="title listing-title">Quiz Week 4</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 19 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="UXVpeg==" data-listing-date-sort="1742389200000" data-listing-title-sort="Resit Quiz Week 3" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25886" class="title listing-title">Resit Quiz Week 3</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 19 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="UXVpeg==" data-listing-date-sort="1742994000000" data-listing-title-sort="Quiz Week 5" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25889" class="title listing-title">Quiz Week 5</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 26 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="UXVpeg==" data-listing-date-sort="1742994000000" data-listing-title-sort="Resit Quiz Week 4" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25888" class="title listing-title">Resit Quiz Week 4</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 26 Mar 13:00</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="QXNzaWdubWVudA==" data-listing-date-sort="1743119940000" data-listing-title-sort="Practical Assignment Part 2" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/assignments/123909" class="title listing-title">Practical Assignment Part 2</a>
+</td>
+<td>
+<span class="listing-categories">Assignment</span>
+</td>
+<td>
+<span class="listing-date">Thu, 27 Mar 23:59</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="UXVpeg==" data-listing-date-sort="1743598800000" data-listing-title-sort="Resit Quiz Week 5" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<a href="https://canvas.tue.nl/courses/27578/quizzes/25890" class="title listing-title">Resit Quiz Week 5</a>
+</td>
+<td>
+<span class="listing-categories">Quiz</span>
+</td>
+<td>
+<span class="listing-date">Wed, 2 Apr 13:00</span>
+</td>
 </tr>
 </tbody>
 </table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<!-- The assessments for this course have been scheduled per week, and can be found in the following table.
+
+|                | Week 1  | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Examination period | 
+|----------------|---------| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------------------ | 
+| [Weekly quizzes](https://canvas.tue.nl/courses/27578/quizzes) | Week 1 | Week 2| Week 3| Week 4 | Week 5 |  |  | | |
+| [Resit quizzes](https://canvas.tue.nl/courses/27578/quizzes)  |   | Week 1 - Resit| Week 2 - Resit | Week 3 - Resit | Week 4 - Resit | Week 5 - Resit |  |   |   |
+| Assignment     |         | [Part 1](https://canvas.tue.nl/courses/27578/assignments/123908) | [Part 1](https://canvas.tue.nl/courses/27578/assignments/123908) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) |  |   |  |
+| Final Exam     |    |   | | | | | | | Exam |
+
+: {tbl-colwidths="[19, 9, 9, 9, 9, 9, 9, 9, 9, 9]" .striped .hover} -->
 </section>
 <section id="lecturers-contact" class="level2">
 <h2 class="anchored" data-anchor-id="lecturers-contact">✉️ Lecturers &amp; Contact</h2>
@@ -810,7 +993,7 @@ No matching items
 <h3 class="anchored" data-anchor-id="lecturers">Lecturers</h3>
 <div id="listing-lecturers" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="3" data-listing-word-count-sort="599">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1737027621309" data-listing-reading-time-sort="3" data-listing-word-count-sort="599">
 <a href="./staff/lecturers/01-natal-van-riel.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -827,7 +1010,7 @@ Responsible Lecturer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1737027621309" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
 <a href="./staff/lecturers/02-shauna-odonovan.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -844,7 +1027,7 @@ Lecturer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1737027621309" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
 <a href="./staff/lecturers/03-max-de-rooij.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -861,7 +1044,7 @@ Lecturer
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1737027621309" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
 <a href="./staff/lecturers/04-arjen-kars-boer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
@@ -888,7 +1071,7 @@ No matching items
 <h3 class="anchored" data-anchor-id="teaching-assistants">Teaching Assistants</h3>
 <div id="listing-teaching-assistants" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1737027621309" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
 <a href="./staff/assistants/marjolein-severens.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top"><img src="staff/assistants/assets/m-s.jpg" style="height: 225px;"  class="thumbnail-image card-img"/></p>
@@ -903,11 +1086,11 @@ Teaching Assistant
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1736257231788" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1737027621308" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <a href="./staff/assistants/jort-lokers.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-center">
 <p class="card-img-top">
-<img loading="lazy" src="https://media.licdn.com/dms/image/v2/D4E03AQHB_D9tWLkRXA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730809495566?e=1736985600&amp;v=beta&amp;t=wb8pOl5BwXL4Xu8wTljwFJdVNHqNGLyEOXzN-3WUn9w" class="thumbnail-image card-img" style="height: 225px;">
+<img loading="lazy" src="https://media.licdn.com/dms/image/v2/D4E03AQHB_D9tWLkRXA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730809495566?e=2147483647&amp;v=beta&amp;t=eBGxYev-IPDg2eUVWK0RBsfO95X3A5yt0yBJBwd6vfk" class="thumbnail-image card-img" style="height: 225px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -1503,11 +1686,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
 <p>Academic year 2024-2025</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/8BM050/24-25/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/8BM050/24-25/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- <p xmlns:cc="http://creativecommons.org/ns#">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a> <br> <a href="./ATTRIBUTIONS.html" target="_blank">Attribution</a></p>
+    <a class="nav-link" href="./ATTRIBUTIONS.html">
+<p>Attributions</p>
+</a>
   </li>  
 </ul>
     </div>

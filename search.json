@@ -4,14 +4,14 @@
     "href": "update_checklist.html",
     "title": "Checklist for course updates",
     "section": "",
-    "text": "_quarto.yml: - [ ] Update the repository URL to match the new course repository. - [ ] Update the center footer to match the new academic year. - [ ] Update the repository URL in the navbar.\n_variables.yml: - [ ] Update the course repository - [ ] Update the canvas link\nindex.qmd: - [ ] Update the notification dates to match the new lecture weeks.\n\n\n\ncontent/content.qmd: - [ ] Update the learning outcomes. - [ ] Update the course structure based on modifications that were made. - [ ] Update the assessment structure based on modifications that were made.\ncontent/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the pdf files in the slides folder.\n\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
+    "text": "_quarto.yml: - [x] Update the repository URL to match the new course repository. - [x] Update the center footer to match the new academic year. - [x] Update the repository URL in the navbar.\n_variables.yml: - [x] Update the course repository - [x] Update the canvas link\nindex.qmd: - [x] Update the notification dates to match the new lecture weeks. - [x] Update the learning outcomes.\n\n\n\ninfo/info.qmd:\n\nUpdate the course structure based on modifications that were made.\nUpdate the assessment structure based on modifications that were made.\n\nlectures/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
   },
   {
     "objectID": "update_checklist.html#course-website",
     "href": "update_checklist.html#course-website",
     "title": "Checklist for course updates",
     "section": "",
-    "text": "_quarto.yml: - [ ] Update the repository URL to match the new course repository. - [ ] Update the center footer to match the new academic year. - [ ] Update the repository URL in the navbar.\n_variables.yml: - [ ] Update the course repository - [ ] Update the canvas link\nindex.qmd: - [ ] Update the notification dates to match the new lecture weeks.\n\n\n\ncontent/content.qmd: - [ ] Update the learning outcomes. - [ ] Update the course structure based on modifications that were made. - [ ] Update the assessment structure based on modifications that were made.\ncontent/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the pdf files in the slides folder.\n\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
+    "text": "_quarto.yml: - [x] Update the repository URL to match the new course repository. - [x] Update the center footer to match the new academic year. - [x] Update the repository URL in the navbar.\n_variables.yml: - [x] Update the course repository - [x] Update the canvas link\nindex.qmd: - [x] Update the notification dates to match the new lecture weeks. - [x] Update the learning outcomes.\n\n\n\ninfo/info.qmd:\n\nUpdate the course structure based on modifications that were made.\nUpdate the assessment structure based on modifications that were made.\n\nlectures/xx-&lt;title&gt;.qmd: - [ ] Update the content of each lecture based on modifications that were made.\n\n\n\n\nUpdate the staff information in the staff/staff.qmd file.\n\n\n\n\n\nUpdate the notebooks in the notebooks folder."
   },
   {
     "objectID": "8bm050/notebooks/00-test-environment-setup.html",
@@ -67,9 +67,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to 8BM050 Systems Biology Models",
+    "title": "8BM050 - Systems Biology Models",
     "section": "",
-    "text": "Note\n\n\n\n\n\nWelcome to week 1 of the 8BM050 course!\nLecture A: Course Introduction\nLecture B: Graph Theory\nCanvas →  Lecture Notes →      Course Information →\nThis course will discuss principles of human metabolism and its regulation. Basic principles will be discussed first, such as the central human energy metabolism and regulation of metabolism at a cellular level. Then, the functional anatomy of digestive tract, metabolism and its regulatory organs are discussed, additionally discussing regulatory hormones. Finally, the knowledge will be integrated into the discussion of whole-body metabolism, and its adaptation to factors such as stress, exercise and disease.\nThe biological theory will be complemented by an engineering perspective on metabolic regulation, by discussion of techniques to statically and dynamically model components of this regulatory system. We will discuss the basics of mathematical graph theory and use these to move from static models to dynamic models of biochemical processes and signalling networks. During the practical part of the course, students will be working with these models and using Python to perform simulations and analyses.",
+    "text": "Information regarding the postponement of the course\n\n\n\nDue to the cyber attack at the Eindhoven University of Technology, the start of the course has been postponed by one week. The course will now start on February 12, 2025. The course schedule has been adjusted accordingly. Please check the schedule below for the new dates of the lectures.\nCanvas →  Lecture Notes →      Course Information →\nThis course will discuss principles of human metabolism and its regulation. Basic principles will be discussed first, such as the central human energy metabolism and regulation of metabolism at a cellular level. Then, the functional anatomy of digestive tract, metabolism and its regulatory organs are discussed, additionally discussing regulatory hormones. Finally, the knowledge will be integrated into the discussion of whole-body metabolism, and its adaptation to factors such as stress, exercise and disease.\nThe biological theory will be complemented by an engineering perspective on metabolic regulation, by discussion of techniques to statically and dynamically model components of this regulatory system. We will discuss the basics of mathematical graph theory and use these to move from static models to dynamic models of biochemical processes and signalling networks. During the practical part of the course, students will be working with these models and using Python to perform simulations and analyses.",
     "crumbs": [
       "Home"
     ]
@@ -77,7 +77,7 @@
   {
     "objectID": "index.html#learning-outcomes",
     "href": "index.html#learning-outcomes",
-    "title": "Welcome to 8BM050 Systems Biology Models",
+    "title": "8BM050 - Systems Biology Models",
     "section": "🏁 Learning Outcomes",
     "text": "🏁 Learning Outcomes\nAt the end of this course, the student is able to:\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\nUnderstand and describe the compartmentalisation and adaptation of metabolic processes at a cellular level.\nUnderstand and describe the functional anatomy of the digestive system for carbohydrates, lipids and proteins.\nDescribe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation\nConstruct a linear dynamic model of biochemical processes using the law of mass action\nExplain the function of different terms in a simple system of (possibly nonlinear) ordinary differential equations.\nCalculate the steady-state conditions for a simple system of ordinary differential equations.\nUse Python to simulate and analyse systems of ordinary differential equations",
     "crumbs": [
@@ -87,9 +87,9 @@
   {
     "objectID": "index.html#lecture-schedule",
     "href": "index.html#lecture-schedule",
-    "title": "Welcome to 8BM050 Systems Biology Models",
+    "title": "8BM050 - Systems Biology Models",
     "section": "📅 Lecture Schedule",
-    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\nSlides\n\n\n\n\n\n\nWed, 5 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\nLecture Slides    \n\n\n\n\nFri, 7 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\nLecture Slides    \n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\nLecture Slides    \n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\nLecture Slides    \n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nBiological Models\n\n\nLecture Slides    \n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\nLecture Slides    \n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nBuilding Models, Pharmacokinetics\n\n\nLecture Slides    \n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\nLecture Slides    \n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\nLecture Slides    \n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nExercise and Extreme Physiological Situations\n\n\nLecture Slides    \n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nImmunometabolism\n\n\nLecture Slides    \n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\nLecture Slides    \n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\nLecture Slides    \n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nEndocrinology (2), Case Studies in Clinical Endocrinology\n\n\nLecture Slides    \n\n\n\n\n\nNo matching items",
+    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Date** - Oldest\n        \n         \n          **Date** - Newest\n        \n         \n          **Title**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\nLocation\n\n\n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\nVEC 2.113\n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\nVEC 2.113\n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\nVEC 2.113\n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\nVEC 2.113\n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\nVEC 2.113\n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\nVEC 2.113\n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nWhole-Body Models\n\n\nVEC 2.113\n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\nVEC 2.113\n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\nVEC 2.113\n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nExercise and Extreme Physiological Situations\n\n\nVEC 2.113\n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nImmunometabolism\n\n\nVEC 2.113\n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\nVEC 2.113\n\n\n\n\nWed, 2 Apr\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\nVEC 2.113\n\n\n\n\nFri, 4 Apr\n\n\n08:45 - 10:30\n\n\nEndocrinology (2), Case Studies in Clinical Endocrinology\n\n\nVEC 2.113\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -97,9 +97,9 @@
   {
     "objectID": "index.html#assessment-deadlines",
     "href": "index.html#assessment-deadlines",
-    "title": "Welcome to 8BM050 Systems Biology Models",
+    "title": "8BM050 - Systems Biology Models",
     "section": "📝 Assessment & Deadlines",
-    "text": "📝 Assessment & Deadlines\nThe assessments for this course have been scheduled per week, and can be found in the following table.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 1\nWeek 2\nWeek 3\nWeek 4\nWeek 5\nWeek 6\nWeek 7\nWeek 8\nExamination period\n\n\n\n\nWeekly quizzes\nWeek 1\nWeek 2\nWeek 3\nWeek 4\nWeek 5\n\n\n\n\n\n\nResit quizzes\n\nWeek 1 - Resit\nWeek 2 - Resit\nWeek 3 - Resit\nWeek 4 - Resit\nWeek 5 - Resit\n\n\n\n\n\nAssignment\n\nPart 1\nPart 1\nPart 2\nPart 2\nPart 2\n\n\n\n\n\nFinal Exam\n\n\n\n\n\n\n\n\nExam",
+    "text": "📝 Assessment & Deadlines\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Description**\n        \n         \n          **Deadline** - Oldest\n        \n         \n          **Deadline** - Newest\n        \n         \n          **Type**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDescription\n\n\nType\n\n\nDeadline\n\n\n\n\n\n\nQuiz Week 1\n\n\nQuiz\n\n\nWed, 19 Feb 13:00\n\n\n\n\nQuiz Week 2\n\n\nQuiz\n\n\nWed, 26 Feb 13:00\n\n\n\n\nResit Quiz Week 1\n\n\nQuiz\n\n\nWed, 26 Feb 13:00\n\n\n\n\nPractical Assignment Part 1\n\n\nAssignment\n\n\nSun, 2 Mar 23:59\n\n\n\n\nQuiz Week 3\n\n\nQuiz\n\n\nWed, 12 Mar 13:00\n\n\n\n\nResit Quiz Week 2\n\n\nQuiz\n\n\nWed, 12 Mar 13:00\n\n\n\n\nQuiz Week 4\n\n\nQuiz\n\n\nWed, 19 Mar 13:00\n\n\n\n\nResit Quiz Week 3\n\n\nQuiz\n\n\nWed, 19 Mar 13:00\n\n\n\n\nQuiz Week 5\n\n\nQuiz\n\n\nWed, 26 Mar 13:00\n\n\n\n\nResit Quiz Week 4\n\n\nQuiz\n\n\nWed, 26 Mar 13:00\n\n\n\n\nPractical Assignment Part 2\n\n\nAssignment\n\n\nThu, 27 Mar 23:59\n\n\n\n\nResit Quiz Week 5\n\n\nQuiz\n\n\nWed, 2 Apr 13:00\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -107,7 +107,7 @@
   {
     "objectID": "index.html#lecturers-contact",
     "href": "index.html#lecturers-contact",
-    "title": "Welcome to 8BM050 Systems Biology Models",
+    "title": "8BM050 - Systems Biology Models",
     "section": "✉️ Lecturers & Contact",
     "text": "✉️ Lecturers & Contact\n\nLecturers\n\n\n\n\n\n\n\n\n\n\nNatal van Riel\n\n\nResponsible Lecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nShauna O’Donovan\n\n\nLecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nMax de Rooij\n\n\nLecturer\n\n\n\n\n\n\n\n\n\n\n\n\n\nArjen-Kars Boer\n\n\nGuest Lecturer\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTeaching Assistants\n\n\n\n\n\n\n\n\nMarjolein Severens\n\n\nTeaching Assistant\n\n\n\n\n\n\n\n\n\n\n\n\n\nJort Lokers\n\n\nTeaching Assistant\n\n\n\n\n\n\n\nNo matching items\n\n\n⚠ This course website is carefully filled with all necessary information. When unexpected differences occur between the website and Osiris, the information provided in Osiris is leading.\n⚠ Please note that all educational materials related to this course and uploaded to the course website page, including but not limited to, presentation slides, lecture notes, examination materials, tests, formula sheets, are subject to copyright protection by Eindhoven University of Technology and authors of the course. Additionally, the course materials placed on the website, may contain third parties’ copyright protected material. By copying, distorting, distributing, uploading any of the materials placed on the website to the third party websites, you are responsible and liable for infringing copyright of these resources.",
     "crumbs": [
@@ -174,7 +174,18 @@
     "href": "lectures/4b-organ-specialization.html",
     "title": "Organ Specialization",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Organ Specialization"
+    ]
+  },
+  {
+    "objectID": "lectures/4b-organ-specialization.html#slides",
+    "href": "lectures/4b-organ-specialization.html#slides",
+    "title": "Organ Specialization",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Organ Specialization"
@@ -184,8 +195,8 @@
     "objectID": "lectures/4b-organ-specialization.html#learning-outcomes",
     "href": "lectures/4b-organ-specialization.html#learning-outcomes",
     "title": "Organ Specialization",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "Organ Specialization"
@@ -203,33 +214,22 @@
     ]
   },
   {
-    "objectID": "lectures/4b-organ-specialization.html#lecture-and-practical",
-    "href": "lectures/4b-organ-specialization.html#lecture-and-practical",
-    "title": "Organ Specialization",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 28 2025\n\n08:45 - 10:30 - Organ Specialization\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 2\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Organ Specialization"
-    ]
-  },
-  {
-    "objectID": "lectures/4b-organ-specialization.html#quiz-schedule",
-    "href": "lectures/4b-organ-specialization.html#quiz-schedule",
-    "title": "Organ Specialization",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 February\n13:00\n❌ Quiz 2 Resit Closed\n\n\n26 February\n13:00\n❌ Quiz 3 Closed\n\n\n26 February\n15:00\n✅ Quiz 3 Resit Open\n\n\n26 February\n15:00\n✅ Quiz 4 Open",
-    "crumbs": [
-      "Lectures",
-      "Organ Specialization"
-    ]
-  },
-  {
     "objectID": "lectures/5a-metabolism-in-daily-life.html",
     "href": "lectures/5a-metabolism-in-daily-life.html",
     "title": "Metabolism in Daily Life",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Metabolism in Daily Life"
+    ]
+  },
+  {
+    "objectID": "lectures/5a-metabolism-in-daily-life.html#slides",
+    "href": "lectures/5a-metabolism-in-daily-life.html#slides",
+    "title": "Metabolism in Daily Life",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Metabolism in Daily Life"
@@ -239,8 +239,8 @@
     "objectID": "lectures/5a-metabolism-in-daily-life.html#learning-outcomes",
     "href": "lectures/5a-metabolism-in-daily-life.html#learning-outcomes",
     "title": "Metabolism in Daily Life",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
       "Metabolism in Daily Life"
@@ -258,33 +258,22 @@
     ]
   },
   {
-    "objectID": "lectures/5a-metabolism-in-daily-life.html#lecture-and-practical",
-    "href": "lectures/5a-metabolism-in-daily-life.html#lecture-and-practical",
-    "title": "Metabolism in Daily Life",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 12 2025\n\n13:30 - 15:15 - Communication Systems\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Metabolism in Daily Life"
-    ]
-  },
-  {
-    "objectID": "lectures/5a-metabolism-in-daily-life.html#quiz-schedule",
-    "href": "lectures/5a-metabolism-in-daily-life.html#quiz-schedule",
-    "title": "Metabolism in Daily Life",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 March\n13:00\n❌ Quiz 3 Resit Closed\n\n\n12 March\n13:00\n❌ Quiz 4 Closed\n\n\n12 March\n15:00\n✅ Quiz 4 Resit Open\n\n\n12 March\n15:00\n✅ Quiz 5 Open",
-    "crumbs": [
-      "Lectures",
-      "Metabolism in Daily Life"
-    ]
-  },
-  {
     "objectID": "lectures/7a-endocrinology.html",
     "href": "lectures/7a-endocrinology.html",
     "title": "Endocrinology: Cortisol, HPA, Adrenals",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology: Cortisol, HPA, Adrenals"
+    ]
+  },
+  {
+    "objectID": "lectures/7a-endocrinology.html#slides",
+    "href": "lectures/7a-endocrinology.html#slides",
+    "title": "Endocrinology: Cortisol, HPA, Adrenals",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Endocrinology: Cortisol, HPA, Adrenals"
@@ -294,8 +283,8 @@
     "objectID": "lectures/7a-endocrinology.html#learning-outcomes",
     "href": "lectures/7a-endocrinology.html#learning-outcomes",
     "title": "Endocrinology: Cortisol, HPA, Adrenals",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
       "Endocrinology: Cortisol, HPA, Adrenals"
@@ -313,33 +302,22 @@
     ]
   },
   {
-    "objectID": "lectures/7a-endocrinology.html#lecture-and-practical",
-    "href": "lectures/7a-endocrinology.html#lecture-and-practical",
-    "title": "Endocrinology: Cortisol, HPA, Adrenals",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 26 2025\n\n13:30 - 15:15 - Endocrinology and Metabolism\n\nSlides",
-    "crumbs": [
-      "Lectures",
-      "Endocrinology: Cortisol, HPA, Adrenals"
-    ]
-  },
-  {
-    "objectID": "lectures/7a-endocrinology.html#quiz-schedule",
-    "href": "lectures/7a-endocrinology.html#quiz-schedule",
-    "title": "Endocrinology: Cortisol, HPA, Adrenals",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 March\n13:00\n❌ Quiz 5 Resit Closed",
-    "crumbs": [
-      "Lectures",
-      "Endocrinology: Cortisol, HPA, Adrenals"
-    ]
-  },
-  {
     "objectID": "lectures/2a-differential-equations.html",
     "href": "lectures/2a-differential-equations.html",
     "title": "Dynamic Models",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/2a-differential-equations.html#slides",
+    "href": "lectures/2a-differential-equations.html#slides",
+    "title": "Dynamic Models",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Dynamic Models"
@@ -349,8 +327,8 @@
     "objectID": "lectures/2a-differential-equations.html#learning-outcomes",
     "href": "lectures/2a-differential-equations.html#learning-outcomes",
     "title": "Dynamic Models",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 7\n\n\n\nConstruct a linear dynamic model of biochemical processes using the law of mass action\n\n\nAfter this lecture, you should be able to:\n\nDescribe the law of mass action and explain how it can be used to model biochemical processes.\nExplain the concept of a dynamic model and give examples of dynamic models in human metabolism.\nProvide the differential equations when given a reaction network, using the law of mass action.\nUse Euler’s method to numerically solve a first-order ordinary differential equation.\nExplain strategies to improve the accuracy of Euler’s method.",
     "crumbs": [
       "Lectures",
       "Dynamic Models"
@@ -368,33 +346,22 @@
     ]
   },
   {
-    "objectID": "lectures/2a-differential-equations.html#lecture-and-practical",
-    "href": "lectures/2a-differential-equations.html#lecture-and-practical",
-    "title": "Dynamic Models",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 12 2025\n\n13:30 - 15:15 - Dynamic Models with Differential Equations\n\nSlides\n\n\n\n15:30 - 17:15 - Differential Equations with Python\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Dynamic Models"
-    ]
-  },
-  {
-    "objectID": "lectures/2a-differential-equations.html#quiz-schedule",
-    "href": "lectures/2a-differential-equations.html#quiz-schedule",
-    "title": "Dynamic Models",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 February\n13:00\n❌ Quiz 1 Closed\n\n\n12 February\n15:00\n✅ Quiz 1 Resit Open\n\n\n12 February\n15:00\n✅ Quiz 2 Open",
-    "crumbs": [
-      "Lectures",
-      "Dynamic Models"
-    ]
-  },
-  {
     "objectID": "lectures/1a-course-introduction.html",
     "href": "lectures/1a-course-introduction.html",
     "title": "Course Introduction",
     "section": "",
-    "text": "During this lecture, we’ll address principal learning outcome number 1, which is:\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the goal of metabolism in the human body and name its main energy sources.\nGive the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).\nExplain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.\nIdentify reducing agents and oxidizing agents in a chemical reaction.\nGive the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.\nExplain the difference between catabolic and anabolic reactions in human metabolism.\nGive examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.\nExplain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.\nGive the main pathways of the metabolic (energy) flux in the human body\nLocate and explain the subprocesses of the metabolic energy pathways:\n\n\ngeneral: TCA cycle, electron transport chain\nglucose: Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways\nlipids: beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis\namino acids: amino acid catabolism, urea cycle, amino acid synthesis",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Course Introduction"
+    ]
+  },
+  {
+    "objectID": "lectures/1a-course-introduction.html#slides",
+    "href": "lectures/1a-course-introduction.html#slides",
+    "title": "Course Introduction",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Course Introduction"
@@ -404,8 +371,8 @@
     "objectID": "lectures/1a-course-introduction.html#learning-outcomes",
     "href": "lectures/1a-course-introduction.html#learning-outcomes",
     "title": "Course Introduction",
-    "section": "",
-    "text": "During this lecture, we’ll address principal learning outcome number 1, which is:\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the goal of metabolism in the human body and name its main energy sources.\nGive the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).\nExplain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.\nIdentify reducing agents and oxidizing agents in a chemical reaction.\nGive the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.\nExplain the difference between catabolic and anabolic reactions in human metabolism.\nGive examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.\nExplain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.\nGive the main pathways of the metabolic (energy) flux in the human body\nLocate and explain the subprocesses of the metabolic energy pathways:\n\n\ngeneral: TCA cycle, electron transport chain\nglucose: Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways\nlipids: beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis\namino acids: amino acid catabolism, urea cycle, amino acid synthesis",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\nDuring this lecture, we’ll address principal learning outcome number 1, which is:\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\nDescribe the molecular details of the conversion of the body’s main energy sources (carbohydrates, lipids, proteins) into energy.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the goal of metabolism in the human body and name its main energy sources.\nGive the definition of metabolic regulation, and explain its three main components (energy storage expenditure, and delivery).\nExplain the chemical concepts of polarity, osmosis, and reduction-oxidation reactions in context of human metabolism.\nIdentify reducing agents and oxidizing agents in a chemical reaction.\nGive the molecular structure of carbohydrates and lipids (and proteins) and name basic properties in context of human (energy) metabolism.\nExplain the difference between catabolic and anabolic reactions in human metabolism.\nGive examples of energy carrying intermediates used in human metabolism and relate these to the measures of energy status in cells.\nExplain the difference in substrate storage and delivery between carbohydrates and lipids in human metabolism.\nGive the main pathways of the metabolic (energy) flux in the human body\nLocate and explain the subprocesses of the metabolic energy pathways:\n\n\ngeneral: TCA cycle, electron transport chain\nglucose: Glycolysis, gluconeogenesis, pentose phosphate pathway, lactate and pyruvate pathways, glycogen pathways\nlipids: beta-oxidation, fatty acid synthesis, ketone body pathways, carnitine shuttle, lipolysis, lipogenesis\namino acids: amino acid catabolism, urea cycle, amino acid synthesis",
     "crumbs": [
       "Lectures",
       "Course Introduction"
@@ -423,33 +390,22 @@
     ]
   },
   {
-    "objectID": "lectures/1a-course-introduction.html#lecture-and-practical",
-    "href": "lectures/1a-course-introduction.html#lecture-and-practical",
-    "title": "Course Introduction",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 5 2025\n\n13:30 - 15:15 - Course Introduction\n\nSlides\n\n\n\n15:30 - 17:15 - Installing diffeqpy\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Course Introduction"
-    ]
-  },
-  {
-    "objectID": "lectures/1a-course-introduction.html#quiz-schedule",
-    "href": "lectures/1a-course-introduction.html#quiz-schedule",
-    "title": "Course Introduction",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n5 February\n15:00\n✅ Quiz 1 Open",
-    "crumbs": [
-      "Lectures",
-      "Course Introduction"
-    ]
-  },
-  {
     "objectID": "lectures/5b-exercise-and-extreme-situations.html",
     "href": "lectures/5b-exercise-and-extreme-situations.html",
     "title": "Exercise and Extreme Physiological Situations",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Exercise and Extreme Physiological Situations"
+    ]
+  },
+  {
+    "objectID": "lectures/5b-exercise-and-extreme-situations.html#slides",
+    "href": "lectures/5b-exercise-and-extreme-situations.html#slides",
+    "title": "Exercise and Extreme Physiological Situations",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Exercise and Extreme Physiological Situations"
@@ -459,8 +415,8 @@
     "objectID": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
     "href": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
     "title": "Exercise and Extreme Physiological Situations",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "Exercise and Extreme Physiological Situations"
@@ -478,33 +434,22 @@
     ]
   },
   {
-    "objectID": "lectures/5b-exercise-and-extreme-situations.html#lecture-and-practical",
-    "href": "lectures/5b-exercise-and-extreme-situations.html#lecture-and-practical",
-    "title": "Exercise and Extreme Physiological Situations",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 14 2025\n\n08:45 - 10:30 - Metabolism in Daily Life and Exercise\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 2\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Exercise and Extreme Physiological Situations"
-    ]
-  },
-  {
-    "objectID": "lectures/5b-exercise-and-extreme-situations.html#quiz-schedule",
-    "href": "lectures/5b-exercise-and-extreme-situations.html#quiz-schedule",
-    "title": "Exercise and Extreme Physiological Situations",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 March\n13:00\n❌ Quiz 3 Resit Closed\n\n\n12 March\n13:00\n❌ Quiz 4 Closed\n\n\n12 March\n15:00\n✅ Quiz 4 Resit Open\n\n\n12 March\n15:00\n✅ Quiz 5 Open",
-    "crumbs": [
-      "Lectures",
-      "Exercise and Extreme Physiological Situations"
-    ]
-  },
-  {
     "objectID": "lectures/2b-cell-biology.html",
     "href": "lectures/2b-cell-biology.html",
     "title": "Cell Biology of Metabolism",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Cell Biology of Metabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/2b-cell-biology.html#slides",
+    "href": "lectures/2b-cell-biology.html#slides",
+    "title": "Cell Biology of Metabolism",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Cell Biology of Metabolism"
@@ -514,8 +459,8 @@
     "objectID": "lectures/2b-cell-biology.html#learning-outcomes",
     "href": "lectures/2b-cell-biology.html#learning-outcomes",
     "title": "Cell Biology of Metabolism",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "Cell Biology of Metabolism"
@@ -527,28 +472,6 @@
     "title": "Cell Biology of Metabolism",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 2 and 3",
-    "crumbs": [
-      "Lectures",
-      "Cell Biology of Metabolism"
-    ]
-  },
-  {
-    "objectID": "lectures/2b-cell-biology.html#lecture-and-practical",
-    "href": "lectures/2b-cell-biology.html#lecture-and-practical",
-    "title": "Cell Biology of Metabolism",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 14 2025\n\n08:45 - 10:30 - Cell Biology of Metabolism\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 1\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Cell Biology of Metabolism"
-    ]
-  },
-  {
-    "objectID": "lectures/2b-cell-biology.html#quiz-schedule",
-    "href": "lectures/2b-cell-biology.html#quiz-schedule",
-    "title": "Cell Biology of Metabolism",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n12 February\n13:00\n❌ Quiz 1 Closed\n\n\n12 February\n15:00\n✅ Quiz 1 Resit Open\n\n\n12 February\n15:00\n✅ Quiz 2 Open",
     "crumbs": [
       "Lectures",
       "Cell Biology of Metabolism"
@@ -601,7 +524,18 @@
     "href": "lectures/6a-immunometabolism.html",
     "title": "Immunometabolism",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Immunometabolism"
+    ]
+  },
+  {
+    "objectID": "lectures/6a-immunometabolism.html#slides",
+    "href": "lectures/6a-immunometabolism.html#slides",
+    "title": "Immunometabolism",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Immunometabolism"
@@ -611,8 +545,8 @@
     "objectID": "lectures/6a-immunometabolism.html#learning-outcomes",
     "href": "lectures/6a-immunometabolism.html#learning-outcomes",
     "title": "Immunometabolism",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
       "Immunometabolism"
@@ -630,80 +564,47 @@
     ]
   },
   {
-    "objectID": "lectures/6a-immunometabolism.html#lecture-and-practical",
-    "href": "lectures/6a-immunometabolism.html#lecture-and-practical",
-    "title": "Immunometabolism",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 19 2025\n\n13:30 - 15:15 - Energy Balance and Weight Control\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Immunometabolism"
-    ]
-  },
-  {
-    "objectID": "lectures/6a-immunometabolism.html#quiz-schedule",
-    "href": "lectures/6a-immunometabolism.html#quiz-schedule",
-    "title": "Immunometabolism",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 March\n13:00\n❌ Quiz 4 Resit Closed\n\n\n19 March\n13:00\n❌ Quiz 5 Closed\n\n\n19 March\n15:00\n✅ Quiz 5 Resit Open",
-    "crumbs": [
-      "Lectures",
-      "Immunometabolism"
-    ]
-  },
-  {
     "objectID": "lectures/3a-biological-models.html",
     "href": "lectures/3a-biological-models.html",
-    "title": "Biological Models",
+    "title": "Dynamic Models",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Biological Models"
+      "Dynamic Models"
+    ]
+  },
+  {
+    "objectID": "lectures/3a-biological-models.html#slides",
+    "href": "lectures/3a-biological-models.html#slides",
+    "title": "Dynamic Models",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Dynamic Models"
     ]
   },
   {
     "objectID": "lectures/3a-biological-models.html#learning-outcomes",
     "href": "lectures/3a-biological-models.html#learning-outcomes",
-    "title": "Biological Models",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "title": "Dynamic Models",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
-      "Biological Models"
+      "Dynamic Models"
     ]
   },
   {
     "objectID": "lectures/3a-biological-models.html#book-chapters",
     "href": "lectures/3a-biological-models.html#book-chapters",
-    "title": "Biological Models",
+    "title": "Dynamic Models",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nLecture notes chapter 5",
     "crumbs": [
       "Lectures",
-      "Biological Models"
-    ]
-  },
-  {
-    "objectID": "lectures/3a-biological-models.html#lecture-and-practical",
-    "href": "lectures/3a-biological-models.html#lecture-and-practical",
-    "title": "Biological Models",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 19 2025\n\n13:30 - 15:15 - Biological Models\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 1\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Biological Models"
-    ]
-  },
-  {
-    "objectID": "lectures/3a-biological-models.html#quiz-schedule",
-    "href": "lectures/3a-biological-models.html#quiz-schedule",
-    "title": "Biological Models",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 February\n13:00\n❌ Quiz 1 Resit Closed\n\n\n19 February\n13:00\n❌ Quiz 2 Closed\n\n\n19 February\n15:00\n✅ Quiz 2 Resit Open\n\n\n19 February\n15:00\n✅ Quiz 3 Open",
-    "crumbs": [
-      "Lectures",
-      "Biological Models"
+      "Dynamic Models"
     ]
   },
   {
@@ -711,7 +612,18 @@
     "href": "lectures/6b-diabetes.html",
     "title": "Energy Balance, Weight Control, Diabetes",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Energy Balance, Weight Control, Diabetes"
+    ]
+  },
+  {
+    "objectID": "lectures/6b-diabetes.html#slides",
+    "href": "lectures/6b-diabetes.html#slides",
+    "title": "Energy Balance, Weight Control, Diabetes",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Energy Balance, Weight Control, Diabetes"
@@ -721,8 +633,8 @@
     "objectID": "lectures/6b-diabetes.html#learning-outcomes",
     "href": "lectures/6b-diabetes.html#learning-outcomes",
     "title": "Energy Balance, Weight Control, Diabetes",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "Energy Balance, Weight Control, Diabetes"
@@ -740,80 +652,47 @@
     ]
   },
   {
-    "objectID": "lectures/6b-diabetes.html#lecture-and-practical",
-    "href": "lectures/6b-diabetes.html#lecture-and-practical",
-    "title": "Energy Balance, Weight Control, Diabetes",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 21 2025\n\n08:45 - 10:30 - Diabetes\n\nSlides\n\n\n\n10:45 - 12:30 - Poster Session\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Energy Balance, Weight Control, Diabetes"
-    ]
-  },
-  {
-    "objectID": "lectures/6b-diabetes.html#quiz-schedule",
-    "href": "lectures/6b-diabetes.html#quiz-schedule",
-    "title": "Energy Balance, Weight Control, Diabetes",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 March\n13:00\n❌ Quiz 4 Resit Closed\n\n\n19 March\n13:00\n❌ Quiz 5 Closed\n\n\n19 March\n15:00\n✅ Quiz 5 Resit Open",
-    "crumbs": [
-      "Lectures",
-      "Energy Balance, Weight Control, Diabetes"
-    ]
-  },
-  {
     "objectID": "lectures/4a-building-models.html",
     "href": "lectures/4a-building-models.html",
-    "title": "Building Models, Pharmacokinetics",
+    "title": "Whole-Body Models",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Building Models, Pharmacokinetics"
+      "Whole-Body Models"
+    ]
+  },
+  {
+    "objectID": "lectures/4a-building-models.html#slides",
+    "href": "lectures/4a-building-models.html#slides",
+    "title": "Whole-Body Models",
+    "section": "",
+    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Whole-Body Models"
     ]
   },
   {
     "objectID": "lectures/4a-building-models.html#learning-outcomes",
     "href": "lectures/4a-building-models.html#learning-outcomes",
-    "title": "Building Models, Pharmacokinetics",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "title": "Whole-Body Models",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
-      "Building Models, Pharmacokinetics"
+      "Whole-Body Models"
     ]
   },
   {
     "objectID": "lectures/4a-building-models.html#book-chapters",
     "href": "lectures/4a-building-models.html#book-chapters",
-    "title": "Building Models, Pharmacokinetics",
+    "title": "Whole-Body Models",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nLecture notes chapter 6",
     "crumbs": [
       "Lectures",
-      "Building Models, Pharmacokinetics"
-    ]
-  },
-  {
-    "objectID": "lectures/4a-building-models.html#lecture-and-practical",
-    "href": "lectures/4a-building-models.html#lecture-and-practical",
-    "title": "Building Models, Pharmacokinetics",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 26 2025\n\n13:30 - 15:15 - Building Models, Pharmacokinetics\n\nSlides\n\n\n\n15:30 - 17:15 - Practical Assignment Part 2\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "Building Models, Pharmacokinetics"
-    ]
-  },
-  {
-    "objectID": "lectures/4a-building-models.html#quiz-schedule",
-    "href": "lectures/4a-building-models.html#quiz-schedule",
-    "title": "Building Models, Pharmacokinetics",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 February\n13:00\n❌ Quiz 2 Resit Closed\n\n\n26 February\n13:00\n❌ Quiz 3 Closed\n\n\n26 February\n15:00\n✅ Quiz 3 Resit Open\n\n\n26 February\n15:00\n✅ Quiz 4 Open",
-    "crumbs": [
-      "Lectures",
-      "Building Models, Pharmacokinetics"
+      "Whole-Body Models"
     ]
   },
   {
@@ -821,7 +700,18 @@
     "href": "lectures/1b-graph-theory.html",
     "title": "Graph Theory",
     "section": "",
-    "text": "Principal Learning Outcome 6\n\n\n\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the main principles of biological regulatory systems (emergence, redundancy, modularity) and connect these to the how systems biology can be used to study human metabolism.\nDescribe the different usage of “models” in systems biology, explain the distinction between “top-down” and “bottom-up” models, and give examples of each.\nExplain the concept of a mathematical graph and give examples of graphs encountered in studying systems biology.\nConvert a graph into a matrix representation (adjacency matrix) and vice versa.\nExplain different types of graphs (directed, undirected, weighted, unweighted, connected, disconnected, cyclic, acyclic, bipartite, and self-looped) and give examples of each.\nCalculate various properties of a graph (degree, degree distribution, scale-free, connectedness, hubs, walks, trails, paths, shortest paths) and give a biological interpretation of these properties.\nExplain the concept of a metabolic network and give examples of metabolic networks in human metabolism.\nConstruct the three types of biochemical graph representations (metabolite graphs, reaction graphs, and combined metabolite-reaction graphs) from a metabolic network.\nCompute the stoichiometry matrix of a metabolic network.\nExplain what data can be used to reconstruct metabolic networks and give confidence levels for different types of data.",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Graph Theory"
+    ]
+  },
+  {
+    "objectID": "lectures/1b-graph-theory.html#slides",
+    "href": "lectures/1b-graph-theory.html#slides",
+    "title": "Graph Theory",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Graph Theory"
@@ -831,8 +721,8 @@
     "objectID": "lectures/1b-graph-theory.html#learning-outcomes",
     "href": "lectures/1b-graph-theory.html#learning-outcomes",
     "title": "Graph Theory",
-    "section": "",
-    "text": "Principal Learning Outcome 6\n\n\n\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the main principles of biological regulatory systems (emergence, redundancy, modularity) and connect these to the how systems biology can be used to study human metabolism.\nDescribe the different usage of “models” in systems biology, explain the distinction between “top-down” and “bottom-up” models, and give examples of each.\nExplain the concept of a mathematical graph and give examples of graphs encountered in studying systems biology.\nConvert a graph into a matrix representation (adjacency matrix) and vice versa.\nExplain different types of graphs (directed, undirected, weighted, unweighted, connected, disconnected, cyclic, acyclic, bipartite, and self-looped) and give examples of each.\nCalculate various properties of a graph (degree, degree distribution, scale-free, connectedness, hubs, walks, trails, paths, shortest paths) and give a biological interpretation of these properties.\nExplain the concept of a metabolic network and give examples of metabolic networks in human metabolism.\nConstruct the three types of biochemical graph representations (metabolite graphs, reaction graphs, and combined metabolite-reaction graphs) from a metabolic network.\nCompute the stoichiometry matrix of a metabolic network.\nExplain what data can be used to reconstruct metabolic networks and give confidence levels for different types of data.",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 6\n\n\n\nApply concepts of graph theory (connectivity, directionality, cycles, and self-loops) to study metabolic processes and regulation.\n\n\nAfter this lecture, you should be able to:\n\nDescribe the main principles of biological regulatory systems (emergence, redundancy, modularity) and connect these to the how systems biology can be used to study human metabolism.\nDescribe the different usage of “models” in systems biology, explain the distinction between “top-down” and “bottom-up” models, and give examples of each.\nExplain the concept of a mathematical graph and give examples of graphs encountered in studying systems biology.\nConvert a graph into a matrix representation (adjacency matrix) and vice versa.\nExplain different types of graphs (directed, undirected, weighted, unweighted, connected, disconnected, cyclic, acyclic, bipartite, and self-looped) and give examples of each.\nCalculate various properties of a graph (degree, degree distribution, scale-free, connectedness, hubs, walks, trails, paths, shortest paths) and give a biological interpretation of these properties.\nExplain the concept of a metabolic network and give examples of metabolic networks in human metabolism.\nConstruct the three types of biochemical graph representations (metabolite graphs, reaction graphs, and combined metabolite-reaction graphs) from a metabolic network.\nCompute the stoichiometry matrix of a metabolic network.\nExplain what data can be used to reconstruct metabolic networks and give confidence levels for different types of data.",
     "crumbs": [
       "Lectures",
       "Graph Theory"
@@ -850,33 +740,22 @@
     ]
   },
   {
-    "objectID": "lectures/1b-graph-theory.html#lecture-and-practical",
-    "href": "lectures/1b-graph-theory.html#lecture-and-practical",
-    "title": "Graph Theory",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 7 2025\n\n08:45 - 10:30 - Introduction to Systems Biology, Graph Theory\n\nSlides\n\n\n\n10:45 - 12:30 - Graph Theory\n\nLecture Notes Chapter 2: Exercises\nCourse notebooks: graph theory",
-    "crumbs": [
-      "Lectures",
-      "Graph Theory"
-    ]
-  },
-  {
-    "objectID": "lectures/1b-graph-theory.html#quiz-schedule",
-    "href": "lectures/1b-graph-theory.html#quiz-schedule",
-    "title": "Graph Theory",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n5 February\n15:00\n✅ Quiz 1 Open",
-    "crumbs": [
-      "Lectures",
-      "Graph Theory"
-    ]
-  },
-  {
     "objectID": "lectures/7b-clinical-endocrinology.html",
     "href": "lectures/7b-clinical-endocrinology.html",
     "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "Endocrinology (2), Case Studies in Clinical Endocrinology"
+    ]
+  },
+  {
+    "objectID": "lectures/7b-clinical-endocrinology.html#slides",
+    "href": "lectures/7b-clinical-endocrinology.html#slides",
+    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "Endocrinology (2), Case Studies in Clinical Endocrinology"
@@ -886,8 +765,8 @@
     "objectID": "lectures/7b-clinical-endocrinology.html#learning-outcomes",
     "href": "lectures/7b-clinical-endocrinology.html#learning-outcomes",
     "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "Endocrinology (2), Case Studies in Clinical Endocrinology"
@@ -905,33 +784,22 @@
     ]
   },
   {
-    "objectID": "lectures/7b-clinical-endocrinology.html#lecture-and-practical",
-    "href": "lectures/7b-clinical-endocrinology.html#lecture-and-practical",
-    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: March 28 2025\n\n08:45 - 10:30 - Case Studies in Clinical Endocrinology\n\nSlides",
-    "crumbs": [
-      "Lectures",
-      "Endocrinology (2), Case Studies in Clinical Endocrinology"
-    ]
-  },
-  {
-    "objectID": "lectures/7b-clinical-endocrinology.html#quiz-schedule",
-    "href": "lectures/7b-clinical-endocrinology.html#quiz-schedule",
-    "title": "Endocrinology (2), Case Studies in Clinical Endocrinology",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n26 March\n13:00\n❌ Quiz 5 Resit Closed",
-    "crumbs": [
-      "Lectures",
-      "Endocrinology (2), Case Studies in Clinical Endocrinology"
-    ]
-  },
-  {
     "objectID": "lectures/3b-digestive-system.html",
     "href": "lectures/3b-digestive-system.html",
     "title": "The Digestive System",
     "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "crumbs": [
+      "Lectures",
+      "The Digestive System"
+    ]
+  },
+  {
+    "objectID": "lectures/3b-digestive-system.html#slides",
+    "href": "lectures/3b-digestive-system.html#slides",
+    "title": "The Digestive System",
+    "section": "",
+    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
       "The Digestive System"
@@ -941,8 +809,8 @@
     "objectID": "lectures/3b-digestive-system.html#learning-outcomes",
     "href": "lectures/3b-digestive-system.html#learning-outcomes",
     "title": "The Digestive System",
-    "section": "",
-    "text": "Principal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 1\n\n\n\n???\n\n\nAfter this lecture, you should be able to:",
     "crumbs": [
       "Lectures",
       "The Digestive System"
@@ -954,28 +822,6 @@
     "title": "The Digestive System",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 4, Chapter 6.2.1: Pancreas, and Chapter 6.2.5.5: Incretins",
-    "crumbs": [
-      "Lectures",
-      "The Digestive System"
-    ]
-  },
-  {
-    "objectID": "lectures/3b-digestive-system.html#lecture-and-practical",
-    "href": "lectures/3b-digestive-system.html#lecture-and-practical",
-    "title": "The Digestive System",
-    "section": "Lecture and Practical",
-    "text": "Lecture and Practical\nDate: February 21 2025\n\n08:45 - 10:30 - The Digestive System\n\nSlides\n\n\n\n10:45 - 12:30 - Practical Assignment Part 1\n\nPractical",
-    "crumbs": [
-      "Lectures",
-      "The Digestive System"
-    ]
-  },
-  {
-    "objectID": "lectures/3b-digestive-system.html#quiz-schedule",
-    "href": "lectures/3b-digestive-system.html#quiz-schedule",
-    "title": "The Digestive System",
-    "section": "Quiz Schedule",
-    "text": "Quiz Schedule\n\n\n\nDate\nTime\nEvent\n\n\n\n\n19 February\n13:00\n❌ Quiz 1 Resit Closed\n\n\n19 February\n13:00\n❌ Quiz 2 Closed\n\n\n19 February\n15:00\n✅ Quiz 2 Resit Open\n\n\n19 February\n15:00\n✅ Quiz 3 Open",
     "crumbs": [
       "Lectures",
       "The Digestive System"

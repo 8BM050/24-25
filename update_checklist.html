@@ -39,8 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3794884eef2655717d138b4249410d2a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-016b915ed9a0be4626ab817cdeb28b7a.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-11a335086794ac4d2fd8551de4845674.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a7251800ad0119cce33584d1e6de8dee.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,7 +125,6 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#main-page" id="toc-main-page" class="nav-link" data-scroll-target="#main-page">Main Page</a></li>
   <li><a href="#content" id="toc-content" class="nav-link" data-scroll-target="#content">Content</a></li>
-  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link" data-scroll-target="#lecture-slides">Lecture Slides</a></li>
   <li><a href="#staff" id="toc-staff" class="nav-link" data-scroll-target="#staff">Staff</a></li>
   <li><a href="#notebooks" id="toc-notebooks" class="nav-link" data-scroll-target="#notebooks">Notebooks</a></li>
   </ul></li>
@@ -145,31 +144,29 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="course-website">Course Website</h2>
 <section id="main-page" class="level3">
 <h3 class="anchored" data-anchor-id="main-page">Main Page</h3>
-<p><code>_quarto.yml</code>: - [ ] Update the repository URL to match the new course repository. - [ ] Update the center footer to match the new academic year. - [ ] Update the repository URL in the navbar.</p>
-<p><code>_variables.yml</code>: - [ ] Update the course repository - [ ] Update the canvas link</p>
-<p><code>index.qmd</code>: - [ ] Update the notification dates to match the new lecture weeks.</p>
+<p><code>_quarto.yml</code>: - [x] Update the repository URL to match the new course repository. - [x] Update the center footer to match the new academic year. - [x] Update the repository URL in the navbar.</p>
+<p><code>_variables.yml</code>: - [x] Update the course repository - [x] Update the canvas link</p>
+<p><code>index.qmd</code>: - [x] Update the notification dates to match the new lecture weeks. - [x] Update the learning outcomes.</p>
 </section>
 <section id="content" class="level3">
 <h3 class="anchored" data-anchor-id="content">Content</h3>
-<p><code>content/content.qmd</code>: - [ ] Update the learning outcomes. - [ ] Update the course structure based on modifications that were made. - [ ] Update the assessment structure based on modifications that were made.</p>
-<p><code>content/xx-&lt;title&gt;.qmd</code>: - [ ] Update the content of each lecture based on modifications that were made.</p>
-</section>
-<section id="lecture-slides" class="level3">
-<h3 class="anchored" data-anchor-id="lecture-slides">Lecture Slides</h3>
+<p><code>info/info.qmd</code>:</p>
 <ul class="task-list">
-<li><label><input type="checkbox">Update the pdf files in the <code>slides</code> folder.</label></li>
+<li><label><input type="checkbox" checked="">Update the course structure based on modifications that were made.</label></li>
+<li><label><input type="checkbox" checked="">Update the assessment structure based on modifications that were made.</label></li>
 </ul>
+<p><code>lectures/xx-&lt;title&gt;.qmd</code>: - [ ] Update the content of each lecture based on modifications that were made.</p>
 </section>
 <section id="staff" class="level3">
 <h3 class="anchored" data-anchor-id="staff">Staff</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Update the staff information in the <code>staff/staff.qmd</code> file.</label></li>
+<li><label><input type="checkbox" checked="">Update the staff information in the <code>staff/staff.qmd</code> file.</label></li>
 </ul>
 </section>
 <section id="notebooks" class="level3">
 <h3 class="anchored" data-anchor-id="notebooks">Notebooks</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">Update the notebooks in the <code>notebooks</code> folder.</label></li>
+<li><label><input type="checkbox" checked="">Update the notebooks in the <code>notebooks</code> folder.</label></li>
 </ul>
 
 
@@ -751,7 +748,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- <p xmlns:cc="http://creativecommons.org/ns#">This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a> <br> <a href="./ATTRIBUTIONS.html" target="_blank">Attribution</a></p>
+    <a class="nav-link" href="./ATTRIBUTIONS.html">
+<p>Attributions</p>
+</a>
   </li>  
 </ul>
     </div>
