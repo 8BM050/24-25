@@ -1,0 +1,57 @@
+# Quizzes
+- title: "Quiz Week 1"
+  date: 02-19-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25764
+  categories: [Quiz]
+- title: "Quiz Week 2"
+  date-open: 02-19-2025 15:00
+  date: 02-26-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25883
+  categories: [Quiz]
+- title: "Quiz Week 3"
+  date: 03-12-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25885
+  categories: [Quiz]
+- title: "Quiz Week 4"
+  date: 03-19-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25887
+  categories: [Quiz]
+- title: "Quiz Week 5"
+  date: 03-26-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25889
+  categories: [Quiz]
+
+# Resit Quizzes
+- title: "Resit Quiz Week 1"
+  date: 02-26-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25882
+  categories: [Quiz]
+- title: "Resit Quiz Week 2"
+  date-open: 02-26-2025 15:00
+  date: 03-12-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25884
+  categories: [Quiz]
+- title: "Resit Quiz Week 3"
+  date: 03-19-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25886
+  categories: [Quiz]
+- title: "Resit Quiz Week 4"
+  date: 03-26-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25888
+  categories: [Quiz]
+- title: "Resit Quiz Week 5"
+  date: 04-02-2025 13:00
+  path: https://canvas.tue.nl/courses/27578/quizzes/25890
+  categories: [Quiz]
+
+# Practical Assignments
+- title: "Practical Assignment Part 1"
+  date: 03-02-2025 23:59
+  path: https://canvas.tue.nl/courses/27578/assignments/123908
+  categories: [Assignment]
+- title: "Practical Assignment Part 2"
+  date: 03-27-2025 23:59
+  path: https://canvas.tue.nl/courses/27578/assignments/123909
+  categories: [Assignment]
+
+

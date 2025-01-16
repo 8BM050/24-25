@@ -1,22 +1,45 @@
 ---
-title: "Welcome to 8BM050 Systems Biology Models"
+title: "8BM050 - Systems Biology Models"
 engine: julia
-toc: false
+toc: true
 page-layout: full
 execute:
   echo: false
+
 listing:
+  # Lectures
   - id: lectures
     contents: 
       - lectures
     type: table
     categories: false
-    fields: [date, Time, title, Slides]
+    fields: [date, time, title, location]
     sort: date
     date-format: "ddd, D MMM"
-    field-display-names: 
+    field-display-names:
+      date: "**Date**"
+      title: "**Title**" 
       author: "Lecturer"
       categories: "Category"
+      time: "Time"
+      location: "Location"
+  
+  # Assignments & Quizzes
+  - id: assignments
+    contents:
+      - assignments.yml
+    type: table
+    table-striped: true
+    table-hover: true
+    fields: [title, categories, date]
+    sort: date
+    date-format: "ddd, D MMM HH:mm"
+    field-display-names:
+      title: "**Description**" 
+      categories: "**Type**"
+      date: "**Deadline**"
+  
+  # Staff - Lecturers
   - id: lecturers
     contents: "staff/lecturers/*.qmd"
     type: grid
@@ -25,6 +48,7 @@ listing:
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
+  # Staff - Teaching Assistants
   - id: teaching-assistants
     contents: "staff/assistants/*.qmd"
     type: grid
@@ -37,45 +61,78 @@ listing:
     grid-item-align: center
 ---
 
-::: {.callout-note}
+::: {.callout-caution title="Information regarding the postponement of the course"}
+Due to the cyber attack at the Eindhoven University of Technology, the start of the course has been postponed by **one week**. The course will now start on February 12, 2025. The course schedule has been adjusted accordingly. Please check the schedule below for the new dates of the lectures.
+:::
+
+::: {.callout-note title="Welcome to the 8BM050 course!"}
 ```{julia}
+# This Julia code generates a welcome message based on the current date
 using Dates
 using Markdown
+using YAML
 
+# Generate welcome message
 function welcome(weeknumber::Int, page_1::String, page_1_link::String, page_2::String, page_2_link::String)
-  return Markdown.parse("Welcome to **week $(weeknumber)** of the 8BM050 course!\n\nLecture A: [$(page_1)]($(page_1_link))\n\nLecture B: [$(page_2)]($(page_2_link))")
+  return "Welcome to **week $(weeknumber)** of the 8BM050 course!\n\n- Lecture A: [$(page_1)]($(page_1_link))\n\n- Lecture B: [$(page_2)]($(page_2_link))"
 end
 
+# Set up the notification dates and corresponding welcome messages
 notification_dates = Dict(
   DateTime(2025, 1, 1) => welcome(
     1, "Course Introduction", "lectures/1a-course-introduction.qmd",
     "Graph Theory", "lectures/1b-graph-theory.qmd"),
-  DateTime(2025, 2, 12) => welcome(
+  DateTime(2025, 2, 17) => welcome(
     2, "Dynamic Models", "lectures/2a-differential-equations.qmd",
     "Cell Biology of Metabolism", "lectures/2b-cell-biology.qmd"),
-  DateTime(2025, 2, 19) => welcome(
+  DateTime(2025, 2, 24) => welcome(
     3, "Biological Models", "lectures/3a-biological-models.qmd",
     "Digestive System", "lectures/3b-digestive-system.qmd"),
-  DateTime(2025, 2, 26) => welcome(
+  DateTime(2025, 3, 10) => welcome(
     4, "Building Models", "lectures/4a-building-models.qmd",
     "Organ Specialization", "lectures/4b-organ-specialization.qmd"),
-  DateTime(2025, 3, 12) => welcome(
+  DateTime(2025, 3, 17) => welcome(
     5, "Metabolism in Daily Life", "lectures/5a-metabolism-in-daily-life.qmd",
     "Metabolism in Exercise and Extreme Situations", "lectures/5b-exercise-and-extreme-situations.qmd"),
-  DateTime(2025, 3, 19) => welcome(
+  DateTime(2025, 3, 24) => welcome(
     6, "Immunometabolism", "lectures/6a-immunometabolism.qmd",
     "Diabetes", "lectures/6b-diabetes.qmd"),
-  DateTime(2025, 3, 26) => welcome(
+  DateTime(2025, 3, 31) => welcome(
     7, "Endocrinology", "lectures/7a-endocrinology.qmd",
     "Case Studies in Clinical Endocrinology", "lectures/7b-clinical-endocrinology.qmd"),
 )
 
 notification_index = findlast(x -> x <= today(), sort(collect(keys(notification_dates))))
 
+assignments = YAML.load_file("assignments.yml")
+format = DateFormat("mm-dd-yyyy HH:MM")
+deadlines = DateTime.([assignment["date"] for assignment in assignments], format)
+titles = [assignment["title"] for assignment in assignments]
+links = [assignment["path"] for assignment in assignments]
+
+function deadline_message(deadlines::Vector{DateTime}, titles::Vector{String})
+  today_date = today()
+  upcoming_deadlines = filter(x -> week(x) == week(today_date), deadlines)
+  upcoming_titles = titles[findall(x -> week(x) == week(today_date), deadlines)]
+  upcoming_links = links[findall(x -> week(x) == week(today_date), deadlines)]
+
+  if isempty(upcoming_deadlines)
+    return "There are no upcoming deadlines this week."
+  else
+    message = "Deadlines this week:\n"
+    for (i, deadline) in enumerate(upcoming_deadlines)
+      message *= "- [$(upcoming_titles[i])]($(upcoming_links[i])) on $(Dates.format(deadline, "d U, yyyy"))\n"
+    end
+    return message
+  end
+end
+
+
 if isnothing(notification_index)
   notification = md"Welcome to the 8BM050 course! The course has not yet started."
 else
-  notification = notification_dates[sort(collect(keys(notification_dates)))[notification_index]]
+  notification = Markdown.parse(notification_dates[sort(collect(keys(notification_dates)))[notification_index]]*"\n\n"*
+    deadline_message(deadlines, titles))
 end
 
 notification
@@ -122,7 +179,9 @@ Below you can find the scheduled lectures. You can also use the navigation bar o
 :::
 
 ## 📝 Assessment & Deadlines
-The assessments for this course have been scheduled per week, and can be found in the following table.
+:::{#assignments}
+:::
+<!-- The assessments for this course have been scheduled per week, and can be found in the following table.
 
 |                | Week 1  | Week 2 | Week 3 | Week 4 | Week 5 | Week 6 | Week 7 | Week 8 | Examination period | 
 |----------------|---------| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------------------ | 
@@ -131,7 +190,7 @@ The assessments for this course have been scheduled per week, and can be found i
 | Assignment     |         | [Part 1](https://canvas.tue.nl/courses/27578/assignments/123908) | [Part 1](https://canvas.tue.nl/courses/27578/assignments/123908) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) | [Part 2](https://canvas.tue.nl/courses/27578/assignments/123909) |  |   |  |
 | Final Exam     |    |   | | | | | | | Exam |
 
-: {tbl-colwidths="[19, 9, 9, 9, 9, 9, 9, 9, 9, 9]" .striped .hover}
+: {tbl-colwidths="[19, 9, 9, 9, 9, 9, 9, 9, 9, 9]" .striped .hover} -->
 
 ## ✉️ Lecturers & Contact
 ### Lecturers
