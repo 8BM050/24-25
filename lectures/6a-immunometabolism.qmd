@@ -3,7 +3,6 @@ title: "Immunometabolism"
 date: 03-26-2025
 time: "13:30 - 15:15"
 author: "Shauna O'Donovan"
-location: "VEC 2.113"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 

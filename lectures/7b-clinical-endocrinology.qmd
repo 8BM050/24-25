@@ -3,7 +3,6 @@ title: "Endocrinology (2), Case Studies in Clinical Endocrinology"
 date: 04-04-2025
 time: "08:45 - 10:30"
 author: "Arjen-Kars Boer"
-location: "VEC 2.113"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 

@@ -3,7 +3,6 @@ title: "Metabolism in Daily Life"
 date: 03-19-2025
 time: "13:30 - 15:15"
 author: "Natal van Riel"
-location: "VEC 2.113"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 

@@ -3,7 +3,6 @@ title: "Energy Balance, Weight Control, Diabetes"
 date: 03-28-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
-location: "VEC 2.113"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 

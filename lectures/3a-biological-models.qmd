@@ -4,7 +4,6 @@ title: "Dynamic Models"
 date: 02-26-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
-location: "VEC 2.113"
 description: "In this lecture, we will move to more complicated examples of mass-action kinetics and use our knowledge of differential equations to describe signalling systems and feedback loops. We will also take a look at enzyme kinetics and the Michaelis-Menten equation, and extend this to be able to model competitive inhibition."
 slide-link: https://canvas.tue.nl/
 

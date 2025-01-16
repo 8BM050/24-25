@@ -4,7 +4,6 @@ title: "Course Introduction"
 date: 02-12-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
-location: "VEC 2.113"
 description: "In this lecture, we will introduce the course and discuss the fundamentals of human metabolism."
 slide-link: https://canvas.tue.nl/files/6038174/download?download_frd=1
 
