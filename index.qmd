@@ -13,7 +13,7 @@ listing:
       - lectures
     type: table
     categories: false
-    fields: [date, time, title, location]
+    fields: [date, time, title]
     sort: date
     date-format: "ddd, D MMM"
     field-display-names:
@@ -22,7 +22,6 @@ listing:
       author: "Lecturer"
       categories: "Category"
       time: "Time"
-      location: "Location"
   
   # Assignments & Quizzes
   - id: assignments
@@ -173,7 +172,7 @@ At the end of this course, the student is able to:
 10. Use Python to simulate and analyse systems of ordinary differential equations
 
 ## 📅 Lecture Schedule
-Below you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages.
+Below you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages. Please use [TimeEdit](https://cloud.timeedit.net/nl_tue/web/?en=t) to find the location of each lecture.
 
 :::{#lectures}
 :::
