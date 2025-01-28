@@ -1,8 +1,8 @@
 ---
-title: "Endocrinology (2), Case Studies in Clinical Endocrinology"
-date: 04-04-2025
+title: "Immunometabolism"
+date: 03-28-2025
 time: "08:45 - 10:30"
-author: "Arjen-Kars Boer"
+author: "Shauna O'Donovan"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 
@@ -26,12 +26,14 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome 1"}
+::: {.callout-important title="Principal Learning Outcome ?"}
 ???
 :::
 
 After this lecture, you should be able to:
 
+1. ???
+
+
 ## Book Chapters
 
-- Human Physiology, An Integrated Approach: Chapters 7 and 23
