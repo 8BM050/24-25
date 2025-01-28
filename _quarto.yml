@@ -5,12 +5,12 @@ project:
 
 website:
 
-  announcement:
-    icon: exclamation-triangle
-    dismissable: false
-    content: "**Warning** - The course website is still under construction. All information is not definitive yet, and may change without warning."
-    type: warning
-    position: above-navbar
+  # announcement:
+  #   icon: exclamation-triangle
+  #   dismissable: false
+  #   content: "**Warning** - The course website is still under construction. All information is not definitive yet, and may change without warning."
+  #   type: warning
+  #   position: above-navbar
 
   page-navigation: true
   title: "8BM050"
@@ -74,12 +74,12 @@ website:
         - href: lectures/5b-exercise-and-extreme-situations.qmd
         - text: "Week 6"
         - text: "---"
-        - href: lectures/6a-immunometabolism.qmd
-        - href: lectures/6b-diabetes.qmd
+        - href: lectures/6a-endocrinology.qmd
+        - href: lectures/6b-immunometabolism.qmd
         - text: "Week 7"
         - text: "---"
-        - href: lectures/7a-endocrinology.qmd
-        - href: lectures/7b-clinical-endocrinology.qmd
+        - href: lectures/7a-diabetes.qmd
+        # - href: lectures/7b-clinical-endocrinology.qmd
       - section: "Practicals"
         contents:
         - href: 8bm050/environment-setup/environment.qmd

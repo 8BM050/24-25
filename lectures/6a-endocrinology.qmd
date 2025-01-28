@@ -1,8 +1,8 @@
 ---
-title: "Immunometabolism"
+title: "Endocrinology: Cortisol, HPA, Adrenals"
 date: 03-26-2025
 time: "13:30 - 15:15"
-author: "Shauna O'Donovan"
+author: "Arjen-Kars Boer"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 
@@ -34,6 +34,6 @@ After this lecture, you should be able to:
 
 1. ???
 
-
 ## Book Chapters
 
+- Human Metabolism: A Regulatory Perspective, Chapter 11 and 12
