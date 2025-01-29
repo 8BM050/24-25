@@ -4,7 +4,7 @@
     "href": "lectures/1b-graph-theory.html",
     "title": "Graph Theory",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - Graph Theory\n\nSlides",
     "crumbs": [
       "Lectures",
       "Graph Theory"
@@ -15,7 +15,7 @@
     "href": "lectures/1b-graph-theory.html#slides",
     "title": "Graph Theory",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - Graph Theory\n\nSlides",
     "crumbs": [
       "Lectures",
       "Graph Theory"
@@ -46,45 +46,45 @@
   {
     "objectID": "lectures/3a-biological-models.html",
     "href": "lectures/3a-biological-models.html",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Signalling and Enzyme Kinetics",
     "section": "",
-    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "text": "13:30 - 15:15 - Dynamic Models: Signalling and Enzyme Kinetics\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Signalling and Enzyme Kinetics"
     ]
   },
   {
     "objectID": "lectures/3a-biological-models.html#slides",
     "href": "lectures/3a-biological-models.html#slides",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Signalling and Enzyme Kinetics",
     "section": "",
-    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "text": "13:30 - 15:15 - Dynamic Models: Signalling and Enzyme Kinetics\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Signalling and Enzyme Kinetics"
     ]
   },
   {
     "objectID": "lectures/3a-biological-models.html#learning-outcomes",
     "href": "lectures/3a-biological-models.html#learning-outcomes",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Signalling and Enzyme Kinetics",
     "section": "Learning Outcomes",
     "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Signalling and Enzyme Kinetics"
     ]
   },
   {
     "objectID": "lectures/3a-biological-models.html#book-chapters",
     "href": "lectures/3a-biological-models.html#book-chapters",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Signalling and Enzyme Kinetics",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nLecture notes chapter 5",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Signalling and Enzyme Kinetics"
     ]
   },
   {
@@ -92,7 +92,7 @@
     "href": "lectures/3b-digestive-system.html",
     "title": "The Digestive System",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - The Digestive System\n\nSlides",
     "crumbs": [
       "Lectures",
       "The Digestive System"
@@ -103,7 +103,7 @@
     "href": "lectures/3b-digestive-system.html#slides",
     "title": "The Digestive System",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - The Digestive System\n\nSlides",
     "crumbs": [
       "Lectures",
       "The Digestive System"
@@ -134,45 +134,45 @@
   {
     "objectID": "lectures/2a-differential-equations.html",
     "href": "lectures/2a-differential-equations.html",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Mass-Action Kinetics and Python",
     "section": "",
-    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "text": "13:30 - 15:15 - Dynamic Models: Mass-Action Kinetics and Python\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Mass-Action Kinetics and Python"
     ]
   },
   {
     "objectID": "lectures/2a-differential-equations.html#slides",
     "href": "lectures/2a-differential-equations.html#slides",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Mass-Action Kinetics and Python",
     "section": "",
-    "text": "13:30 - 15:15 - Course Introduction\n\nSlides",
+    "text": "13:30 - 15:15 - Dynamic Models: Mass-Action Kinetics and Python\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Mass-Action Kinetics and Python"
     ]
   },
   {
     "objectID": "lectures/2a-differential-equations.html#learning-outcomes",
     "href": "lectures/2a-differential-equations.html#learning-outcomes",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Mass-Action Kinetics and Python",
     "section": "Learning Outcomes",
     "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 7\n\n\n\nConstruct a linear dynamic model of biochemical processes using the law of mass action\n\n\nAfter this lecture, you should be able to:\n\nDescribe the law of mass action and explain how it can be used to model biochemical processes.\nExplain the concept of a dynamic model and give examples of dynamic models in human metabolism.\nProvide the differential equations when given a reaction network, using the law of mass action.\nUse Euler’s method to numerically solve a first-order ordinary differential equation.\nExplain strategies to improve the accuracy of Euler’s method.",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Mass-Action Kinetics and Python"
     ]
   },
   {
     "objectID": "lectures/2a-differential-equations.html#book-chapters",
     "href": "lectures/2a-differential-equations.html#book-chapters",
-    "title": "Dynamic Models",
+    "title": "Dynamic Models: Mass-Action Kinetics and Python",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nLecture notes chapters 3 and 4",
     "crumbs": [
       "Lectures",
-      "Dynamic Models"
+      "Dynamic Models: Mass-Action Kinetics and Python"
     ]
   },
   {
@@ -268,7 +268,7 @@
     "href": "lectures/2b-cell-biology.html",
     "title": "Cell Biology of Metabolism",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - Cell Biology of Metabolism\n\nSlides",
     "crumbs": [
       "Lectures",
       "Cell Biology of Metabolism"
@@ -279,7 +279,7 @@
     "href": "lectures/2b-cell-biology.html#slides",
     "title": "Cell Biology of Metabolism",
     "section": "",
-    "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
+    "text": "08:45 - 10:30 - Cell Biology of Metabolism\n\nSlides",
     "crumbs": [
       "Lectures",
       "Cell Biology of Metabolism"
@@ -699,7 +699,7 @@
     "href": "index.html#lecture-schedule",
     "title": "8BM050 - Systems Biology Models",
     "section": "📅 Lecture Schedule",
-    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages. Please use TimeEdit to find the location of each lecture.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Date** - Oldest\n        \n         \n          **Date** - Newest\n        \n         \n          **Title**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models\n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nWhole-Body Models\n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nExercise and Extreme Physiological Situations\n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nImmunometabolism\n\n\n\n\nWed, 2 Apr\n\n\n13:30 - 15:15\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\n\n\n\nNo matching items",
+    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages. Please use TimeEdit to find the location of each lecture.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Date** - Oldest\n        \n         \n          **Date** - Newest\n        \n         \n          **Title**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Mass-Action Kinetics and Python\n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Signalling and Enzyme Kinetics\n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nWhole-Body Models\n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nExercise and Extreme Physiological Situations\n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nImmunometabolism\n\n\n\n\nWed, 2 Apr\n\n\n13:30 - 15:15\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
