@@ -17,7 +17,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **The Digestive System**
 
 ::: slides
 [Slides]({{< meta slide-link >}})

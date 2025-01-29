@@ -1,6 +1,6 @@
 ---
 # Customizable Fields
-title: "Dynamic Models"
+title: "Dynamic Models: Signalling and Enzyme Kinetics"
 date: 02-26-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
@@ -18,7 +18,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **Dynamic Models: Signalling and Enzyme Kinetics**
 
 ::: slides
 [Slides]({{< meta slide-link >}})
