@@ -1,8 +1,8 @@
 ---
-title: "Endocrinology: Cortisol, HPA, Adrenals"
+title: "Energy Balance, Weight Control, Diabetes"
 date: 04-02-2025
 time: "13:30 - 15:15"
-author: "Arjen-Kars Boer"
+author: "Natal van Riel"
 description: "Insert description here."
 slide-link: https://canvas.tue.nl/
 
@@ -26,13 +26,12 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome ?"}
+::: {.callout-important title="Principal Learning Outcome 1"}
 ???
 :::
 
 After this lecture, you should be able to:
 
-1. ???
 
 ## Book Chapters
 

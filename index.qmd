@@ -61,7 +61,14 @@ listing:
 ---
 
 ::: {.callout-caution title="Information regarding the postponement of the course"}
-Due to the cyber attack at the Eindhoven University of Technology, the start of the course has been postponed by **one week**. The course will now start on February 12, 2025. The course schedule has been adjusted accordingly. Please check the schedule below for the new dates of the lectures.
+Due to the cyber attack at the Eindhoven University of Technology, the start of the course has been postponed by **one week**. The course will now start on February 12, 2025. The course schedule has been adjusted accordingly. Additionally, the following changes have been made to the course schedule:
+
+  - Lecture 7A - endocrinology, is now in the sixth week of lectures, in place of lecture 6A - immunometabolism
+  - Lecture 6A - immunometabolism, is now on Friday of the sixth week, in place of lecture 6B - diabetes
+  - Lecture 6B - diabetes, is now in the seventh week of lectures, in place of lecture 7A - endocrinology
+  - Lecture 7B - clinical endocrinology is **cancelled** and will not be rescheduled. 
+
+  You will find the updated schedule on the website.
 :::
 
 ::: {.callout-note title="Welcome to the 8BM050 course!"}
@@ -74,6 +81,10 @@ using YAML
 # Generate welcome message
 function welcome(weeknumber::Int, page_1::String, page_1_link::String, page_2::String, page_2_link::String)
   return "Welcome to **week $(weeknumber)** of the 8BM050 course!\n\n- Lecture A: [$(page_1)]($(page_1_link))\n\n- Lecture B: [$(page_2)]($(page_2_link))"
+end
+
+function welcome(weeknumber::Int, page_1::String, page_1_link::String)
+  return "Welcome to **week $(weeknumber)** of the 8BM050 course!\n\n- Lecture A: [$(page_1)]($(page_1_link))\n\n- Lecture B: -"
 end
 
 # Set up the notification dates and corresponding welcome messages
@@ -94,11 +105,10 @@ notification_dates = Dict(
     5, "Metabolism in Daily Life", "lectures/5a-metabolism-in-daily-life.qmd",
     "Metabolism in Exercise and Extreme Situations", "lectures/5b-exercise-and-extreme-situations.qmd"),
   DateTime(2025, 3, 24) => welcome(
-    6, "Immunometabolism", "lectures/6a-immunometabolism.qmd",
-    "Diabetes", "lectures/6b-diabetes.qmd"),
+    6, "Endocrinology", "lectures/6a-endocrinology.qmd",
+    "Immunometabolism", "lectures/6b-immunometabolism.qmd"),
   DateTime(2025, 3, 31) => welcome(
-    7, "Endocrinology", "lectures/7a-endocrinology.qmd",
-    "Case Studies in Clinical Endocrinology", "lectures/7b-clinical-endocrinology.qmd"),
+    7, "Diabetes", "lectures/7a-diabetes.qmd"),
 )
 
 notification_index = findlast(x -> x <= today(), sort(collect(keys(notification_dates))))
