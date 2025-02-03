@@ -31,11 +31,11 @@ Understand and describe the functional anatomy of the digestive system for carbo
 :::
 
 After this lecture, you should be able to:
---  Understand and describe the functional anatomy and histology of the digestive system.
---  Understand the regulation of the digestive system
-including hormones of the gastrointestinal tract.
---  Describe digestion and absorption of carbohydrates, proteins and lipids
-including the role of the gut microbiome
+--  Understand and describe the functional anatomy and histology of the digestive system.\\
+--  Understand the regulation of the digestive system\
+including hormones of the gastrointestinal tract.\\
+--  Describe digestion and absorption of carbohydrates, proteins and lipids\
+including the role of the gut microbiome\\
 
 
 ## Book Chapters
