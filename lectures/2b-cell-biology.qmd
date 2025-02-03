@@ -3,7 +3,7 @@ title: "Cell Biology of Metabolism"
 date: 02-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
-description: "Insert description here."
+description: "In this lecture, we will revisit biochemical and molecular cell biology of metabolic regulation in cells and discuss hormonal regulation of metabolism."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
@@ -26,12 +26,15 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome ?"}
-???
+::: {.callout-important title="Principal Learning Outcome 2"}
+Understand and describe the compartmentalisation and adaptation of metabolic processes at a cellular level
 :::
 
 After this lecture, you should be able to:
-
+--  Understand and describe Understand mechanisms of transport across cell membranes for ions, carbohydrates, amino acids and lipids.
+--  Understand mechanisms of intracellular metabolic regulation at different time-scales.
+--  Describe concepts in endocrinology, such as hormone axes and response loops.
+--  Understand mechanisms of hormone receptors and signal transduction. 
 
 ## Book Chapters
 
