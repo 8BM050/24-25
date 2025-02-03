@@ -1,9 +1,9 @@
 ---
-title: "Exercise and Extreme Physiological Situations"
+title: "Exercise"
 date: 03-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
-description: "Insert description here."
+description: "In this lecture, we will mainly discuss metabolic aspects of exercise."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
@@ -26,13 +26,20 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome 1"}
-???
+::: {.callout-important title="Principal Learning Outcomes:"}
+4. Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation
+5. Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease
+
 :::
 
 After this lecture, you should be able to:
+-Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) 
+-Describe the physiological aspects of exercise (different types), with focus on skeletal muscle (different types of exercise, different energy sources)
+-Be aware of metabolic changes during pregnancy (mother and fetus) and after birth
 
+-Understand how inborn errors of metabolism can affect the metabolic system
+-Be aware of some concepts in metabolomics
 
 ## Book Chapters
 
-- Human Metabolism: A Regulatory Perspective, Chapter 8
+- Human Metabolism: A Regulatory Perspective, Chapter 5 and Chapter 8
