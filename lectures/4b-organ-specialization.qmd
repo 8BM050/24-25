@@ -3,7 +3,7 @@ title: "Organ Specialization"
 date: 03-14-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
-description: "Insert description here."
+description: "In this lecture, we will discuss metabolism and metabolic function of organs and tissues, especially the liver and adipose tissue."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
@@ -26,12 +26,14 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome 1"}
-???
+::: {.callout-important title="Principal Learning Outcome 4"}
+Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation.
 :::
 
 After this lecture, you should be able to:
-
+1.  Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
+2.  Understand how liver and adipose tissue contribute to energy homeostasis.
+3.  Understand energy sources for the brain.
 
 ## Book Chapters
 
