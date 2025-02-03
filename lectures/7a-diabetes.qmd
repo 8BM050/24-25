@@ -3,7 +3,7 @@ title: "Energy Balance, Weight Control, Diabetes"
 date: 04-02-2025
 time: "13:30 - 15:15"
 author: "Natal van Riel"
-description: "Insert description here."
+description: "In this lecture, we will discuss body weight regulation, obesity and diabetes."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
@@ -26,11 +26,16 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome 1"}
-???
+::: {.callout-important title="Principal Learning Outcome 5"}
+Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.
 :::
 
 After this lecture, you should be able to:
+-Describe key components of the neurobiology of food intake
+-Describe metabolic syndrome and how it relates to cardiometabolic disease
+-Understand insulin resistance
+-Understand different types of diabetes
+-Describe different treatments (incl. bariatric surgery, medication)
 
 
 ## Book Chapters
