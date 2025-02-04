@@ -12,7 +12,7 @@ about:
       href: https://research.tue.nl/en/persons/natal-aw-van-riel
     - icon: envelope-at
       text: contact
-      href: mailto:n.a.w.v.riel@tue.nl
+      href: mailto:n.a.w.v.riel@tue.nl?subject=8BM050%20Question
 image: https://assets.w3.tue.nl/w/fileadmin/_processed_/3/8/csm_33307bd94c5deb4ffaeb7e286be885a8_28a9da105b.jpg
 ---
 

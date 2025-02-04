@@ -11,7 +11,7 @@ about:
       href: https://research.tue.nl/en/persons/max-de-rooij
     - icon: envelope-at
       text: contact
-      href: mailto:m.d.rooij@tue.nl
+      href: mailto:m.d.rooij@tue.nl?subject=8BM050%20Question
 image: https://research.tue.nl/files-asset/287292425/de_Rooij_Max_BME_PROM_PO_AS_7631.jpg/
 ---
 

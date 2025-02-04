@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope-at
       text: contact
-      href: mailto:j.j.m.t.lokers@student.tue.nl
+      href: mailto:j.j.m.t.lokers@student.tue.nl?subject=8BM050%20Question
 image: https://media.licdn.com/dms/image/v2/D4E03AQHB_D9tWLkRXA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730809495566?e=2147483647&v=beta&t=eBGxYev-IPDg2eUVWK0RBsfO95X3A5yt0yBJBwd6vfk
 ---
 

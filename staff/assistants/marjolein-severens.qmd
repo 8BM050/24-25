@@ -8,7 +8,7 @@ about:
   links:
     - icon: envelope-at
       text: contact
-      href: mailto:m.j.e.severens@student.tue.nl
+      href: mailto:m.j.e.severens@student.tue.nl?subject=8BM050%20Question
   image: assets/m-s.jpg
 ---
 

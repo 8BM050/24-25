@@ -18,7 +18,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **Whole-body Models**
 
 ::: slides
 [Slides]({{< meta slide-link >}})
@@ -26,14 +26,21 @@ image: assets/512.jpg
 :::
 
 ## Learning Outcomes
+During this lecture, we'll address principal learning outcomes number 8 and 10, which are:
 
-::: {.callout-important title="Principal Learning Outcome ?"}
-???
+::: {.callout-important title="Principal Learning Outcome 8"}
+Explain the function of different terms in a simple system of (possibly nonlinear) ordinary differential equations.
 :::
 
-After this lecture, you should be able to:
+::: {.callout-important title="Principal Learning Outcome 10"}
+Use Python to simulate and analyse systems of ordinary differential equations
+:::
 
-1. ???
+1. (Multi-)compartment models
+2. Compartments-as-delays
+3. Modelling methods of administration
+4. Repeated doses (saturation vs. linear kinetics)
+5. Building models from text using word equations
 
 ## Book Chapters
 - Lecture notes chapter 6

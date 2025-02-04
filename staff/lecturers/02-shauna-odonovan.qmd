@@ -11,7 +11,7 @@ about:
       href: https://research.tue.nl/en/persons/shauna-odonovan
     - icon: envelope-at
       text: contact
-      href: mailto:s.d.odonovan@tue.nl
+      href: mailto:s.d.odonovan@tue.nl?subject=8BM050%20Question
 image: https://research.tue.nl/files-asset/298491591/O_Donovan_Shauna_BME_PO_VH_1529_UD.jpg/
 ---
 

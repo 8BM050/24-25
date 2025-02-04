@@ -11,7 +11,7 @@ about:
       href: https://research.tue.nl/en/persons/arjen-kars-boer
     - icon: envelope-at
       text: contact
-      href: mailto:a.k.boer@tue.nl
+      href: mailto:a.k.boer@tue.nl?subject=8BM050%20Question
 image: https://assets.cstatic.nl/app/uploads/2021/04/Boer_A.K_web-280x280.jpg
 ---
 
