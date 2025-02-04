@@ -27,14 +27,14 @@ image: assets/512.jpg
 ## Learning Outcomes
 
 ::: {.callout-important title="Principal Learning Outcome 5"}
-Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease
+Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.
 :::
 
 After this lecture, you should be able to:
 
--Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
--Describe lipoprotein metabolism (fasting and postprandial)
--Describe relation between lipoprotein metabolism and atherosclerosis
+1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
+2. Describe lipoprotein metabolism (fasting and postprandial)
+3. Describe relation between lipoprotein metabolism and atherosclerosis
 
 ## Book Chapters
 
