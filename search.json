@@ -699,7 +699,7 @@
     "href": "index.html#lecture-schedule",
     "title": "8BM050 - Systems Biology Models",
     "section": "📅 Lecture Schedule",
-    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages. Please use TimeEdit to find the location of each lecture.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Date** - Oldest\n        \n         \n          **Date** - Newest\n        \n         \n          **Title**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Mass-Action Kinetics and Python\n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Signalling and Enzyme Kinetics\n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nWhole-Body Models\n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nExercise\n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nImmunometabolism\n\n\n\n\nWed, 2 Apr\n\n\n13:30 - 15:15\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\n\n\n\nNo matching items",
+    "text": "📅 Lecture Schedule\nBelow you can find the scheduled lectures. You can also use the navigation bar on the left to navigate to various lecture pages. Please use TimeEdit to find the location of each lecture.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          **Date** - Oldest\n        \n         \n          **Date** - Newest\n        \n         \n          **Title**\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTime\n\n\nTitle\n\n\n\n\n\n\nWed, 12 Feb\n\n\n13:30 - 15:15\n\n\nCourse Introduction\n\n\n\n\nFri, 14 Feb\n\n\n08:45 - 10:30\n\n\nGraph Theory\n\n\n\n\nWed, 19 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Mass-Action Kinetics and Python\n\n\n\n\nFri, 21 Feb\n\n\n08:45 - 10:30\n\n\nCell Biology of Metabolism\n\n\n\n\nWed, 26 Feb\n\n\n13:30 - 15:15\n\n\nDynamic Models: Signalling and Enzyme Kinetics\n\n\n\n\nFri, 28 Feb\n\n\n08:45 - 10:30\n\n\nThe Digestive System\n\n\n\n\nWed, 12 Mar\n\n\n13:30 - 15:15\n\n\nWhole-Body Models\n\n\n\n\nFri, 14 Mar\n\n\n08:45 - 10:30\n\n\nOrgan Specialization\n\n\n\n\nWed, 19 Mar\n\n\n13:30 - 15:15\n\n\nMetabolism in Daily Life\n\n\n\n\nFri, 21 Mar\n\n\n08:45 - 10:30\n\n\nPhysical exercise\n\n\n\n\nWed, 26 Mar\n\n\n13:30 - 15:15\n\n\nEndocrinology: Cortisol, HPA, Adrenals\n\n\n\n\nFri, 28 Mar\n\n\n08:45 - 10:30\n\n\nImmunometabolism\n\n\n\n\nWed, 2 Apr\n\n\n13:30 - 15:15\n\n\nEnergy Balance, Weight Control, Diabetes\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Home"
     ]
@@ -903,45 +903,45 @@
   {
     "objectID": "lectures/5b-exercise-and-extreme-situations.html",
     "href": "lectures/5b-exercise-and-extreme-situations.html",
-    "title": "Exercise",
+    "title": "Physical exercise",
     "section": "",
     "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Exercise"
+      "Physical exercise"
     ]
   },
   {
     "objectID": "lectures/5b-exercise-and-extreme-situations.html#slides",
     "href": "lectures/5b-exercise-and-extreme-situations.html#slides",
-    "title": "Exercise",
+    "title": "Physical exercise",
     "section": "",
     "text": "08:45 - 10:30 - Course Introduction\n\nSlides",
     "crumbs": [
       "Lectures",
-      "Exercise"
+      "Physical exercise"
     ]
   },
   {
     "objectID": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
     "href": "lectures/5b-exercise-and-extreme-situations.html#learning-outcomes",
-    "title": "Exercise",
+    "title": "Physical exercise",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcomes:\n\n\n\n\nDescribe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease\n\n\n\nAfter this lecture, you should be able to: -Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) -Describe the physiological aspects of exercise (different types), with focus on skeletal muscle (different types of exercise, different energy sources) -Be aware of metabolic changes during pregnancy (mother and fetus) and after birth\n-Understand how inborn errors of metabolism can affect the metabolic system -Be aware of some concepts in metabolomics",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcomes:\n\n\n\n\nDescribe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease\n\n\n\nAfter this lecture, you should be able to:\n\nDescribe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac).\nDescribe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources).\nBe aware of metabolic changes during pregnancy (mother and fetus) and after birth.\n\n-Understand how inborn errors of metabolism can affect the metabolic system. -Be aware of some concepts in metabolomics.",
     "crumbs": [
       "Lectures",
-      "Exercise"
+      "Physical exercise"
     ]
   },
   {
     "objectID": "lectures/5b-exercise-and-extreme-situations.html#book-chapters",
     "href": "lectures/5b-exercise-and-extreme-situations.html#book-chapters",
-    "title": "Exercise",
+    "title": "Physical exercise",
     "section": "Book Chapters",
     "text": "Book Chapters\n\nHuman Metabolism: A Regulatory Perspective, Chapter 5 and Chapter 8",
     "crumbs": [
       "Lectures",
-      "Exercise"
+      "Physical exercise"
     ]
   },
   {
