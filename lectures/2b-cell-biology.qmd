@@ -32,7 +32,7 @@ Understand and describe the compartmentalisation and adaptation of metabolic pro
 
 After this lecture, you should be able to:
 
-- Understand and describe Understand mechanisms of transport across cell membranes for ions, carbohydrates, amino acids and lipids.
+- Understand mechanisms of transport across cell membranes for ions, carbohydrates, amino acids and lipids.
 - Understand mechanisms of intracellular metabolic regulation at different time-scales.
 - Describe concepts in endocrinology, such as hormone axes and response loops.
 - Understand mechanisms of hormone receptors and signal transduction. 
