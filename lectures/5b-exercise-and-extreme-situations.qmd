@@ -1,5 +1,5 @@
 ---
-title: "Exercise"
+title: "Physical exercise"
 date: 03-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
@@ -33,12 +33,13 @@ image: assets/512.jpg
 :::
 
 After this lecture, you should be able to:
--Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) 
--Describe the physiological aspects of exercise (different types), with focus on skeletal muscle (different types of exercise, different energy sources)
--Be aware of metabolic changes during pregnancy (mother and fetus) and after birth
 
--Understand how inborn errors of metabolism can affect the metabolic system
--Be aware of some concepts in metabolomics
+- Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac). 
+- Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources).
+- Be aware of metabolic changes during pregnancy (mother and fetus) and after birth.
+
+-Understand how inborn errors of metabolism can affect the metabolic system.
+-Be aware of some concepts in metabolomics.
 
 ## Book Chapters
 
