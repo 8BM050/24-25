@@ -4,7 +4,7 @@ date: 02-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will revisit biochemical and molecular cell biology of metabolic regulation in cells and discuss hormonal regulation of metabolism."
-slide-link: https://canvas.tue.nl/files/6100914/download?download_frd=1 
+slide-link: https://canvas.tue.nl/files/6100914/download?download_frd=1 target="_blank"
 
 # Fixed Fields
 categories: Lecture
@@ -40,3 +40,5 @@ After this lecture, you should be able to:
 ## Book Chapters
 
 - Human Metabolism: A Regulatory Perspective, Chapter 2 and 3
+
+Computational Biology (href="http://www.tue.nl/cbio" target="_blank" CBio)
