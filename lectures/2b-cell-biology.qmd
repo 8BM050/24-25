@@ -40,5 +40,3 @@ After this lecture, you should be able to:
 ## Book Chapters
 
 - Human Metabolism: A Regulatory Perspective, Chapter 2 and 3
-
-Computational Biology (href="http://www.tue.nl/cbio" target="_blank" CBio)
