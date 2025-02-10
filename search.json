@@ -70,7 +70,7 @@
     "href": "lectures/3a-biological-models.html#learning-outcomes",
     "title": "Dynamic Models: Signalling and Enzyme Kinetics",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome ?\n\n\n\n???\n\n\nAfter this lecture, you should be able to:\n\n???",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 8\n\n\n\nExplain the function of different terms in a simple system of (possibly nonlinear) ordinary differential equations.\n\n\n\n\n\n\n\n\nPrincipal Learning Outcome 9\n\n\n\nCalculate the steady-state conditions for a simple system of ordinary differential equations.\n\n\nAfter this lecture, you should be able to:\n\nModel various stimulatory and inhibitory signalling systems using ordinary differential equations.\nDerive the Michaelis-Menten equation from a simple enzyme-substrate reaction.\nExplain the terms in the Michaelis-Menten equation and give a biological interpretation of these terms.\nExtend the Michaelis-Menten equation to include the three types of reversible inhibition.\nUse Hill-type kinetics to model cooperative binding in enzyme kinetics and gene regulation.\nLocate and explain positive and negative feedback loops in differential equations.\nCalculate the steady-state conditions for a simple system of ordinary differential equations.\nExplain the concept of bistability and setpoints in biological systems.",
     "crumbs": [
       "Lectures",
       "Dynamic Models: Signalling and Enzyme Kinetics"
@@ -114,7 +114,7 @@
     "href": "lectures/3b-digestive-system.html#learning-outcomes",
     "title": "The Digestive System",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 3\n\n\n\nUnderstand and describe the functional anatomy of the digestive system for carbohydrates, lipids and proteins.\n\n\nAfter this lecture, you should be able to:\n\nUnderstand and describe the functional anatomy and histology of the digestive system.\nUnderstand the regulation of the digestive system \u000bincluding hormones of the gastrointestinal tract.\nDescribe digestion and absorption of carbohydrates, proteins and lipids\u000b including the role of the gut microbiome",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 3\n\n\n\nUnderstand and describe the functional anatomy of the digestive system for carbohydrates, lipids and proteins.\n\n\nAfter this lecture, you should be able to:\n\nUnderstand and describe the functional anatomy and histology of the digestive system.\nUnderstand the regulation of the digestive system including hormones of the gastrointestinal tract.\nDescribe digestion and absorption of carbohydrates, proteins and lipids including the role of the gut microbiome",
     "crumbs": [
       "Lectures",
       "The Digestive System"
@@ -883,7 +883,7 @@
     "href": "lectures/7a-diabetes.html#learning-outcomes",
     "title": "Energy Balance, Weight Control, Diabetes",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 5\n\n\n\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.\n\n\nAfter this lecture, you should be able to:\n-Describe key components of the neurobiology of food intake -Describe metabolic syndrome and how it relates to cardiometabolic disease -Understand insulin resistance -Understand different types of diabetes -Describe different treatments (incl. bariatric surgery, medication)",
+    "text": "Learning Outcomes\n\n\n\n\n\n\nPrincipal Learning Outcome 5\n\n\n\nDescribe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.\n\n\nAfter this lecture, you should be able to:\n\nDescribe key components of the neurobiology of food intake\nDescribe metabolic syndrome and how it relates to cardiometabolic disease\nUnderstand insulin resistance\nUnderstand different types of diabetes\nDescribe different treatments (incl. bariatric surgery, medication)",
     "crumbs": [
       "Lectures",
       "Energy Balance, Weight Control, Diabetes"
