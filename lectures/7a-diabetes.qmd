@@ -32,11 +32,11 @@ Describe energy homeostasis in daily life and how it changes due to stress, exer
 
 After this lecture, you should be able to:
 
--Describe key components of the neurobiology of food intake
--Describe metabolic syndrome and how it relates to cardiometabolic disease
--Understand insulin resistance
--Understand different types of diabetes
--Describe different treatments (incl. bariatric surgery, medication)
+- Describe key components of the neurobiology of food intake
+- Describe metabolic syndrome and how it relates to cardiometabolic disease
+- Understand insulin resistance
+- Understand different types of diabetes
+- Describe different treatments (incl. bariatric surgery, medication)
 
 
 ## Book Chapters
