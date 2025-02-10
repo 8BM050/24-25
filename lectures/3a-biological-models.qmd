@@ -4,8 +4,8 @@ title: "Dynamic Models: Signalling and Enzyme Kinetics"
 date: 02-26-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
-description: "In this lecture, we will move to more complicated examples of mass-action kinetics and use our knowledge of differential equations to describe signalling systems and feedback loops. We will also take a look at enzyme kinetics and the Michaelis-Menten equation, and extend this to be able to model competitive inhibition."
-slide-link: https://canvas.tue.nl/
+description: "In this lecture, we will move to more complicated examples of mass-action kinetics and use our knowledge of differential equations to describe signalling systems and feedback loops. We will also take a look at enzyme kinetics and the Michaelis-Menten equation, and extend this to be able to model reversible inhibition."
+slide-link: https://canvas.tue.nl/files/6072279/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
@@ -27,13 +27,24 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome ?"}
-???
+::: {.callout-important title="Principal Learning Outcome 8"}
+Explain the function of different terms in a simple system of (possibly nonlinear) ordinary differential equations.
 :::
+::: {.callout-important title="Principal Learning Outcome 9"}
+Calculate the steady-state conditions for a simple system of ordinary differential equations.
+:::
+
 
 After this lecture, you should be able to:
 
-1. ???
+1. Model various stimulatory and inhibitory signalling systems using ordinary differential equations.
+2. Derive the Michaelis-Menten equation from a simple enzyme-substrate reaction.
+3. Explain the terms in the Michaelis-Menten equation and give a biological interpretation of these terms.
+4. Extend the Michaelis-Menten equation to include the three types of reversible inhibition.
+5. Use Hill-type kinetics to model cooperative binding in enzyme kinetics and gene regulation.
+6. Locate and explain positive and negative feedback loops in differential equations.
+7. Calculate the steady-state conditions for a simple system of ordinary differential equations.
+8. Explain the concept of bistability and setpoints in biological systems.
 
 ## Book Chapters
 - Lecture notes chapter 5

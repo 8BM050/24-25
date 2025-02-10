@@ -5,7 +5,7 @@ date: 02-19-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
 description: "In this lecture, we will move from static graphs to dynamic models with the theory of mass-action kinetics. We will also cover the basics of numerical solutions to differential equations."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6061024/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
