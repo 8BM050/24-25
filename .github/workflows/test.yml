@@ -1,0 +1,43 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types: [opened, reopened, edited, synchronize]
+
+name: Quarto Render Test
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install Julia and dependencies
+        uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.10'
+          arch: 'default'
+          project: '.'
+      
+      - name: Install Python and dependencies
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - run: pip install jupyter
+      - run: pip install nbclient
+      - run: pip install -r requirements.txt
+
+      - name: Run Jupyter Notebooks
+        run: jupyter execute 8bm050/notebooks/00-test-environment-setup.ipynb 8bm050/notebooks/01-ode-simulation-with-Python.ipynb 8bm050/notebooks/02-whole-body-models.ipynb
+
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          # path: ./docs
+          to: html
