@@ -5,7 +5,7 @@ date: 02-12-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
 description: "In this lecture, we will introduce the course and discuss the fundamentals of human metabolism."
-slide-link: https://canvas.tue.nl/files/6105555/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6106467/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
