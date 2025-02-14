@@ -5,7 +5,7 @@ date: 02-14-2025
 time: "08:45 - 10:30"
 author: "Max de Rooij"
 description: "In this lecture, we will introduce graph theory to study biological regulatory systems. In the lecture, we introduce the concept of graphs, and graph properties that can be used to study networked systems."
-slide-link: https://canvas.tue.nl/files/6061024/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6113868/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
