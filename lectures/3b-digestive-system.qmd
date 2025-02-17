@@ -4,7 +4,7 @@ date: 02-28-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will discuss different aspects of the digestive system, from anatomy to regulation of digestion and absorption of nutrients."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6118291/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
@@ -34,9 +34,10 @@ After this lecture, you should be able to:
 
 1. Understand and describe the functional anatomy and histology of the digestive system.
 2. Understand the regulation of the digestive system including hormones of the gastrointestinal tract.
-3. Describe digestion and absorption of carbohydrates, proteins and lipids including the role of the gut microbiome
+3. Describe and understand the exocrine role of the pancreas and liver.
+4. Describe digestion and absorption of carbohydrates, proteins and lipids including the role of the gut microbiome.
 
 
 ## Book Chapters
 
-- Human Metabolism: A Regulatory Perspective, Chapter 4, Chapter 6.2.1: Pancreas, and Chapter 6.2.5.5: Incretins
+- Human Metabolism: A Regulatory Perspective, Chapter 4
