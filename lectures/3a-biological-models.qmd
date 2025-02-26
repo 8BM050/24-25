@@ -5,7 +5,7 @@ date: 02-26-2025
 time: "13:30 - 15:15"
 author: "Max de Rooij"
 description: "In this lecture, we will move to more complicated examples of mass-action kinetics and use our knowledge of differential equations to describe signalling systems and feedback loops. We will also take a look at enzyme kinetics and the Michaelis-Menten equation, and extend this to be able to model reversible inhibition."
-slide-link: https://canvas.tue.nl/files/6072279/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6138850/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
