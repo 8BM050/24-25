@@ -4,7 +4,7 @@ date: 02-28-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will discuss different aspects of the digestive system, from anatomy to regulation of digestion and absorption of nutrients."
-slide-link: https://canvas.tue.nl/files/6118291/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6143531/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
