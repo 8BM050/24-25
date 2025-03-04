@@ -71,11 +71,15 @@ Due to the cyber attack at the Eindhoven University of Technology, the start of 
   You will find the updated schedule on the website.
 :::
 
+```{julia}
+# | output: false
+using Pkg
+Pkg.instantiate()
+```
+
 ::: {.callout-note title="Welcome to the 8BM050 course!"}
 ```{julia}
 # This Julia code generates a welcome message based on the current date
-using Pkg
-Pkg.instantiate()
 
 using Dates
 using Markdown
