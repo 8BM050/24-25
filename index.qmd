@@ -74,6 +74,9 @@ Due to the cyber attack at the Eindhoven University of Technology, the start of 
 ::: {.callout-note title="Welcome to the 8BM050 course!"}
 ```{julia}
 # This Julia code generates a welcome message based on the current date
+using Pkg
+Pkg.instantiate()
+
 using Dates
 using Markdown
 using YAML
