@@ -5,7 +5,7 @@ date: 03-12-2025
 time: "13:30 - 15:15"
 author: "Shauna O'Donovan"
 description: "In this lecture, we will finalize the modelling component of the course by discussing whole-body models. We will cover multi-compartment models, compartments-as-delays, modelling methods of administration, repeated doses, and building models from text using word equations."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6157737/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
