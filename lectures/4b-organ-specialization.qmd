@@ -4,7 +4,7 @@ date: 03-14-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will discuss metabolism and metabolic function of organs and tissues, especially the liver and adipose tissue."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6159599/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
