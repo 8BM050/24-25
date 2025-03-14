@@ -17,7 +17,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **Metabolism in Daily Life**
 
 ::: slides
 [Slides]({{< meta slide-link >}})
@@ -32,10 +32,16 @@ Describe energy homeostasis in daily life and how it changes due to stress, exer
 
 After this lecture, you should be able to:
 
+* Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
+
+Understand how the liver contributes to energy homeostasis
+
 1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
 2. Describe lipoprotein metabolism (fasting and postprandial)
 3. Describe relation between lipoprotein metabolism and atherosclerosis
 
+-Introduction of inborn errors of metabolism
+
 ## Book Chapters
 
-- Human Metabolism: A Regulatory Perspective, Chapter 7 and 10
+- Human Metabolism: A Regulatory Perspective, Chapter 5, 7 and 10
