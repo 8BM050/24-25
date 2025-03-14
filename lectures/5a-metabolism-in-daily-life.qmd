@@ -34,7 +34,7 @@ After this lecture, you should be able to:
 
 * Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
 
-Understand how the liver contributes to energy homeostasis
+* Understand how the liver contributes to energy homeostasis
 
 1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
 2. Describe lipoprotein metabolism (fasting and postprandial)
