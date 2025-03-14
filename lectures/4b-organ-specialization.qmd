@@ -32,11 +32,15 @@ Describe the function of the liver, adipose tissue, and other metabolic tissues 
 
 After this lecture, you should be able to:
 
-1. Describe and understand the endocrine roles of the pancreas
+1. Describe absorption of carbohydrates, proteins and lipids 
 
-2. Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
+2. Describe the role of the gut microbiome
 
-3.  Understand how adipose tissue (white and brown) contribute to energy homeostasis.
+3. Describe and understand the endocrine roles of the pancreas
+
+4. Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
+
+5. Understand how adipose tissue (white and brown) contribute to energy homeostasis.
 
 ## Book Chapters
 
