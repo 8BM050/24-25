@@ -17,7 +17,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **Energy Balance, Weight Control, Diabetes**
 
 ::: slides
 [Slides]({{< meta slide-link >}})
