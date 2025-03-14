@@ -31,6 +31,7 @@ Describe the function of the liver, adipose tissue, and other metabolic tissues 
 :::
 
 After this lecture, you should be able to:
+
 1. Describe and understand the endocrine roles of the pancreas
 
 2. Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
