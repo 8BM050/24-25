@@ -31,11 +31,13 @@ Describe the function of the liver, adipose tissue, and other metabolic tissues 
 :::
 
 After this lecture, you should be able to:
-1.  Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
-2.  Understand how liver and adipose tissue contribute to energy homeostasis.
-3.  Understand energy sources for the brain.
+1. Describe and understand the endocrine roles of the pancreas
+
+2. Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissues.
+
+3.  Understand how liver and adipose tissue contribute to energy homeostasis.
 
 ## Book Chapters
 
-- Human Metabolism: A Regulatory Perspective, Chapter 5 and 6.2.5.1: Leptin
+- Human Metabolism: A Regulatory Perspective, Chapter 4, Chapter 5, §6.2.1 pancreas and §6.2.5.1: Leptin
 
