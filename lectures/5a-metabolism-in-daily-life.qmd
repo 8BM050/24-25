@@ -4,7 +4,7 @@ date: 03-19-2025
 time: "13:30 - 15:15"
 author: "Natal van Riel"
 description: "In this lecture, we will discuss daily aspects of energy metabolism and extend discussion of lipoprotein metabolism, including atherosclerosis."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6173205/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
