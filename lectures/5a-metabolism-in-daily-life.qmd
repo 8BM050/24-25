@@ -25,11 +25,9 @@ image: assets/512.jpg
 :::
 
 ## Learning Outcomes
-::: {.callout-important title="Principal Learning Outcome 4"}
-Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation.
-:::
-::: {.callout-important title="Principal Learning Outcome 5"}
-Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.
+::: {.callout-important title="Principal Learning Outcomes:"}
+4. Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation.
+5. Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.
 :::
 
 After this lecture, you should be able to:
