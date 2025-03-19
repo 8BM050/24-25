@@ -38,10 +38,10 @@ After this lecture, you should be able to:
 
 1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
 2. Describe lipoprotein metabolism (fasting and postprandial)
-3. Describe relation between lipoprotein metabolism and atherosclerosis
+<!--3. Describe relation between lipoprotein metabolism and atherosclerosis-->
 
 <!--Understand energy sources for the brain-->
--Introduction of inborn errors of metabolism
+- Understand how inborn errors of metabolism can affect the metabolic system
 
 ## Book Chapters
 
