@@ -38,8 +38,8 @@ After this lecture, you should be able to:
 - Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources).
 - Be aware of metabolic changes during pregnancy (mother and fetus) and after birth.
 
--Understand how inborn errors of metabolism can affect the metabolic system.
--Be aware of some concepts in metabolomics.
+- Understand energy sources for the brain.
+<!---Be aware of some concepts in metabolomics.-->
 
 ## Book Chapters
 
