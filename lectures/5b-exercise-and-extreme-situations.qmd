@@ -34,12 +34,13 @@ image: assets/512.jpg
 
 After this lecture, you should be able to:
 
-- Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac). 
-- Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources).
-- Be aware of metabolic changes during pregnancy (mother and fetus) and after birth.
+- Describe relation between lipoprotein metabolism and atherosclerosis
+- Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) 
+- Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources)
+- Be aware of metabolic changes during pregnancy (mother and fetus) and after birth
 
-- Understand energy sources for the brain.
-<!---Be aware of some concepts in metabolomics.-->
+- Understand energy sources for the brain
+<!---Be aware of some concepts in metabolomics-->
 
 ## Book Chapters
 
