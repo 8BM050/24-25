@@ -25,23 +25,24 @@ image: assets/512.jpg
 :::
 
 ## Learning Outcomes
-
+::: {.callout-important title="Principal Learning Outcome 4"}
+Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation.
+:::
 ::: {.callout-important title="Principal Learning Outcome 5"}
 Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease.
 :::
 
 After this lecture, you should be able to:
 
-* Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
 
-* Understand how the liver contributes to energy homeostasis
-
-1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon) 
+1. Understand how the liver contributes to energy homeostasis
 2. Describe lipoprotein metabolism (fasting and postprandial)
 <!--3. Describe relation between lipoprotein metabolism and atherosclerosis-->
 
 <!--Understand energy sources for the brain-->
 - Understand how inborn errors of metabolism can affect the metabolic system
+* Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
+* Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon)
 
 ## Book Chapters
 
