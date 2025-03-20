@@ -3,7 +3,7 @@ title: "Immunometabolism"
 date: 03-28-2025
 time: "08:45 - 10:30"
 author: "Shauna O'Donovan & Natal van Riel"
-description: "First, we summarize and integrate different aspects of metabolism in daily life."
+description: "In this lecture, we will first summarize and integrate daily aspects of energy metabolism. In the 2nd part, immunometabolism will be discussed."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
