@@ -2,8 +2,8 @@
 title: "Immunometabolism"
 date: 03-28-2025
 time: "08:45 - 10:30"
-author: "Shauna O'Donovan"
-description: "Insert description here."
+author: "Shauna O'Donovan & Natal van Riel"
+description: "First, we summarize and integrate different aspects of metabolism in daily life."
 slide-link: https://canvas.tue.nl/
 
 # Fixed Fields
@@ -26,14 +26,17 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome ?"}
-???
+::: {.callout-important title="Principal Learning Outcomes ?"}
+4. Describe the function of the liver, adipose tissue, and other metabolic tissues in retaining homeostasis through hormonal and neural regulation
+5. Describe energy homeostasis in daily life and how it changes due to stress, exercise, and disease
 :::
 
 After this lecture, you should be able to:
 
-1. ???
+1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon)
+
+- Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
 
 
 ## Book Chapters
-
+Human Metabolism: A Regulatory Perspective, Chapter 7 and Chapter 9
