@@ -4,7 +4,7 @@ date: 03-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will extend discussion of lipoprotein metabolism, including atherosclerosis, and will discuss metabolic aspects of skeletal muscle and exercise."
-slide-link: https://canvas.tue.nl/files/6105922/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6177127/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
