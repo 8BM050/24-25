@@ -4,7 +4,7 @@ date: 03-21-2025
 time: "08:45 - 10:30"
 author: "Natal van Riel"
 description: "In this lecture, we will extend discussion of lipoprotein metabolism, including atherosclerosis, and will discuss metabolic aspects of skeletal muscle and exercise."
-slide-link: https://canvas.tue.nl/files/6177127/download?download_frd=1
+slide-link: https://canvas.tue.nl/files/6208440/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
@@ -37,11 +37,11 @@ After this lecture, you should be able to:
 - Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) 
 - Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources)
 
-- Understand energy sources for the brain
-- Be aware of metabolic changes during pregnancy (mother and fetus) and after birth
-<!---Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess-->
-<!---Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon)-->
-<!---Be aware of some concepts in metabolomics-->
+<!-- - Understand energy sources for the brain-->
+<!-- - Be aware of metabolic changes during pregnancy (mother and fetus) and after birth-->
+<!-- -Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess-->
+<!-- -Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon)-->
+<!-- -Be aware of some concepts in metabolomics-->
 
 ## Book Chapters
 
