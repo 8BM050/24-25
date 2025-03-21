@@ -35,7 +35,11 @@ After this lecture, you should be able to:
 
 1. Describe fasting and fed metabolism (carbohydrates, lipids, protein) and their transition and regulation (insulin, glucagon)
 
+including:
+
 - Understand how (cell-specific) metabolic pathways relate to physiological function of organs and tissuess
+- Understand energy sources for the brain
+<!-- - Be aware of metabolic changes during pregnancy (mother and fetus) and after birth-->
 
 
 ## Book Chapters
