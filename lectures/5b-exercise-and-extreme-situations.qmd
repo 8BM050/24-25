@@ -33,7 +33,7 @@ image: assets/512.jpg
 
 After this lecture, you should be able to:
 
-- Describe relation between lipoprotein metabolism and atherosclerosis
+- Describe the relation between lipoprotein metabolism and atherosclerosis
 - Describe the functional organization in relation to energy metabolism and buffering in muscle (skeletal, cardiac) 
 - Describe the physiological aspects of exercise, with focus on skeletal muscle (different types of exercise, different energy sources)
 
