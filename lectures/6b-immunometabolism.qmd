@@ -5,7 +5,7 @@ time: "08:45 - 10:30"
 author: "Shauna O'Donovan & Natal van Riel"
 description: "In this lecture, we will first further integrate daily aspects of energy metabolism. 
 In the 2nd part, immunometabolism will be discussed."
-slide-link: https://canvas.tue.nl/
+slide-link: part 1: https://canvas.tue.nl/files/6210812/download?download_frd=1 , part 2:
 
 # Fixed Fields
 categories: Lecture
