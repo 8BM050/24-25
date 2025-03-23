@@ -18,7 +18,7 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Course Introduction**
+{{< meta time >}} - **Integration**
 
 ::: slides
 [Slides]({{< meta slide-link >}})
