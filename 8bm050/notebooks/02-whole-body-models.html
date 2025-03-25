@@ -439,10 +439,10 @@ window.Quarto = {
 \frac{\mathrm{d}C_2}{\mathrm{d}t} &amp;= k_1 C_1 - k_2 C_2
 \end{align}\]</span></p>
 <p>A way to extend the current model in Python, is to build a new function of the extended model, that calls the original model function. This is shown in the code below.</p>
-<div id="cell-7" class="cell" data-execution_count="26">
+<div id="cell-7" class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> extended_compartment_model(c, t, k0, k1, k2, k3):</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    dC0 <span class="op">=</span> <span class="op">-</span>k3<span class="op">*</span>c[<span class="dv">0</span>]</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    dC1, dC2 <span class="op">=</span> compartment_model(c[<span class="dv">1</span>:<span class="dv">2</span>], t, k0, k1, k2)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    dC1, dC2 <span class="op">=</span> compartment_model(c[<span class="dv">1</span>:<span class="dv">3</span>], t, k0, k1, k2)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    dC1 <span class="op">+=</span> k3<span class="op">*</span>c[<span class="dv">0</span>]</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
