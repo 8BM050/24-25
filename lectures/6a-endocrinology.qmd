@@ -4,7 +4,7 @@ date: 03-26-2025
 time: "13:30 - 15:15"
 author: "Arjen-Kars Boer"
 description: "Insert description here."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/https://canvas.tue.nl/files/6214541/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
@@ -26,14 +26,24 @@ image: assets/512.jpg
 
 ## Learning Outcomes
 
-::: {.callout-important title="Principal Learning Outcome ?"}
-???
-:::
+### Principal Learning outcome:
+- Endocrinology is both a medical specialism dealing with diagnosing/ treatment of endocrine systems, and a basic science describing the endocrine physiology of endocrine organs.
+- The most important human processes are regulated by hormones
+- Laboratory hormone testing is essential to assess human endocrine systems, but the (dynamic) context is more important than the numeric results itself.
+- Interpretation by specialist like a clinical chemist-endocronologist is key for clinical decision making.
+ 
+### Lecture learning outcome:
+Interpretation of endocrine laboratory testing is dependent on multiple factors, including:
+- Kinetics
+- Time of sampling
+- Matrix (blood versus saliva)
+- Exogeneous stimuli (eg dexamethasone, ynacthen, insulin)
 
-After this lecture, you should be able to:
-
-1. ???
+Interpretation of endocrine Laboratory results related to:
+- Hypocortisolism
+- Hypercortisolism
 
 ## Book Chapters
 
 - Human Metabolism: A Regulatory Perspective, Chapter 6
+- Lecture Slides
