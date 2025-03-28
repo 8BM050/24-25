@@ -1,11 +1,13 @@
 ---
 title: "Immunometabolism"
 date: 03-28-2025
-time: "08:45 - 10:30"
+timep1: "08:45 - 09:30"
+timep2: "09:45 - 10:30"
 author: "Shauna O'Donovan & Natal van Riel"
 description: "In this lecture, we will first further integrate daily aspects of energy metabolism. 
 In the 2nd part, immunometabolism will be discussed."
-slide-link: https://canvas.tue.nl/files/6210812/download?download_frd=1
+slide-linkp1: https://canvas.tue.nl/files/6210812/download?download_frd=1
+slide-linkp2: https://canvas.tue.nl/files/6222032/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
@@ -18,10 +20,16 @@ image: assets/512.jpg
 
 ## Slides
 ::: slide-deck
-{{< meta time >}} - **Integration**
+**Part 1**: {{< meta timep1 >}} - **Integration**
 
 ::: slides
-[Slides]({{< meta slide-link >}})
+[Slides part 1]({{< meta slide-linkp1 >}})
+:::
+
+**Part 2**: {{< meta timep2 >}} - **Microbiome & Immunometabolism**
+
+::: slides
+[Slides part 2]({{< meta slide-linkp2 >}})
 :::
 :::
 
