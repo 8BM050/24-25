@@ -4,7 +4,7 @@ date: 04-02-2025
 time: "13:30 - 15:15"
 author: "Natal van Riel"
 description: "In this lecture, we will discuss body weight regulation, obesity and diabetes."
-slide-link: https://canvas.tue.nl/
+slide-link: https://canvas.tue.nl/files/6277074/download?download_frd=1
 
 # Fixed Fields
 categories: Lecture
